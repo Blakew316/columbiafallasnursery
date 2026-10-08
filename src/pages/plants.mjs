@@ -46,11 +46,11 @@ function finderPage(plants) {
     scripts: ['plants'],
     render: () => html`${pageHeader({ title: 'Plants.', lead: `${plants.length} plants growing in our display garden.` })}
 <section class="finder container" aria-label="Plant finder">
-  <form class="finder__bar" role="search" data-finder onsubmit="return false">
+  <form class="finder__bar" role="search" data-finder onsubmit="document.activeElement.blur();return false">
     <div class="search finder__search">
       ${icon('search')}
       <label class="visually-hidden" for="plant-q">Search plants</label>
-      <input id="plant-q" type="search" placeholder="Search" autocomplete="off" data-q />
+      <input id="plant-q" type="search" placeholder="Search" autocomplete="off" autocorrect="off" autocapitalize="none" enterkeyhint="search" data-q />
     </div>
     <div class="segmented" role="group" aria-label="Plant type" data-category>
       <button type="button" aria-pressed="true" data-value="">All</button>

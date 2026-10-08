@@ -1,7 +1,6 @@
 /* Visit */
 
 .visit__photo { margin-bottom: clamp(3rem, 2rem + 3vw, 5rem); }
-@media (max-width: 700px) { .visit__photo .photo { aspect-ratio: 4 / 3 !important; } }
 
 .visit { display: grid; grid-template-columns: minmax(0, 1fr); gap: 3rem; align-items: start; }
 @media (min-width: 900px) { .visit { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); } .visit .map { aspect-ratio: auto; height: 100%; min-height: 520px; } }

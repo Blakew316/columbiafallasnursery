@@ -59,10 +59,16 @@ function header(path) {
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>Menu</button>
   </div>
   <nav class="menu" id="menu" aria-label="Menu" data-menu hidden>
-    <ul role="list" class="container">
-      <li><a href="/">Home</a></li>
-      ${nav.map((item) => html`<li><a href="${item.href}"${raw(current(item.href) ? ' aria-current="page"' : '')}>${item.label}</a></li>`)}
-    </ul>
+    <div class="container">
+      <ul role="list">
+        <li><a href="/"${raw(path === '/' ? ' aria-current="page"' : '')}>Home</a></li>
+        ${nav.map((item) => html`<li><a href="${item.href}"${raw(current(item.href) ? ' aria-current="page"' : '')}>${item.label}</a></li>`)}
+      </ul>
+      <p class="menu__info">
+        <a href="tel:${business.phone.tel}">${business.phone.display}</a>
+        <a href="${business.directionsUrl}" target="_blank" rel="noopener">${business.address.street}, ${business.address.city}</a>
+      </p>
+    </div>
   </nav>
 </header>`;
 }
@@ -100,12 +106,14 @@ export function documentHtml(page, main, assets) {
 <html lang="en-US">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(page.description)}" />
 <link rel="canonical" href="${esc(url)}" />
 ${page.noindex ? '<meta name="robots" content="noindex" />' : ''}
 <meta name="theme-color" content="#ffffff" />
+<meta name="apple-mobile-web-app-title" content="${esc(business.shortName)}" />
+<link rel="manifest" href="/site.webmanifest" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="${esc(business.name)}" />
 <meta property="og:title" content="${esc(fullTitle)}" />

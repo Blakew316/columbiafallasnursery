@@ -52,6 +52,15 @@
     if (e.key === 'ArrowRight') step(1);
   });
   dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+  // Swipe left or right on the photo to move between designs.
+  var x0 = null;
+  img.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  img.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    x0 = null;
+    if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1);
+  });
   dialog.addEventListener('close', function () { if (opener) opener.focus(); });
 
   // "Choose this design" fills in the order form and takes you there.

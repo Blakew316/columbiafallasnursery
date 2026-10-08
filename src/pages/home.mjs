@@ -123,7 +123,7 @@ function finder(count) {
     <form class="search search--large" action="/plants/" method="get" role="search">
       ${icon('search')}
       <label class="visually-hidden" for="home-q">Search plants</label>
-      <input id="home-q" name="q" type="search" placeholder="Hydrangea, spruce, lavender" autocomplete="off" />
+      <input id="home-q" name="q" type="search" placeholder="Hydrangea, spruce, lavender" autocomplete="off" autocorrect="off" autocapitalize="none" enterkeyhint="search" />
     </form>
     <p class="finder-band__link">${more('/plants/', `Browse all ${count} plants`)}</p>
   </div>

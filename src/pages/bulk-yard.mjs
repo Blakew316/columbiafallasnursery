@@ -18,9 +18,9 @@ function deliveryForm(groups, d) {
       <h2 id="delivery-title">Friday delivery.</h2>
       <p class="lead">$${base} within ${radius} miles of the nursery, plus $${d?.extraFee ?? 135} for each extra ${d?.extraPerMiles ?? 10} miles. Up to 12 yards of rock or 14 of bark per load.</p>
     </div>
-    <form class="delivery" name="bulk-delivery" method="POST" action="/bulk-yard/thanks/" data-netlify="true" netlify-honeypot="company" data-delivery>
+    <form class="delivery" name="bulk-delivery" method="POST" action="/bulk-yard/thanks/" data-netlify="true" netlify-honeypot="bot-field" data-delivery>
       <input type="hidden" name="form-name" value="bulk-delivery" />
-      <p class="visually-hidden"><label>Leave empty <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <p class="visually-hidden"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
       <div class="order__grid">
         <div class="field"><label for="d-product">Product</label>
           <select class="select" id="d-product" name="product" required data-del-product>

@@ -41,9 +41,9 @@ const visit = {
 <section class="section" id="message" aria-labelledby="message-title">
   <div class="container container--narrow">
     <h2 id="message-title" class="message__title">Send a message.</h2>
-    <form class="message" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="company">
+    <form class="message" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact" />
-      <p class="visually-hidden"><label>Leave empty <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <p class="visually-hidden"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
       <div class="message__row">
         <div class="field"><label for="f-name">Name</label><input class="input" id="f-name" name="name" autocomplete="name" required /></div>
         <div class="field"><label for="f-email">Email</label><input class="input" id="f-email" name="email" type="email" autocomplete="email" required /></div>

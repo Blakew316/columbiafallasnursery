@@ -3,14 +3,22 @@
   position: sticky;
   top: 0;
   z-index: 40;
+  border-bottom: 1px solid var(--line-soft);
+}
+/* The frosted backdrop lives on a pseudo-element: a backdrop-filter on the
+   header itself would trap the fixed-position menu inside the header. */
+.site-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: rgba(255, 255, 255, 0.92);
   -webkit-backdrop-filter: saturate(1.8) blur(20px);
   backdrop-filter: saturate(1.8) blur(20px);
-  border-bottom: 1px solid var(--line-soft);
 }
 .site-header__bar { display: flex; align-items: center; gap: 2rem; height: var(--nav-h); }
 .brand { display: flex; align-items: center; height: 100%; color: var(--ink); }
-.brand:hover { text-decoration: none; color: var(--ink); }
+@media (hover: hover) { .brand:hover { text-decoration: none; color: var(--ink); } }
 .brand__logo { height: 40px; width: auto; }
 .brand__text { display: none; font-family: var(--font-display); font-size: 1.125rem; font-weight: 650; letter-spacing: -0.02em; }
 .brand.is-text .brand__logo { display: none; }
@@ -19,15 +27,27 @@
 .site-nav { margin-left: auto; display: none; }
 .site-nav ul { display: flex; gap: clamp(1.25rem, 2.2vw, 2.25rem); margin: 0; padding: 0; list-style: none; }
 .site-nav a { color: var(--ink); font-size: 0.875rem; font-weight: 400; opacity: 0.85; }
-.site-nav a:hover { opacity: 1; text-decoration: none; }
+@media (hover: hover) { .site-nav a:hover { opacity: 1; text-decoration: none; } }
 .site-nav a[aria-current='page'] { opacity: 1; font-weight: 600; }
 
-.menu-btn { margin-left: auto; padding: 0.4rem 0; border: 0; background: none; color: var(--ink); font-size: 0.9375rem; font-weight: 500; }
-.menu { position: fixed; inset: var(--nav-h) 0 0; z-index: 39; overflow-y: auto; background: #fff; }
-.menu ul { margin: 0; padding-top: 1.5rem; padding-bottom: 3rem; list-style: none; }
-.menu a { display: block; padding: 0.55rem 0; color: var(--ink); font-family: var(--font-display); font-size: 1.75rem; font-weight: 600; letter-spacing: -0.025em; }
-.menu a:hover { text-decoration: none; color: var(--green); }
+.menu-btn { min-width: 44px; min-height: 44px; margin-left: auto; margin-right: -0.25rem; padding: 0 0.25rem; border: 0; background: none; color: var(--ink); font-size: 0.9375rem; font-weight: 500; }
+.menu {
+  position: fixed;
+  inset: var(--nav-h) 0 0;
+  z-index: 39;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.menu ul { margin: 0; padding: 1.25rem 0 1.5rem; list-style: none; }
+.menu li a { display: block; padding: 0.55rem 0; color: var(--ink); font-family: var(--font-display); font-size: 1.75rem; font-weight: 600; letter-spacing: -0.025em; }
+@media (hover: hover) { .menu a:hover { text-decoration: none; color: var(--green); } }
 .menu a[aria-current='page'] { color: var(--green); }
+.menu__info { display: grid; justify-items: start; padding: 1rem 0 2.5rem; border-top: 1px solid var(--line-soft); }
+.menu__info a { padding: 0.6rem 0; color: var(--ink-2); font-family: var(--font-sans); font-size: 1.0625rem; font-weight: 400; letter-spacing: -0.012em; }
+.menu-open,
 .menu-open body { overflow: hidden; }
 
 @media (min-width: 900px) {
@@ -43,7 +63,7 @@
 .crumbs { margin-bottom: 1.25rem; font-size: var(--text-sm); color: var(--ink-2); }
 .crumbs ol { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; margin: 0; padding: 0; list-style: none; }
 .crumbs li + li::before { content: '/'; margin-right: 0.4rem; color: var(--ink-3); }
-.crumbs a { color: var(--ink-2); }
+.crumbs a { display: inline-block; padding-block: 0.7rem; margin-block: -0.7rem; color: var(--ink-2); }
 
 /* Visit details and map */
 .visit-list { display: grid; gap: 0; margin: 0; }
@@ -56,14 +76,20 @@
 .map iframe { width: 100%; height: 100%; border: 0; }
 
 /* Footer */
-.site-footer { margin-top: 0; padding: clamp(3rem, 2rem + 3vw, 4.5rem) 0 2rem; background: var(--bg-alt); color: var(--ink-2); font-size: var(--text-sm); }
+.site-footer { margin-top: 0; padding: clamp(3rem, 2rem + 3vw, 4.5rem) 0 calc(2rem + env(safe-area-inset-bottom)); background: var(--bg-alt); color: var(--ink-2); font-size: var(--text-sm); }
 .site-footer a { color: var(--ink-2); }
-.site-footer a:hover { color: var(--ink); }
+@media (hover: hover) { .site-footer a:hover { color: var(--ink); } }
 .site-footer__top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--line); }
 .site-footer__logo img { height: 56px; width: auto; }
 .site-footer__logo.is-text::after { content: 'Columbia Nursery & Landscape'; color: var(--ink); font-weight: 650; font-size: 1.0625rem; }
 .site-footer__logo.is-text img { display: none; }
 .site-footer__info { display: flex; flex-wrap: wrap; gap: 0.5rem 2.5rem; }
 .site-footer__nav ul { display: flex; flex-wrap: wrap; gap: 0.75rem 2rem; margin: 0; padding: 1.75rem 0; list-style: none; }
+@media (max-width: 600px) {
+  .site-footer__nav ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; padding: 1rem 0; }
+  .site-footer__nav a { display: block; padding: 0.75rem 0; }
+  .site-footer__info a,
+  .site-footer__fine a { display: inline-block; padding-block: 0.7rem; margin-block: -0.7rem; }
+}
 .site-footer__fine { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: 0.75rem; }
 .site-footer__fine p:last-child { display: flex; gap: 1.5rem; }

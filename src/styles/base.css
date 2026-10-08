@@ -6,6 +6,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
   text-size-adjust: 100%;
   scroll-padding-top: calc(var(--nav-h) + 16px);
 }
@@ -32,6 +33,19 @@ input,
 select,
 textarea { font: inherit; color: inherit; letter-spacing: inherit; }
 button { cursor: pointer; }
+a,
+button,
+summary,
+label,
+input,
+select,
+textarea { touch-action: manipulation; }
+/* Touch screens: a brief dim while pressed, in place of hover. */
+@media (hover: none) {
+  a:active,
+  button:active,
+  summary:active { opacity: 0.7; }
+}
 table { border-collapse: collapse; }
 [hidden] { display: none !important; }
 h1, h2, h3, h4, p, ul, ol, dl, dd, figure { margin: 0; }
@@ -50,7 +64,7 @@ p { text-wrap: pretty; }
 .latin { font-family: var(--font-serif); font-style: italic; letter-spacing: 0; }
 
 a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+@media (hover: hover) { a:hover { text-decoration: underline; text-underline-offset: 0.18em; } }
 
 :focus-visible { outline: 2px solid var(--green); outline-offset: 3px; border-radius: 6px; }
 
@@ -78,7 +92,12 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .skip-link:focus { transform: none; color: #fff; text-decoration: none; }
 
 /* Layout */
-.container { width: 100%; max-width: calc(var(--page-max) + var(--gutter) * 2); margin-inline: auto; padding-inline: var(--gutter); }
+.container {
+  width: 100%;
+  max-width: calc(var(--page-max) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: max(var(--gutter), env(safe-area-inset-left)) max(var(--gutter), env(safe-area-inset-right));
+}
 .container--narrow { max-width: calc(52rem + var(--gutter) * 2); }
 .section { padding-block: var(--section-y); }
 .section--alt { background: var(--bg-alt); }
@@ -104,13 +123,13 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
   line-height: 1.2;
   white-space: nowrap;
 }
-.btn:hover { background: var(--green-hover); color: #fff; text-decoration: none; }
+@media (hover: hover) { .btn:hover { background: var(--green-hover); color: #fff; text-decoration: none; } }
 .btn--light { background: #fff; color: var(--ink); }
-.btn--light:hover { background: #f0f0ed; color: var(--ink); }
+@media (hover: hover) { .btn--light:hover { background: #f0f0ed; color: var(--ink); } }
 .btn .icon { width: 1.1em; height: 1.1em; }
 
 /* Text link with a drawn chevron. */
-.more { display: inline-flex; align-items: center; gap: 0.3em; font-size: 1.0625rem; font-weight: 450; }
+.more { display: inline-flex; align-items: center; gap: 0.3em; padding-block: 0.6rem; margin-block: -0.6rem; font-size: 1.0625rem; font-weight: 450; }
 .more::after {
   content: '';
   width: 0.42em;
@@ -128,6 +147,7 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .photo--md { border-radius: var(--r-md); }
 .photo--sm { border-radius: var(--r-sm); }
 .photo--flat { border-radius: 0; }
+@media (max-width: 700px) { .photo--wide { aspect-ratio: 4 / 3; } }
 
 /* Forms */
 .field { display: grid; gap: 0.45rem; }
@@ -144,7 +164,12 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
   font-size: 1.0625rem;
 }
 .textarea { min-height: 150px; resize: vertical; }
+input[type='search'] { -webkit-appearance: none; appearance: none; }
+input[type='search']::-webkit-search-decoration { -webkit-appearance: none; }
+input[type='date'] { -webkit-appearance: none; appearance: none; text-align: left; }
+input[type='date']::-webkit-date-and-time-value { text-align: left; }
 .select {
+  -webkit-appearance: none;
   appearance: none;
   padding-right: 2.6rem;
   background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
@@ -169,5 +194,11 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
   color: var(--ink-2);
   font-size: var(--text-sm);
   font-weight: 500;
+}
+@media (pointer: coarse) { .segmented button { min-width: 44px; min-height: 44px; } }
+@media (max-width: 600px) {
+  .segmented { display: flex; flex-wrap: nowrap; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+  .segmented::-webkit-scrollbar { display: none; }
+  .segmented button { flex: 1 0 auto; padding-inline: 0.6rem; font-size: 0.8125rem; }
 }
 .segmented button[aria-pressed='true'] { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }

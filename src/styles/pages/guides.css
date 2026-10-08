@@ -1,7 +1,6 @@
 /* Garden Guides and Calendar */
 
 .guides__photo { margin-bottom: clamp(3rem, 2rem + 3vw, 5rem); }
-@media (max-width: 700px) { .guides__photo .photo { aspect-ratio: 4 / 3 !important; } }
 
 .guides { padding-bottom: var(--section-y); }
 .guides__search { max-width: 30rem; margin: 0 auto; }
@@ -10,7 +9,7 @@
 .guide-group__title { padding-bottom: 0.9rem; border-bottom: 1px solid var(--line); font-size: 1.25rem; }
 .guide-list { margin: 0; padding: 0; list-style: none; }
 .guide-list a { display: block; padding: 0.8rem 0; border-bottom: 1px solid var(--line-soft); color: var(--ink); }
-.guide-list a:hover { color: var(--green); text-decoration: none; }
+@media (hover: hover) { .guide-list a:hover { color: var(--green); text-decoration: none; } }
 .guides__empty { padding: 2rem 0; text-align: center; color: var(--ink-2); }
 
 .cal { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 3rem 3rem; margin: 0; padding: 0; list-style: none; }

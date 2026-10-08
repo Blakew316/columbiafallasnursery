@@ -28,9 +28,9 @@ function orderForm(designs) {
       <h2 id="order-title">Start your order.</h2>
       <p class="lead">Tell us what you would like and we will call to confirm your drop-off.</p>
     </div>
-    <form class="order" name="custom-basket" method="POST" action="/custom-baskets/thanks/" data-netlify="true" netlify-honeypot="company" data-order>
+    <form class="order" name="custom-basket" method="POST" action="/custom-baskets/thanks/" data-netlify="true" netlify-honeypot="bot-field" data-order>
       <input type="hidden" name="form-name" value="custom-basket" />
-      <p class="visually-hidden"><label>Leave empty <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <p class="visually-hidden"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
       <div class="order__grid">
         <div class="field"><label for="o-name">Name</label><input class="input" id="o-name" name="name" autocomplete="name" required /></div>
         <div class="field"><label for="o-phone">Phone</label><input class="input" id="o-phone" name="phone" type="tel" autocomplete="tel" required /></div>

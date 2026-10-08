@@ -57,20 +57,26 @@
     var toggle = document.querySelector('[data-menu-toggle]');
     var panel = document.querySelector('[data-menu]');
     if (!toggle || !panel) return;
+    var behind = document.querySelectorAll('main, .site-footer');
     var set = function (open) {
       toggle.setAttribute('aria-expanded', String(open));
       toggle.textContent = open ? 'Close' : 'Menu';
       panel.hidden = !open;
       document.documentElement.classList.toggle('menu-open', open);
+      behind.forEach(function (el) { el.inert = open; });
     };
     toggle.addEventListener('click', function () { set(toggle.getAttribute('aria-expanded') !== 'true'); });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && !panel.hidden) { set(false); toggle.focus(); }
     });
     window.matchMedia('(min-width: 900px)').addEventListener('change', function (mq) { if (mq.matches) set(false); });
+    // Swiping back to a page restores it from cache; never with the menu open.
+    window.addEventListener('pageshow', function (e) { if (e.persisted) set(false); });
   }
 
   function init() {
+    // iOS Safari only shows :active press states when a touch listener exists.
+    document.addEventListener('touchstart', function () {}, { passive: true });
     dated();
     photos();
     menu();

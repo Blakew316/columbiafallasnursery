@@ -29,7 +29,8 @@ export function photo(p, { ratio = '4 / 3', className = '', eager = false, sizes
       eager ? 'fetchpriority="high"' : 'loading="lazy"',
     )} decoding="async" />`;
   }
-  return html`<figure class="photo ${className}" style="--ratio:${ratio}">${img}</figure>`;
+  const wide = ratio === '21 / 9' ? ' photo--wide' : '';
+  return html`<figure class="photo${wide} ${className}" style="--ratio:${ratio}">${img}</figure>`;
 }
 
 /** A single primary button. Use at most one per section. */

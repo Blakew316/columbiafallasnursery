@@ -23,10 +23,10 @@ function handoutsPage(data) {
     render: () => html`${pageHeader({ title: 'Garden guides.', lead: 'Free growing guides from our team.' })}
 <div class="container guides__photo">${photo(PHOTOS.seedlings, { ratio: '21 / 9', eager: true })}</div>
 <section class="container guides" aria-label="Guides">
-  <form class="search guides__search" role="search" onsubmit="return false">
+  <form class="search guides__search" role="search" onsubmit="document.activeElement.blur();return false">
     ${icon('search')}
     <label class="visually-hidden" for="guide-q">Search guides</label>
-    <input id="guide-q" type="search" placeholder="Search" autocomplete="off" data-guide-q />
+    <input id="guide-q" type="search" placeholder="Search" autocomplete="off" autocorrect="off" autocapitalize="none" enterkeyhint="search" data-guide-q />
   </form>
   <p class="guides__cal">${more('/garden-calendar/', 'What to do this month')}</p>
   <div class="guide-groups">
