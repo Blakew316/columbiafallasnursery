@@ -1,0 +1,338 @@
+{
+  "heading": "Educational Handouts",
+  "topics": [
+    "Vegetables & herbs",
+    "Fruit & berries",
+    "Trees, shrubs & roses",
+    "Flowers & bulbs",
+    "Houseplants",
+    "Soil, water & lawn care",
+    "Seeds & season extension",
+    "Pests & garden products"
+  ],
+  "handouts": [
+    {
+      "title": "Air Plants",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Air-Plants.pdf",
+      "topic": "Houseplants"
+    },
+    {
+      "title": "Air-Purifying Houseplants",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Air-Purifying-House-Plants.pdf",
+      "topic": "Houseplants"
+    },
+    {
+      "title": "Annuals",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Annuals.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Asparagus",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Asparagus.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Beans Corn Peas",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Bean-Corn-Peas.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Begonia Care",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Begonias.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Berries",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Berries.pdf",
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Blueberries",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Blueberry-Planting.pdf",
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Broccoli Cauliflower Brussels",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Brassicas.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Carnivorous Plant Care",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Carnivorous-Plants.pdf",
+      "topic": "Houseplants"
+    },
+    {
+      "title": "Cloches – Extending the Growing Season",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Cloches.pdf",
+      "topic": "Seeds & season extension"
+    },
+    {
+      "title": "Companion Planting",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Companion-Planting.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Composting",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Composting.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Container Gardening",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Container-Gardening.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Cucumbers",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Cucumbers.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Cut Flowers",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Cut-Flowers.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Deer Resistant Plant List",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Deer-Resistant.pdf",
+      "topic": "Pests & garden products"
+    },
+    {
+      "title": "Deciduous Trees",
+      "href": null,
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Dividing Perennials",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Dividing-Perennials.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Elements & Supplements",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Soil-Elements-and-Amendments.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Evergreens",
+      "href": null,
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Fall Coloring Trees & Shrubs",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Fall-Color.pdf",
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Fall Watering",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Fall-Watering.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Fertilizers & NPK",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Fertilizers-NPK.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Fruit Trees",
+      "href": null,
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Garlic",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Garlic.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Geranium – Overwintering",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Overwintering-Geraniums.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Grapes",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Grape-Vines.pdf",
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Hardening Off Plants",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Hardening-Off.pdf",
+      "topic": "Seeds & season extension"
+    },
+    {
+      "title": "Herbs",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Herbs.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Honey Berries",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Haskap-Berries-AKA-Honeyberries.pdf",
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Houseplant Care",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Houseplant-Care.pdf",
+      "topic": "Houseplants"
+    },
+    {
+      "title": "Houseplants – Non-Toxic",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Non-Toxic-Houseplants.pdf",
+      "topic": "Houseplants"
+    },
+    {
+      "title": "Hydroponics",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Hydroponics.pdf",
+      "topic": "Seeds & season extension"
+    },
+    {
+      "title": "Irrigation & Watering",
+      "href": null,
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Lawns",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Lawns.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Lawn & Garden Chemicals",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Lawn-Garden-Chemicals.pdf",
+      "topic": "Pests & garden products"
+    },
+    {
+      "title": "Lettuces",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Lettuce.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Micro Greens",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Microgreens.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Mycorrhizal Fungi",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Mycorrhizal-Fungi.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Neem Oil",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Neem.pdf",
+      "topic": "Pests & garden products"
+    },
+    {
+      "title": "Onions",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/ONions.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Peonies",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Peonies.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Perennial Division Times",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Perennial-Division.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Planting Fall Bulbs",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Fall-Bulbs.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Potatoes",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Potatoes.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Pruning",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Pruning.pdf",
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Pumpkins",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Pumpkins.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Raspberries",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Raspberry-Planting.pdf",
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Rhubarb",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Rhubarb.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Rose Overwintering",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Overwintering-Roses.pdf",
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Seed Starting",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Seed-Starting.pdf",
+      "topic": "Seeds & season extension"
+    },
+    {
+      "title": "Seed Starting Times",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Seed-Starting-Schedule.pdf",
+      "topic": "Seeds & season extension"
+    },
+    {
+      "title": "Shrub Roses",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Shrub-Roses-1.pdf",
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Soil Temperatures for Seed Starting",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Veg-Temp-Germ-Chart.pdf",
+      "topic": "Seeds & season extension"
+    },
+    {
+      "title": "Soil Testing",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Soil-Testing-PH.pdf",
+      "topic": "Soil, water & lawn care"
+    },
+    {
+      "title": "Spring Bulbs",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Spring-Bulbs.pdf",
+      "topic": "Flowers & bulbs"
+    },
+    {
+      "title": "Squash",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Squash.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Strawberries",
+      "href": null,
+      "topic": "Fruit & berries"
+    },
+    {
+      "title": "Tomatoes",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Tomatoes.dotx-1.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Tomatoes, Peppers, Eggplant",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Veg-Temp-Germ-Chart.pdf",
+      "topic": "Vegetables & herbs"
+    },
+    {
+      "title": "Tree Planting",
+      "href": null,
+      "topic": "Trees, shrubs & roses"
+    },
+    {
+      "title": "Vegetables",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Vegetables-1.pdf",
+      "topic": "Vegetables & herbs"
+    }
+  ],
+  "notes": [
+    "63 titles in the source list; 57 have a PDF link; 56 unique PDF URLs.",
+    "Titles with NO link in the source (plain <li> text, href null): Deciduous Trees, Evergreens, Fruit Trees, Irrigation & Watering, Strawberries, Tree Planting.",
+    "Shared PDF: Veg-Temp-Germ-Chart.pdf is linked from both \"Soil Temperatures for Seed Starting\" and \"Tomatoes, Peppers, Eggplant\". \"Tomatoes, Peppers, Eggplant\" pointing at the germination-temperature chart looks like a copy/paste error on the live site.",
+    "Filename/title mismatches worth knowing: \"Elements & Supplements\" -> Soil-Elements-and-Amendments.pdf; \"Honey Berries\" -> Haskap-Berries-AKA-Honeyberries.pdf; \"Broccoli Cauliflower Brussels\" -> Brassicas.pdf; \"Tomatoes\" -> Tomatoes.dotx-1.pdf (odd filename); \"Onions\" -> ONions.pdf.",
+    "Mapping is by the <a href> inside each <li>; the order of the PDF list in the plain-text dump (alphabetical by URL) does not match the title order.",
+    "Topic assignment is editorial (not in source). The source page has only the H1 \"Educational Handouts\" and one flat, roughly alphabetical list (quirks: \"Deer Resistant Plant List\" precedes \"Deciduous Trees\"; \"Lawns\" precedes \"Lawn & Garden Chemicals\"). Handouts are kept in source order."
+  ]
+}

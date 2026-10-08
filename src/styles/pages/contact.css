@@ -1,0 +1,29 @@
+/* Visit / contact, thanks and 404 */
+
+.visit-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(1.5rem, 1rem + 2vw, 3rem); align-items: start; }
+@media (min-width: 960px) { .visit-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); } .visit-grid .map { aspect-ratio: auto; height: 100%; min-height: 520px; } }
+.visit-card { padding: clamp(1.5rem, 1rem + 2vw, 2.5rem); border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow-soft); }
+.visit-card__title { font-size: var(--text-h3); }
+.visit-card__title--gap { margin-top: 2.5rem; margin-bottom: 1.25rem; }
+.visit-status { display: inline-flex; align-items: center; gap: 0.55rem; margin-top: 0.85rem; font-weight: 600; }
+.visit-status[data-state='open'] .status__dot { background: #3e9b62; box-shadow: 0 0 0 3px rgba(62, 155, 98, 0.18); }
+.visit-status[data-state='closing'] .status__dot { background: var(--larch); }
+.visit-status .status__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); }
+.hours-table { width: 100%; margin-top: 1.25rem; font-variant-numeric: tabular-nums; }
+.hours-table th,
+.hours-table td { padding: 0.6rem 0; border-bottom: 1px solid var(--line); text-align: left; font-weight: 450; }
+.hours-table td { text-align: right; color: var(--ink-2); }
+.hours-table tr.is-today th,
+.hours-table tr.is-today td { font-weight: 650; color: var(--ink); }
+.visit-card__note { margin-top: 1rem; }
+
+.message-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(2rem, 1rem + 3vw, 4.5rem); align-items: start; }
+@media (min-width: 960px) { .message-grid { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); } }
+.message-grid__intro .lead { margin-top: 1rem; }
+.message-grid__about { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--ink-2); }
+.message-grid__about p + p { margin-top: 0.85rem; }
+.message-form { display: grid; gap: 1.1rem; padding: clamp(1.5rem, 1rem + 2vw, 2.5rem); border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow-soft); }
+.message-form__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1.1rem; }
+.message-form__foot { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+
+.lost-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem 2rem; margin: 0; padding: 0; list-style: none; }

@@ -1,0 +1,173 @@
+/* ---------------------------------------------------------------------------
+   Panorama palette. The hero SVG and the interior ridge band paint entirely
+   from these variables; [data-season] on <html> (set before first paint by
+   the inline head script) and the colour scheme pick the set.
+   ------------------------------------------------------------------------ */
+
+:root {
+  /* Fall, daylight (default; also the no-JS fallback). */
+  --sky-top: #c9dde2;
+  --sky-mid: #e3ebe6;
+  --sky-low: #f1ede0;
+  --sun: rgba(255, 236, 196, 0.85);
+  --p-peaks: #9cb2b8;
+  --p-haze: #dfe6e2;
+  --p-snow: #f7fafa;
+  --p-massif: #7b9794;
+  --p-far: #567a70;
+  --p-far-low: #8fa79f;
+  --p-far-trees: #46695f;
+  --p-near: #2f5147;
+  --p-near-low: #3d5e4f;
+  --p-near-trees: #264840;
+  --p-larch-far: #cfa64a;
+  --p-larch-near: #c58f2a;
+  --p-mist: #f4f6f1;
+  --p-valley: #3c5d48;
+  --p-field: #22402f;
+  --p-row-line: #2c4d38;
+  --p-row-spruce: #183429;
+  --p-row-shrub: #3f6a3e;
+  --p-gh: rgba(240, 245, 242, 0.9);
+  --p-gh-wall: rgba(205, 218, 212, 0.95);
+  --p-gh-ribs: rgba(120, 146, 137, 0.55);
+  --p-gh-ridge: rgba(255, 255, 255, 0.95);
+  --p-gh-shadow: rgba(10, 30, 20, 0.28);
+  --p-birds: rgba(38, 61, 54, 0.55);
+}
+
+:root[data-season='summer'] {
+  --sky-top: #b6d3e3;
+  --sky-mid: #dbe9ec;
+  --sky-low: #eef3ea;
+  --sun: rgba(255, 246, 214, 0.8);
+  --p-peaks: #97afb9;
+  --p-haze: #dde8e8;
+  --p-larch-far: #6f9562;
+  --p-larch-near: #4f7e4c;
+  --p-far: #4f7a66;
+  --p-near: #2b5242;
+  --p-valley: #4a7350;
+  --p-field: #2b4d32;
+  --p-row-shrub: #4c7d45;
+}
+
+:root[data-season='spring'] {
+  --sky-top: #c3dbe6;
+  --sky-mid: #e0ece9;
+  --sky-low: #f1f2e5;
+  --sun: rgba(255, 244, 210, 0.75);
+  --p-larch-far: #9cbf72;
+  --p-larch-near: #86b05c;
+  --p-valley: #4b7149;
+  --p-field: #2a4a31;
+  --p-row-shrub: #5d8c4c;
+}
+
+:root[data-season='winter'] {
+  --sky-top: #cfdbe2;
+  --sky-mid: #e4eaec;
+  --sky-low: #f1f3f2;
+  --sun: rgba(255, 250, 236, 0.6);
+  --p-peaks: #a9bcc3;
+  --p-haze: #e6ecec;
+  --p-massif: #a6b8b9;
+  --p-far: #8aa19b;
+  --p-far-low: #c3d0cc;
+  --p-far-trees: #4c665f;
+  --p-near: #c9d5d2;
+  --p-near-low: #dfe6e4;
+  --p-near-trees: #2e4a42;
+  --p-larch-far: #8e8a7f;
+  --p-larch-near: #7c776c;
+  --p-valley: #dfe7e6;
+  --p-field: #e9efee;
+  --p-row-line: #dbe3e1;
+  --p-row-spruce: #24433a;
+  --p-row-shrub: #4f6a60;
+  --p-gh-shadow: rgba(60, 80, 80, 0.16);
+  --p-birds: transparent;
+}
+
+:root[data-season='summer'] { --p-birds: transparent; }
+
+/* Dusk: dark-mode skies. Greenhouses glow from inside. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sky-top: #0c1a1f;
+    --sky-mid: #142a2f;
+    --sky-low: #2a3b3a;
+    --sun: rgba(234, 190, 120, 0.22);
+    --p-peaks: #33494f;
+    --p-haze: #22363a;
+    --p-snow: #9fb3b9;
+    --p-massif: #263c3f;
+    --p-far: #1d3431;
+    --p-far-low: #243b38;
+    --p-far-trees: #183029;
+    --p-near: #13261f;
+    --p-near-low: #172b24;
+    --p-near-trees: #0f211b;
+    --p-larch-far: #7d6430;
+    --p-larch-near: #8a6a2b;
+    --p-mist: #3a4f4e;
+    --p-valley: #12231c;
+    --p-field: #0d1b15;
+    --p-row-line: #12241b;
+    --p-row-spruce: #08140f;
+    --p-row-shrub: #1b3324;
+    --p-gh: rgba(244, 212, 146, 0.62);
+    --p-gh-wall: rgba(226, 186, 116, 0.7);
+    --p-gh-ribs: rgba(120, 88, 40, 0.45);
+    --p-gh-ridge: rgba(255, 238, 200, 0.7);
+    --p-gh-shadow: rgba(240, 200, 120, 0.12);
+    --p-birds: rgba(190, 210, 205, 0.35);
+  }
+  :root[data-season='summer'] { --p-larch-far: #2c4a3a; --p-larch-near: #2a4a36; }
+  :root[data-season='spring'] { --p-larch-far: #3c5a3a; --p-larch-near: #3e6038; }
+  :root[data-season='winter'] {
+    --p-snow: #b9c8cc;
+    --p-massif: #3e5256;
+    --p-far: #3f5352;
+    --p-far-low: #4d5f5d;
+    --p-near: #55666a;
+    --p-near-low: #64767a;
+    --p-larch-far: #4b4a44;
+    --p-larch-near: #4a4740;
+    --p-valley: #5b6c70;
+    --p-field: #6b7b7f;
+    --p-row-line: #74858a;
+    --p-row-shrub: #3f4e4c;
+  }
+}
+
+/* Paint ------------------------------------------------------------------- */
+
+.pano-snow { fill: var(--p-snow); display: none; }
+:root:not([data-season]) .pano-snow--fall,
+:root[data-season='fall'] .pano-snow--fall,
+:root[data-season='winter'] .pano-snow--winter,
+:root[data-season='spring'] .pano-snow--spring,
+:root[data-season='summer'] .pano-snow--summer { display: inline; }
+
+.pano-birds path { fill: none; stroke: var(--p-birds); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.pano-far-trees { fill: var(--p-far-trees); }
+.pano-near-trees { fill: var(--p-near-trees); }
+.pano-larch--far { fill: var(--p-larch-far); }
+.pano-larch--near,
+.pano-larch--row { fill: var(--p-larch-near); }
+.pano-valley { fill: var(--p-valley); }
+.pano-field { fill: var(--p-field); }
+.pano-row-lines { fill: var(--p-row-line); }
+.pano-row-spruce { fill: var(--p-row-spruce); }
+.pano-row-shrub { fill: var(--p-row-shrub); }
+.pano-gh { fill: var(--p-gh); }
+.pano-gh-wall { fill: var(--p-gh-wall); }
+.pano-gh-ribs { fill: none; stroke: var(--p-gh-ribs); stroke-width: 1.6; }
+.pano-gh-ridge { fill: none; stroke: var(--p-gh-ridge); stroke-width: 2; stroke-linecap: round; }
+.pano-gh-shadow { fill: var(--p-gh-shadow); }
+
+.band-far { fill: var(--p-far); }
+.band-far-trees { fill: var(--p-far-trees); }
+.band-near { fill: var(--p-near); }
+.band-near-trees { fill: var(--p-near-trees); }

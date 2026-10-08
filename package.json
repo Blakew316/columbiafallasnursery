@@ -1,0 +1,19 @@
+{
+  "name": "columbia-nursery-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Columbia Nursery & Landscape, Columbia Falls, Montana",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "dev": "node src/build.mjs && node scripts/serve.mjs",
+    "check": "node src/build.mjs && node scripts/check.mjs",
+    "media": "node scripts/media.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "5.2.5",
+    "axe-core": "4.10.3",
+    "playwright": "1.56.1"
+  }
+}

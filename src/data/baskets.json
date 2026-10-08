@@ -1,0 +1,264 @@
+{
+  "heading": "Custom Baskets & Container Planting",
+  "intro": [
+    "Let us bring your flower dreams to life. Our custom planting program is one of the most popular services at Columbia Nursery, and it’s easy to see why. Whether you’re refreshing your porch pots or decking out your entire garden, we’ll help you create stunning container displays suited to your space, sunlight, and style. Check out our idea portfolio."
+  ],
+  "introLinks": [
+    {
+      "text": "idea portfolio.",
+      "href": "#portfolio"
+    }
+  ],
+  "headings": {
+    "howItWorks": "How It Works",
+    "benefits": "Why Choose Custom Planting?",
+    "customers": "Thousands of Happy Customers",
+    "inspiration": "Looking for Inspiration?"
+  },
+  "steps": [
+    {
+      "number": 1,
+      "text": "Bring in your own containers or choose from our wide selection of baskets, ceramic pots, and planters.",
+      "fullText": "Bring in your own containers or choose from our wide selection of baskets, ceramic pots, and planters."
+    },
+    {
+      "number": 2,
+      "text": "Tell us what you love — colors, styles, sun or shade — and we’ll design accordingly.",
+      "fullText": "Tell us what you love — colors, styles, sun or shade — and we’ll design accordingly."
+    },
+    {
+      "number": 3,
+      "title": "We custom plant it for you.",
+      "text": "Your containers are filled with vibrant annuals, lush foliage, and long-blooming combinations grown in our own greenhouses.",
+      "fullText": "We custom plant it for you. Your containers are filled with vibrant annuals, lush foliage, and long-blooming combinations grown in our own greenhouses."
+    },
+    {
+      "number": 4,
+      "title": "Pick up when ready.",
+      "text": "We’ll give you a timeline and care instructions to keep your arrangements thriving all season.",
+      "fullText": "Pick up when ready. We’ll give you a timeline and care instructions to keep your arrangements thriving all season."
+    }
+  ],
+  "pdfs": [
+    {
+      "label": "Basket Drop Off",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/customs-handout-drop-off-1-2.pdf"
+    },
+    {
+      "label": "Basket Care",
+      "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/customs-handout-drop-off-1-1.pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Save time and avoid the mess",
+      "text": "We plant your baskets early in the season & grow them indoors. By the time you pick them up, they are mature & full of blooms."
+    },
+    {
+      "title": "Get expertly designed containers tailored to your space"
+    },
+    {
+      "title": "Enjoy longer-lasting, better-performing displays"
+    },
+    {
+      "title": "Support local greenhouse-grown flowers and foliage"
+    }
+  ],
+  "customers": "Each spring, our team creates thousands of custom baskets for homeowners, local businesses, landscapers, vacation properties, and resorts throughout the Flathead Valley. Let us do the same for you — whether it’s one basket or a hundred.",
+  "inspiration": "Check out our idea book to see examples of color combinations, trailing varieties, and sun/shade arrangements. From classic petunia mixes to tropical spiller-thrillers, we’ve planted them all.",
+  "portfolioAnchor": "#portfolio",
+  "cover": {
+    "caption": "Cover",
+    "image": {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-1-scaled.gif",
+      "alt": "Cover",
+      "width": 1810,
+      "height": 2560
+    }
+  },
+  "designs": [
+    {
+      "name": "Sweet Sunset",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Sweet Sunset",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-2.gif",
+        "alt": "Full Sun - Sweet Sunset"
+      }
+    },
+    {
+      "name": "Sunbeam",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Sunbeam",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-3.gif",
+        "alt": "Full Sun - Sunbeam"
+      }
+    },
+    {
+      "name": "Tropical Blaze",
+      "light": "Full Shade",
+      "lightTag": "full-shade",
+      "caption": "Full Shade - Tropical Blaze",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-4.gif",
+        "alt": "Full Shade - Tropical Blaze"
+      }
+    },
+    {
+      "name": "Pretty in Pink",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Pretty in Pink",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-5.gif",
+        "alt": "Full Sun - Pretty in Pink"
+      }
+    },
+    {
+      "name": "Firecracker",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Firecracker",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-6.gif",
+        "alt": "Full Sun - Firecracker"
+      }
+    },
+    {
+      "name": "Daybreak",
+      "light": "Part Shade",
+      "lightTag": "part-shade",
+      "caption": "Part Shade - Daybreak",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-7.gif",
+        "alt": "Part Shade - Daybreak"
+      }
+    },
+    {
+      "name": "Primary",
+      "light": "Part Sun",
+      "lightTag": "part-sun",
+      "caption": "Part Sun - Primary",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-8.gif",
+        "alt": "Part Sun - Primary"
+      }
+    },
+    {
+      "name": "Pink Lemonade",
+      "light": "Full Shade",
+      "lightTag": "full-shade",
+      "caption": "Full Shade - Pink Lemonade",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-9.gif",
+        "alt": "Full Shade - Pink Lemonade"
+      }
+    },
+    {
+      "name": "Royal Bloom",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Royal Bloom",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-10.gif",
+        "alt": "Full Sun - Royal Bloom"
+      }
+    },
+    {
+      "name": "Volcano",
+      "light": "Part Shade",
+      "lightTag": "part-shade",
+      "caption": "Part Shade - Volcano",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-11.gif",
+        "alt": "Part Shade - Volcano"
+      }
+    },
+    {
+      "name": "Magenta Sky",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Magenta Sky",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-12.gif",
+        "alt": "Full Sun - Magenta Sky"
+      }
+    },
+    {
+      "name": "Vienna",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Vienna",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-13.gif",
+        "alt": "Full Sun - Vienna"
+      }
+    },
+    {
+      "name": "Palm Fiesta",
+      "light": "Full Shade",
+      "lightTag": "full-shade",
+      "caption": "Full Shade - Palm Fiesta",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-14.gif",
+        "alt": "Full Shade - Palm Fiesta"
+      }
+    },
+    {
+      "name": "Velvet Blush",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Velvet Blush",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-15.gif",
+        "alt": "Full Sun - Velvet Blush"
+      }
+    },
+    {
+      "name": "Violet Glow",
+      "light": "Full Sun",
+      "lightTag": "full-sun",
+      "caption": "Full Sun - Violet Glow",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-16.gif",
+        "alt": "Full Sun - Violet Glow"
+      }
+    },
+    {
+      "name": "Jungle Punch",
+      "light": "Full Shade",
+      "lightTag": "full-shade",
+      "caption": "Full Shade - Jungle Punch",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-17.gif",
+        "alt": "Full Shade - Jungle Punch"
+      }
+    },
+    {
+      "name": "Sorbet Sunrise",
+      "light": "Full Shade",
+      "lightTag": "full-shade",
+      "caption": "Full Shade - Sorbet Sunrise",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-18.gif",
+        "alt": "Full Shade - Sorbet Sunrise"
+      }
+    }
+  ],
+  "lightCounts": {
+    "Full Sun": 9,
+    "Full Shade": 5,
+    "Part Shade": 2,
+    "Part Sun": 1
+  },
+  "notes": [
+    "PDF mapping is by DOM: each label is the text of the Elementor button whose <a href> is the PDF. Both filenames are named \"customs-handout-drop-off-1-*\", so the Care PDF filename does not say \"care\"; contents not verifiable offline.",
+    "In the source the benefit \"Save time and avoid the mess\" is followed by a separate <li> (styled <span>) holding its explanation; merged here as that benefit's text. The other three benefits have no explanation.",
+    "Steps: \"title\" is the first sentence of a step when the step has two sentences (steps 3 and 4); \"fullText\" is the verbatim step without its number.",
+    "Portfolio images are animated GIFs in an Elementor image carousel (18 slides incl. cover). Cover dimensions 1810x2560 come from Yoast JSON-LD (the -scaled variant); other GIF dimensions are not in source.",
+    "Intro link \"idea portfolio.\" points to #portfolio (the carousel)."
+  ]
+}

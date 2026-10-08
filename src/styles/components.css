@@ -1,0 +1,187 @@
+/* Shared components used across pages. Page-only styles live in pages/. */
+
+/* Spot illustrations: palette (follows season via --p-* and theme). */
+:root {
+  --s-leaf: #5c8a51;
+  --s-leaf-dark: #3c6a42;
+  --s-stem: #4d7a45;
+  --s-centre: #5a3b22;
+  --s-bloom-1: #d97a9e;
+  --s-bloom-2: #8f74c0;
+  --s-bloom-3: #e2b443;
+  --s-bloom-4: #f4f1ea;
+  --s-bloom-5: #e27a5b;
+  --s-wood: #9a7552;
+  --s-pot: #c27c56;
+  --s-basket: #8a6a48;
+  --s-wall: #e8ede6;
+  --s-wall-shade: #d9e0d7;
+  --s-shelf: #d6ddd2;
+  --s-glacier: #9fb8ba;
+  --s-path: #d8cdb6;
+  --s-ground: #4d7449;
+  --s-bed: #5a4334;
+  --s-gravel: #b8b3a6;
+  --s-tyre: #2f3a35;
+  --s-speck: #1d2a24;
+  --s-soil: #5b4636;
+  --s-soil-1: #4a3829;
+  --s-soil-2: #6e5644;
+  --s-soil-3: #3a2c20;
+  --s-rock: #a3a7a2;
+  --s-rock-1: #8e938e;
+  --s-rock-2: #b9bcb6;
+  --s-rock-3: #7a7f7b;
+  --s-mulch: #7a5136;
+  --s-mulch-1: #96664a;
+  --s-mulch-2: #5e3d28;
+  --s-mulch-3: #a87a58;
+  --s-sand: #d8c7a0;
+  --s-sand-1: #c9b68c;
+  --s-sand-2: #e6d8b6;
+  --s-sand-3: #bba57a;
+  --s-compost: #3d2f24;
+  --s-compost-1: #2c211a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --s-leaf: #3f6a42;
+    --s-leaf-dark: #2b4d33;
+    --s-stem: #39603b;
+    --s-bloom-1: #b5647f;
+    --s-bloom-2: #75609e;
+    --s-bloom-3: #b98f35;
+    --s-bloom-4: #c9c6bd;
+    --s-bloom-5: #b8644b;
+    --s-wall: #1b2b26;
+    --s-wall-shade: #22352f;
+    --s-shelf: #22332d;
+    --s-ground: #24402c;
+    --s-path: #4d4739;
+    --s-gravel: #555a54;
+  }
+}
+:root[data-season='winter'] { --s-ground: #dfe7e5; --s-leaf: #5f7d6c; }
+@media (prefers-color-scheme: dark) { :root[data-season='winter'] { --s-ground: #5b6c70; } }
+
+.spot { display: block; width: 100%; height: 100%; }
+.spot-sky { fill: var(--sky-mid); }
+.spot-sun { fill: url(#spot-sun-g); }
+.spot-sun-disc { fill: var(--sun); }
+.spot-ground { fill: var(--s-ground); }
+.spot-bed { fill: var(--s-bed); }
+.spot-gravel { fill: var(--s-gravel); }
+.spot-tree { fill: var(--p-near-trees); }
+.spot-stem,
+.spot-blade,
+.spot-trail { fill: none; stroke: var(--s-stem); stroke-width: 4; stroke-linecap: round; }
+.spot-blade { stroke: var(--s-leaf); stroke-width: 3.2; }
+.spot-trail { stroke: var(--s-leaf-dark); stroke-width: 5; }
+.spot-chain { fill: none; stroke: var(--s-tyre); stroke-width: 3; stroke-linecap: round; opacity: 0.6; }
+
+/* Numbered steps — only for content that really is a sequence. */
+.steps { display: grid; gap: 1.1rem; margin: 2rem 0; padding: 0; list-style: none; }
+.step { display: grid; grid-template-columns: 2.25rem 1fr; gap: 0.9rem; align-items: start; }
+.step__num {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  font-size: var(--text-sm);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.step strong { font-weight: 650; }
+
+/* Search field with icon and inline button. */
+.finder-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 34rem;
+  padding: 0.4rem 0.4rem 0.4rem 1rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  transition: border-color var(--dur-1) ease, box-shadow var(--dur-1) ease;
+}
+.finder-search:focus-within {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--focus) 20%, transparent);
+}
+.finder-search > .icon { color: var(--ink-3); }
+.finder-search__input {
+  flex: 1;
+  min-width: 0;
+  min-height: 40px;
+  border: 0;
+  background: transparent;
+  font-size: 1rem;
+  outline: none;
+}
+.finder-search__input::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+/* Leader-dotted price list. */
+.price-card {
+  padding: clamp(1.5rem, 1rem + 2vw, 2.25rem);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+.price-card__title { margin-bottom: 1rem; font-weight: 650; }
+.price-card ul { display: grid; gap: 0.85rem; margin: 0; padding: 0; list-style: none; }
+.price-card li { display: flex; align-items: baseline; gap: 0.6rem; }
+.price-card__dots { flex: 1; border-bottom: 1px dotted var(--line-strong); transform: translateY(-0.3em); }
+.price-card__price { font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Callout for notes the reader should not miss. */
+.note {
+  padding: 1rem 1.25rem;
+  border-radius: var(--r-md);
+  background: var(--gold-wash);
+  color: var(--ink);
+}
+.note strong { color: var(--gold-ink); }
+
+/* Generic card used for lists of links/resources. */
+.card {
+  display: block;
+  padding: 1.5rem;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+a.card:hover { text-decoration: none; color: var(--ink); border-color: var(--line-strong); }
+
+/* Disclosure (FAQ style). */
+.disclosure { border-bottom: 1px solid var(--line); }
+.disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem 0;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  cursor: pointer;
+  list-style: none;
+}
+.disclosure > summary::-webkit-details-marker { display: none; }
+.disclosure > summary::after {
+  content: '';
+  flex: none;
+  width: 0.55em;
+  height: 0.55em;
+  border-right: 1.6px solid var(--ink-2);
+  border-bottom: 1.6px solid var(--ink-2);
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform var(--dur-2) var(--ease-out);
+}
+.disclosure[open] > summary::after { transform: rotate(225deg) translateY(-2px); }
+.disclosure__body { padding: 0 0 1.25rem; color: var(--ink-2); max-width: var(--measure); }
+.disclosure__body > * + * { margin-top: 0.6rem; }

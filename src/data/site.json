@@ -1,0 +1,601 @@
+{
+  "name": "Columbia Nursery & Landscape",
+  "shortName": "Columbia Nursery",
+  "tagline": "The Flathead Valley's Choice for Garden and Landscaping Supplies",
+  "taglineAlternates": [
+    {
+      "text": "The Flathead Valleys Largest Nursery!",
+      "source": "home og:description"
+    },
+    {
+      "text": "The Flatheads Largest Nursery",
+      "source": "Yoast WebSite.description (JSON-LD)"
+    }
+  ],
+  "url": "https://columbiafallsnursery.com/",
+  "address": {
+    "street": "2544 9th St. W",
+    "city": "Columbia Falls",
+    "region": "MT",
+    "postal": "59912",
+    "country": "US",
+    "displayVariants": [
+      "2544 9th St. W. / Columbia Falls, MT 59912 (home \"Our Location\")",
+      "2544 9th St. W, Columbia Falls, MT 59912 (contact page)",
+      "2544 9th St. W / Columbia Falls, MT. 59912 (footer)",
+      "2544 9th St W, Columbia Falls, MT 59912 (contact meta description, map links)"
+    ]
+  },
+  "phone": {
+    "display": "(406) 892-0339",
+    "tel": "+14068920339",
+    "displayAsOnPage": "(406) 892 – 0339",
+    "sourceHrefs": [
+      "tel:4068920339",
+      "tel:(406)892-0339"
+    ]
+  },
+  "email": null,
+  "hours": {
+    "text": "Open Monday-Saturday 9:00am - 5:30pm",
+    "days": [
+      {
+        "day": "Mo",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tu",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "We",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Th",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Fr",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Sa",
+        "open": "09:00",
+        "close": "17:30"
+      }
+    ],
+    "closed": [
+      "Su"
+    ],
+    "variants": [
+      "Open Monday-Saturday 9:00am - 5:30pm (header button on every page; links to tel:4068920339)",
+      "Open Monday-Saturday 9:00am – 5:30pm (contact page)"
+    ],
+    "seasonal": null,
+    "notes": [
+      "Source never states seasonal hours or a winter closure explicitly; the fall sale runs \"through closing, roughly October 31\", implying a seasonal close.",
+      "Contact page meta/og description says \"We're open 7 days a week!\", which contradicts Monday-Saturday."
+    ]
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/columbianursery/",
+    "facebook": "https://www.facebook.com/people/Columbia-Nursery-and-Landscape/100039759895183/",
+    "facebookAlt": "https://www.facebook.com/profile.php?id=100039759895183",
+    "facebookProfileId": "100039759895183"
+  },
+  "mapsDirectionsUrl": "https://www.google.com/maps?hl=en&mat=CTzmEVboRx3HElYBmzl_pTTJAgw66ISVXVCikdR_qT2WGRHGzjuvGVR0m-phw-5xo53ptq6tjHw3F7TX_vt1fmT-CQpb61-BbuypvNuEFT2tHM0u9q0T_tzIvJBkpv4_iw&authuser=0&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KTEOKw6dQWZTMYnxrzx7I87S&daddr=2544+9th+St+W,+Columbia+Falls,+MT+59912",
+  "mapsDirectionsUrlSimple": "https://www.google.com/maps/dir/?api=1&destination=2544+9th+St+W,+Columbia+Falls,+MT+59912",
+  "mapsEmbedQuery": "2544 9th St W, Columbia Falls, MT 59912, USA",
+  "mapsEmbedSrc": "https://maps.google.com/maps?q=2544%209th%20St%20W%2C%20Columbia%20Falls%2C%20MT%2059912%2C%20USA&t=m&z=10&output=embed&iwloc=near",
+  "mapsEmbedNote": "Contact page embeds the street address. Home page embed instead queries \"Columbia Nursery Kalispell\" (Kalispell is a different town; likely wrong pin).",
+  "geo": null,
+  "geoNote": "No coordinates anywhere in source (no LocalBusiness schema, map links use an encoded place id).",
+  "foundedYear": 1993,
+  "family": {
+    "ownership": "Family-owned and operated",
+    "generation": "third generation"
+  },
+  "serviceArea": "Columbia Falls and the greater Flathead Valley / Northwest Montana",
+  "facts": [
+    "7 acres",
+    "16 greenhouses",
+    "Five greenhouses bursting with colorful flowers, veggie starts, and houseplants",
+    "five annual greenhouses",
+    "11 production greenhouses",
+    "Eleven of our 16 greenhouses are production-focused",
+    "30 x 60-foot greenhouse",
+    "9-foot trees",
+    "Zones 3–5",
+    "since 1993",
+    "Family-owned and operated",
+    "third generation",
+    "the largest full-service nursery in Northwest Montana",
+    "over 30 years",
+    "30+ years",
+    "over three decades",
+    "over a thousand meticulously curated baskets",
+    "thousands of custom-planted baskets and pots",
+    "thousands of custom baskets",
+    "Create-Your-Own Bouquet Booth",
+    "Delivery is available.",
+    "Buy as little as a 5-gallon bucket or as much as a dump-truck load."
+  ],
+  "factDetails": [
+    {
+      "text": "7 acres",
+      "page": "about",
+      "sourceText": "Spanning 7 acres and housing 16 greenhouses, Columbia Nursery is the largest full-service nursery in Northwest Montana. Whether you’re a seasoned landscape contractor or a DIY gardener just getting started, we offer the products, expertise, and service to help your outdoor projects thrive."
+    },
+    {
+      "text": "16 greenhouses",
+      "page": "about",
+      "sourceText": "Spanning 7 acres and housing 16 greenhouses, Columbia Nursery is the largest full-service nursery in Northwest Montana. Whether you’re a seasoned landscape contractor or a DIY gardener just getting started, we offer the products, expertise, and service to help your outdoor projects thrive."
+    },
+    {
+      "text": "Five greenhouses bursting with colorful flowers, veggie starts, and houseplants",
+      "page": "about",
+      "sourceText": "Five greenhouses bursting with colorful flowers, veggie starts, and houseplants"
+    },
+    {
+      "text": "five annual greenhouses",
+      "page": "shop",
+      "sourceText": "At Columbia Nursery, our five annual greenhouses are bursting with life—each one filled with an ever-changing array of colorful annual flowers and thriving vegetable starts ready for your garden. Whether you’re planting containers, filling flower beds, or growing your own food, you’ll find the season’s best selections right here under one roof (or five!)."
+    },
+    {
+      "text": "11 production greenhouses",
+      "page": "about",
+      "sourceText": "11 production greenhouses packed with cut flowers and custom basket stock"
+    },
+    {
+      "text": "Eleven of our 16 greenhouses are production-focused",
+      "page": "about",
+      "sourceText": "Eleven of our 16 greenhouses are production-focused — growing thousands of plants each year for our custom programs and cut flower garden. While these greenhouses are not open to the public, you will experience the fruits of their production when you peruse the remainder of our nursery grounds."
+    },
+    {
+      "text": "30 x 60-foot greenhouse",
+      "page": "shop",
+      "sourceText": "Experience our sprawling 30 x 60-foot greenhouse, a sanctuary teeming with an array of houseplants, ranging from vibrant orange blooms to majestic 9-foot trees. Explore our superb assortment of succulents, cacti, and unique botanical treasures."
+    },
+    {
+      "text": "9-foot trees",
+      "page": "shop",
+      "sourceText": "Experience our sprawling 30 x 60-foot greenhouse, a sanctuary teeming with an array of houseplants, ranging from vibrant orange blooms to majestic 9-foot trees. Explore our superb assortment of succulents, cacti, and unique botanical treasures."
+    },
+    {
+      "text": "Zones 3–5",
+      "page": "shop",
+      "sourceText": "At Columbia Nursery, we specialize in trees, shrubs, and perennials that thrive in the unique climate of Northwest Montana. Our plant selections are carefully chosen for cold hardiness, drought tolerance, and beauty throughout the seasons. Whether you’re looking to create a shady backyard retreat, add structure and color to your landscape, or attract pollinators, you’ll find trusted favorites and exciting new varieties suited to Zones 3–5."
+    },
+    {
+      "text": "since 1993",
+      "page": "about",
+      "sourceText": "Columbia Nursery has proudly served Columbia Falls and the greater Flathead Valley since 1993. Family-owned and operated, we are now in our third generation of growers, designers, and plant lovers, all working side by side to help our community grow — literally and figuratively."
+    },
+    {
+      "text": "Family-owned and operated",
+      "page": "about",
+      "sourceText": "Columbia Nursery has proudly served Columbia Falls and the greater Flathead Valley since 1993. Family-owned and operated, we are now in our third generation of growers, designers, and plant lovers, all working side by side to help our community grow — literally and figuratively."
+    },
+    {
+      "text": "third generation",
+      "page": "about",
+      "sourceText": "Columbia Nursery has proudly served Columbia Falls and the greater Flathead Valley since 1993. Family-owned and operated, we are now in our third generation of growers, designers, and plant lovers, all working side by side to help our community grow — literally and figuratively."
+    },
+    {
+      "text": "the largest full-service nursery in Northwest Montana",
+      "page": "about",
+      "sourceText": "Spanning 7 acres and housing 16 greenhouses, Columbia Nursery is the largest full-service nursery in Northwest Montana. Whether you’re a seasoned landscape contractor or a DIY gardener just getting started, we offer the products, expertise, and service to help your outdoor projects thrive."
+    },
+    {
+      "text": "over 30 years",
+      "page": "home",
+      "sourceText": "We have served the Flathead Valley area for over 30 years"
+    },
+    {
+      "text": "30+ years",
+      "page": "about",
+      "sourceText": "Over the past 30+ years, Columbia Nursery has grown to become the trusted name for gardeners across Northwest Montana. Whether you’re building your first garden bed or designing a full landscape, we’re honored to be part of your growing journey."
+    },
+    {
+      "text": "over three decades",
+      "page": "contact",
+      "sourceText": "For over three decades, we’ve been honored to be your trusted partner in all things green and growing. At the heart of our mission lies an unwavering commitment to exceptional customer service. Our team is not only well-informed and eager to assist, but they find genuine joy in helping you achieve your gardening aspirations."
+    },
+    {
+      "text": "over a thousand meticulously curated baskets",
+      "page": "contact",
+      "sourceText": "Step into our greenhouses, where each corner bursts with a kaleidoscope of vibrant hues every spring. With over a thousand meticulously curated baskets to peruse, we ensure you’ll find just what you’re looking for. And if that’s not enough, we’re delighted to craft custom creations tailored to your unique vision."
+    },
+    {
+      "text": "thousands of custom-planted baskets and pots",
+      "page": "shop",
+      "sourceText": "Every year, we craft thousands of custom-planted baskets and pots for happy customers throughout Northwest Montana. Whether it’s a single showpiece or a full patio collection, we’ll help you create something beautiful that lasts all season long."
+    },
+    {
+      "text": "thousands of custom baskets",
+      "page": "customBaskets",
+      "sourceText": "Each spring, our team creates thousands of custom baskets for homeowners, local businesses, landscapers, vacation properties, and resorts throughout the Flathead Valley. Let us do the same for you — whether it’s one basket or a hundred."
+    },
+    {
+      "text": "Create-Your-Own Bouquet Booth",
+      "page": "shop",
+      "sourceText": "Looking for a more personal experience? Visit our Create-Your-Own Bouquet Booth—a fun and creative way to handpick your favorites and design a one-of-a-kind arrangement. Whether you’re a floral professional or a flower lover, there’s something magical about building a bouquet straight from the garden."
+    },
+    {
+      "text": "Delivery is available.",
+      "page": "bulkYard",
+      "sourceText": "Looking for mulch, compost, soil, or rock? We carry a wide selection for both professional landscaping and home projects. Buy as little as a 5-gallon bucket or as much as a dump-truck load. Our bulk yard is open during business hours, with staff ready to help. Delivery is available. See our 2026 price list below."
+    },
+    {
+      "text": "Buy as little as a 5-gallon bucket or as much as a dump-truck load.",
+      "page": "bulkYard",
+      "sourceText": "Looking for mulch, compost, soil, or rock? We carry a wide selection for both professional landscaping and home projects. Buy as little as a 5-gallon bucket or as much as a dump-truck load. Our bulk yard is open during business hours, with staff ready to help. Delivery is available. See our 2026 price list below."
+    }
+  ],
+  "fallSale": {
+    "headline": "Annual Fall Sale",
+    "detail": "20–50% Off the Entire Nursery",
+    "dates": "September 1 through closing, roughly October 31",
+    "pages": [
+      "home"
+    ],
+    "placement": "Home page only: full-width banner directly under the header, above the hero."
+  },
+  "logo": {
+    "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG.png",
+    "alt": "Columbia Nursery & Landscape",
+    "sourceAlt": "",
+    "width": 330,
+    "height": 180,
+    "footerSrc": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1.png",
+    "schemaLogo": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1.png",
+    "favicon": {
+      "32": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/cropped-601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1-32x32.png",
+      "192": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/cropped-601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1-192x192.png",
+      "appleTouch180": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/cropped-601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1-180x180.png",
+      "msTile270": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/cropped-601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1-270x270.png"
+    },
+    "note": "Source <img> alt is empty; alt text taken from Yoast Organization logo caption. Header uses ..._IMG.png, footer and schema use ..._IMG-1.png (two uploads, same 330x180 size)."
+  },
+  "nav": {
+    "header": [
+      {
+        "label": "About us",
+        "href": "https://columbiafallsnursery.com/full-service-nursery-in-northwest-montana-columbia-nursery/"
+      },
+      {
+        "label": "Shop",
+        "href": "https://columbiafallsnursery.com/shop/"
+      },
+      {
+        "label": "Display Garden",
+        "href": "https://columbiafallsnursery.com/display-garden-4/",
+        "children": [
+          {
+            "label": "Display Garden Plants",
+            "href": "https://columbiafallsnursery.com/display-garden-plants/"
+          }
+        ]
+      },
+      {
+        "label": "Custom Baskets",
+        "href": "https://columbiafallsnursery.com/custom-baskets/"
+      },
+      {
+        "label": "Bulk Yard",
+        "href": "https://columbiafallsnursery.com/bulk-yard/"
+      },
+      {
+        "label": "Educational Handouts",
+        "href": "https://columbiafallsnursery.com/educational-handouts/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://columbiafallsnursery.com/contact/"
+      }
+    ],
+    "headerCta": {
+      "text": "Open Monday-Saturday 9:00am - 5:30pm",
+      "href": "tel:4068920339"
+    },
+    "footerLinks": [
+      {
+        "label": "Home",
+        "href": "https://columbiafallsnursery.com/"
+      },
+      {
+        "label": "About Us",
+        "href": "https://columbiafallsnursery.com/about-us/",
+        "liveStatus": 404,
+        "note": "Links to a URL that returns 404 on the live site."
+      },
+      {
+        "label": "Gift Shop",
+        "href": "https://columbiafallsnursery.com/our-shop/",
+        "liveStatus": 404,
+        "note": "Links to a URL that returns 404 on the live site."
+      },
+      {
+        "label": "Contact Us",
+        "href": "https://columbiafallsnursery.com/contact/"
+      }
+    ],
+    "footerSocial": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/columbianursery/"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/people/Columbia-Nursery-and-Landscape/100039759895183/#"
+      }
+    ],
+    "footerAddressLines": [
+      "2544 9th St. W",
+      "Columbia Falls, MT. 59912"
+    ],
+    "skipLink": "Skip to main content"
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sourceFile": "index.html"
+    },
+    "about": {
+      "path": "/full-service-nursery-in-northwest-montana-columbia-nursery/",
+      "sourceFile": "full-service-nursery-in-northwest-montana-columbia-nursery.html"
+    },
+    "shop": {
+      "path": "/shop/",
+      "sourceFile": "shop.html"
+    },
+    "displayGarden": {
+      "path": "/display-garden-4/",
+      "sourceFile": "display-garden-4.html"
+    },
+    "displayGardenPlants": {
+      "path": "/display-garden-plants/",
+      "sourceFile": "display-garden-plants.html"
+    },
+    "customBaskets": {
+      "path": "/custom-baskets/",
+      "sourceFile": "custom-baskets.html"
+    },
+    "bulkYard": {
+      "path": "/bulk-yard/",
+      "sourceFile": "bulk-yard.html"
+    },
+    "educationalHandouts": {
+      "path": "/educational-handouts/",
+      "sourceFile": "educational-handouts.html"
+    },
+    "contact": {
+      "path": "/contact/",
+      "sourceFile": "contact.html"
+    }
+  },
+  "deadUrls": {
+    "/about-us/": 404,
+    "/our-shop/": 404
+  },
+  "redirects": {
+    "/display-garden-plant/": "/display-garden-plants/",
+    "/elementor-hf/header/": "/",
+    "/elementor-hf/footer/": "/"
+  },
+  "analytics": {
+    "googleTagId": "GT-M3SP3PGG",
+    "recaptcha": "v3 (WPForms)"
+  },
+  "seo": {
+    "home": {
+      "url": "https://columbiafallsnursery.com/",
+      "title": "Home - Columbia Nursery & Landscape",
+      "metaDescription": "Columbia Nursery & Landscape is your one stop shop for annuals, perennials, trees, shrubs and bulk soil and amendments in the Flathead Valley.",
+      "ogTitle": "Columbia Nursery & Landscape",
+      "ogDescription": "The Flathead Valleys Largest Nursery!",
+      "ogType": "website",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/65e8e74049b4f5f3d43b7e79_ColumbiaNursery-04955-p-1080.jpg",
+      "ogImageWidth": 1080,
+      "ogImageHeight": 720,
+      "ldPrimaryImage": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/65e8e74049b4f5f3d43b7e79_ColumbiaNursery-04955-p-1080-1024x683.jpg",
+      "canonical": "https://columbiafallsnursery.com/",
+      "datePublished": "2025-07-09T18:41:24+00:00",
+      "dateModified": "2026-08-30T22:37:44+00:00"
+    },
+    "about": {
+      "url": "https://columbiafallsnursery.com/full-service-nursery-in-northwest-montana-columbia-nursery/",
+      "title": "About us - Columbia Nursery & Landscape",
+      "metaDescription": "Learn about Columbia Nursery, the largest full-service nursery in NW Montana. Family-owned since 1993, with 16 greenhouses & display garden.",
+      "ogTitle": "About us - Columbia Nursery & Landscape",
+      "ogDescription": "Learn about Columbia Nursery, the largest full-service nursery in NW Montana. Family-owned since 1993, with 16 greenhouses & display garden.",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Family-Picture-2-1024x576.png",
+      "ogImageWidth": 1024,
+      "ogImageHeight": 576,
+      "ldPrimaryImage": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Family-Picture-2-scaled.png",
+      "canonical": "https://columbiafallsnursery.com/full-service-nursery-in-northwest-montana-columbia-nursery/",
+      "datePublished": "2025-07-09T19:17:13+00:00",
+      "dateModified": "2026-05-12T20:25:12+00:00",
+      "readingTime": "13 minutes"
+    },
+    "shop": {
+      "url": "https://columbiafallsnursery.com/shop/",
+      "title": "Shop - Columbia Nursery & Landscape",
+      "metaDescription": null,
+      "ogTitle": "Shop - Columbia Nursery & Landscape",
+      "ogDescription": "Our Shop and Facilities Garden Shop Step into our gift shop and breezeway where you’ll discover a treasure trove of essentials for your garden oasis. Whether you’re crafting an outdoor masterpiece or tending to a cherished landscaping project, we have it all!From top-quality tools, premium seeds, and insightful books to exquisite pottery, durable weed mat, […]",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b40a3194817467c32f8e_ColumbiaNursery-05020-p-1080.jpg",
+      "ogImageWidth": 1080,
+      "ogImageHeight": 720,
+      "canonical": "https://columbiafallsnursery.com/shop/",
+      "datePublished": "2025-07-30T22:52:57+00:00",
+      "dateModified": "2025-09-11T16:23:07+00:00",
+      "readingTime": "5 minutes",
+      "metaDescriptionNote": "No meta description in source; og:description is Yoast auto-excerpt."
+    },
+    "displayGarden": {
+      "url": "https://columbiafallsnursery.com/display-garden-4/",
+      "title": "Display Garden - Columbia Nursery & Landscape",
+      "metaDescription": null,
+      "ogTitle": "Display Garden - Columbia Nursery & Landscape",
+      "ogDescription": "Welcome to our Display Garden Inspiration Grows Here Step into the heart of Columbia Nursery and discover our beautiful Display Garden—a living showcase of trees, shrubs, and perennials that thrive in the unique climate of Northwest Montana. Designed to inspire both the weekend gardener and the professional landscaper, this thoughtfully curated space highlights plants that […]",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/yarrow-rbiok4puhdkpf5rs7liverv4olj715pxo2ck7vhn0w.png",
+      "canonical": "https://columbiafallsnursery.com/display-garden-4/",
+      "datePublished": "2025-08-22T18:13:51+00:00",
+      "dateModified": "2025-10-16T22:25:34+00:00",
+      "readingTime": "14 minutes",
+      "metaDescriptionNote": "No meta description in source; og:description is Yoast auto-excerpt."
+    },
+    "displayGardenPlants": {
+      "url": "https://columbiafallsnursery.com/display-garden-plants/",
+      "title": "Display Garden Plants - Columbia Nursery & Landscape",
+      "metaDescription": null,
+      "ogTitle": "Display Garden Plants - Columbia Nursery & Landscape",
+      "ogDescription": "Perennials Alchemilla Lady’s Mantle Low, mounding perennial valued for its soft, scalloped green leaves that catch and hold water droplets like jewels. Height 12–18 in – Spread 18–24 in. Prefers full sun to part shade – hardy to –40 °F. Clusters of airy, chartreuse flowers bloom in late spring to early summer, making a striking […]",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/ladys-mantle-1.png",
+      "ogImageWidth": 217,
+      "ogImageHeight": 217,
+      "canonical": "https://columbiafallsnursery.com/display-garden-plants/",
+      "datePublished": "2025-08-22T19:22:19+00:00",
+      "dateModified": "2025-10-08T23:30:41+00:00",
+      "readingTime": "63 minutes",
+      "metaDescriptionNote": "No meta description in source; og:description is Yoast auto-excerpt."
+    },
+    "customBaskets": {
+      "url": "https://columbiafallsnursery.com/custom-baskets/",
+      "title": "Custom Baskets - Columbia Nursery & Landscape",
+      "metaDescription": null,
+      "ogTitle": "Custom Baskets - Columbia Nursery & Landscape",
+      "ogDescription": "Custom Baskets & Container Planting Let us bring your flower dreams to life. Our custom planting program is one of the most popular services at Columbia Nursery, and it’s easy to see why. Whether you’re refreshing your porch pots or decking out your entire garden, we’ll help you create stunning container displays suited to your […]",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/custom-portfoilo-final-1-scaled.gif",
+      "canonical": "https://columbiafallsnursery.com/custom-baskets/",
+      "datePublished": "2025-09-11T19:58:57+00:00",
+      "dateModified": "2025-09-12T22:10:13+00:00",
+      "readingTime": "7 minutes",
+      "metaDescriptionNote": "No meta description in source; og:description is Yoast auto-excerpt."
+    },
+    "bulkYard": {
+      "url": "https://columbiafallsnursery.com/bulk-yard/",
+      "title": "Bulk Yard - Columbia Nursery & Landscape",
+      "metaDescription": "If you need it, we likely have it! You're invited to call and ask, or come and shop! Our staff are avid gardeners, so feel free to quiz us!",
+      "ogTitle": "Bulk Yard - Columbia Nursery & Landscape",
+      "ogDescription": "If you need it, we likely have it! You're invited to call and ask, or come and shop! Our staff are avid gardeners, so feel free to quiz us!",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Bulk-Yard-Sign-2.png",
+      "ogImageWidth": 1024,
+      "ogImageHeight": 1023,
+      "canonical": "https://columbiafallsnursery.com/bulk-yard/",
+      "datePublished": "2025-07-15T18:35:19+00:00",
+      "dateModified": "2026-09-28T21:13:44+00:00",
+      "readingTime": "10 minutes"
+    },
+    "educationalHandouts": {
+      "url": "https://columbiafallsnursery.com/educational-handouts/",
+      "title": "Educational Handouts - Columbia Nursery & Landscape",
+      "metaDescription": null,
+      "ogTitle": "Educational Handouts - Columbia Nursery & Landscape",
+      "ogDescription": "Air Plants Air-Purifying Houseplants Annuals Asparagus Beans Corn Peas Begonia Care Berries Blueberries Broccoli Cauliflower Brussels Carnivorous Plant Care Cloches – Extending the Growing Season Companion Planting Composting Container Gardening Cucumbers Cut Flowers Deer Resistant Plant List Deciduous Trees Dividing Perennials Elements & Supplements Evergreens Fall Coloring Trees & Shrubs Fall Watering Fertilizers & NPK […]",
+      "ogType": "article",
+      "ogImage": null,
+      "canonical": "https://columbiafallsnursery.com/educational-handouts/",
+      "datePublished": "2025-07-21T18:06:23+00:00",
+      "dateModified": "2025-07-30T16:04:14+00:00",
+      "readingTime": "1 minute",
+      "metaDescriptionNote": "No meta description in source; og:description is Yoast auto-excerpt."
+    },
+    "contact": {
+      "url": "https://columbiafallsnursery.com/contact/",
+      "title": "Contact - Columbia Nursery & Landscape",
+      "metaDescription": "You're invited to visit us at our location, 2544 9th St W, Columbia Falls, MT 59912, or call us at (406) 892-0339. We're open 7 days a week!",
+      "ogTitle": "Contact - Columbia Nursery & Landscape",
+      "ogDescription": "You're invited to visit us at our location, 2544 9th St W, Columbia Falls, MT 59912, or call us at (406) 892-0339. We're open 7 days a week!",
+      "ogType": "article",
+      "ogImage": "https://columbiafallsnursery.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg",
+      "canonical": "https://columbiafallsnursery.com/contact/",
+      "datePublished": "2025-07-09T19:31:53+00:00",
+      "dateModified": "2026-09-28T17:37:08+00:00",
+      "readingTime": "1 minute",
+      "ogImageNote": "og:image is the WPForms loading spinner (SEO bug); do not reuse."
+    }
+  },
+  "contradictions": [
+    {
+      "topic": "Days open",
+      "a": "Header on every page: \"Open Monday-Saturday 9:00am - 5:30pm\"",
+      "b": "Contact page meta/og description: \"We're open 7 days a week!\"",
+      "resolution": "Used Monday-Saturday (visible on-page text)."
+    },
+    {
+      "topic": "Map pin",
+      "a": "Contact page map embeds the street address \"2544 9th St W, Columbia Falls, MT 59912, USA\"",
+      "b": "Home page map embeds the search \"Columbia Nursery Kalispell\" (Kalispell is a different town)",
+      "resolution": "Used the contact-page address query."
+    },
+    {
+      "topic": "Greenhouses open to the public",
+      "a": "Home: \"We have 16 greenhouses filled with flowers, vegetables and houseplants ready to be relocated to your home.\"",
+      "b": "About: \"Eleven of our 16 greenhouses are production-focused ... not open to the public\"; \"Five greenhouses bursting with colorful flowers, veggie starts, and houseplants\"; Shop: \"five annual greenhouses\" plus a \"30 x 60-foot\" houseplant greenhouse (unclear whether it is one of the five).",
+      "resolution": "Facts list keeps each phrase verbatim; no \"five retail greenhouses\" wording exists in source."
+    },
+    {
+      "topic": "Tagline / \"largest\" claim",
+      "a": "og:description (home): \"The Flathead Valleys Largest Nursery!\" (no apostrophe)",
+      "b": "Yoast WebSite description: \"The Flatheads Largest Nursery\"; About: \"the largest full-service nursery in Northwest Montana\"",
+      "resolution": "tagline = home hero H2; others listed in taglineAlternates."
+    },
+    {
+      "topic": "Years in business",
+      "a": "Home/Contact: \"over 30 years\", \"over three decades\"; About: \"30+ years\"",
+      "b": "About: \"since 1993\"",
+      "resolution": "Consistent (1993 -> 2026 = 33 years); foundedYear 1993."
+    },
+    {
+      "topic": "Basket volume",
+      "a": "Contact: \"over a thousand meticulously curated baskets to peruse\"",
+      "b": "Custom Baskets/Shop: \"thousands of custom baskets\" / \"thousands of custom-planted baskets and pots\" each year",
+      "resolution": "Not strictly contradictory (stock vs. custom orders); kept both verbatim in facts."
+    },
+    {
+      "topic": "Footer links",
+      "a": "Footer \"About Us\" -> /about-us/ and \"Gift Shop\" -> /our-shop/",
+      "b": "Both URLs return 404; real pages are /full-service-nursery-in-northwest-montana-columbia-nursery/ and /shop/",
+      "resolution": "Flagged in nav.footerLinks (liveStatus 404)."
+    },
+    {
+      "topic": "Phone formatting",
+      "a": "On-page: \"(406) 892 – 0339\" (en dash with spaces)",
+      "b": "Meta description: \"(406) 892-0339\"; hrefs tel:4068920339 and tel:(406)892-0339",
+      "resolution": "display = \"(406) 892-0339\"; tel = +14068920339."
+    },
+    {
+      "topic": "Address formatting",
+      "a": "\"2544 9th St. W.\" / \"2544 9th St. W\" / \"2544 9th St W\"",
+      "b": "\"Columbia Falls, MT 59912\" vs footer \"Columbia Falls, MT. 59912\"",
+      "resolution": "street \"2544 9th St. W\", region \"MT\"."
+    },
+    {
+      "topic": "Contact page og:image",
+      "a": "Contact page og:image / JSON-LD primary image = WPForms spinner SVG",
+      "b": "n/a",
+      "resolution": "Excluded from media; flagged in seo.contact.ogImageNote."
+    }
+  ],
+  "extractionNotes": [
+    "No email address appears anywhere in the capture (no mailto:, no address text); contact is via phone and the WPForms form.",
+    "No geo coordinates in source; geo is null.",
+    "Home hero (#top-banner) background image comes from external Elementor CSS that was not captured; its URL is unknown.",
+    "Announcement/fall-sale banner exists only on the home page (custom HTML widget). Two empty hidden containers sit around it on the home page (hidden on desktop/tablet/mobile), probably placeholders for seasonal banners.",
+    "legalName is not present in source (only \"Columbia Nursery & Landscape\" / \"Columbia Nursery\")."
+  ]
+}

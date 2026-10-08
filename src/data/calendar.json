@@ -1,0 +1,78 @@
+{
+  "note": "General guidance for the Flathead Valley (USDA Zones 3–5). Timing shifts with elevation and each year's weather; our team is happy to help you plan.",
+  "months": [
+    { "month": 1, "name": "January", "summary": "Rest, plan and dream.", "tasks": [
+      { "text": "Browse seed catalogs and sketch this year's beds.", "handout": "Companion Planting" },
+      { "text": "Check stored bulbs, tubers and overwintering geraniums for rot or dryness.", "handout": "Geranium – Overwintering" },
+      { "text": "Give houseplants your brightest windows and water a little less.", "handout": "Houseplant Care" },
+      { "text": "Gently brush heavy snow off evergreen branches before it bends them.", "handout": "Evergreens" }
+    ] },
+    { "month": 2, "name": "February", "summary": "The first seeds of the year.", "tasks": [
+      { "text": "Start onions and slow-growing perennials indoors late in the month.", "handout": "Seed Starting Times" },
+      { "text": "Prune fruit trees and most deciduous trees while they are dormant.", "handout": "Pruning" },
+      { "text": "Set up lights, trays and fresh seed-starting mix.", "handout": "Seed Starting" },
+      { "text": "Plan soil improvements for spring with a soil test.", "handout": "Soil Testing" }
+    ] },
+    { "month": 3, "name": "March", "summary": "Seed-starting season indoors.", "tasks": [
+      { "text": "Start peppers, eggplant and early tomatoes under lights.", "handout": "Tomatoes, Peppers, Eggplant" },
+      { "text": "Start broccoli, cauliflower and Brussels sprouts for transplanting.", "handout": "Broccoli Cauliflower Brussels" },
+      { "text": "Warm garden soil early with cloches or a cold frame.", "handout": "Cloches – Extending the Growing Season" },
+      { "text": "Check soil temperatures before sowing anything outdoors.", "handout": "Soil Temperatures for Seed Starting" }
+    ] },
+    { "month": 4, "name": "April", "summary": "Wake up the garden.", "tasks": [
+      { "text": "Sow peas and cool-season greens once the soil can be worked.", "handout": "Beans Corn Peas" },
+      { "text": "Plant asparagus and rhubarb crowns.", "handout": "Asparagus" },
+      { "text": "Remove winter protection and prune shrub roses as buds swell.", "handout": "Shrub Roses" },
+      { "text": "Divide summer- and fall-blooming perennials as they emerge.", "handout": "Dividing Perennials" }
+    ] },
+    { "month": 5, "name": "May", "summary": "Planting month, with an eye on frost.", "tasks": [
+      { "text": "Plant trees and shrubs while spring moisture is on your side.", "handout": "Tree Planting" },
+      { "text": "Harden off seedlings over a week to ten days before planting out.", "handout": "Hardening Off Plants" },
+      { "text": "Plant seed potatoes and onion sets.", "handout": "Potatoes" },
+      { "text": "Hold tender annuals and tomatoes until frost danger passes, usually late May to early June.", "handout": "Annuals" }
+    ] },
+    { "month": 6, "name": "June", "summary": "Warm-season crops go in.", "tasks": [
+      { "text": "Plant squash, cucumbers and pumpkins once nights stay warm.", "handout": "Squash" },
+      { "text": "Set up drip lines or soaker hoses before the heat arrives.", "handout": "Irrigation & Watering" },
+      { "text": "Feed hanging baskets and containers regularly.", "handout": "Container Gardening" },
+      { "text": "Plant herbs in a sunny spot near the kitchen door.", "handout": "Herbs" }
+    ] },
+    { "month": 7, "name": "July", "summary": "Water deeply, deadhead often.", "tasks": [
+      { "text": "Water deeply in the morning rather than a little every day.", "handout": "Irrigation & Watering" },
+      { "text": "Snap garlic scapes to send energy to the bulbs.", "handout": "Garlic" },
+      { "text": "Watch for aphids and treat early with neem oil.", "handout": "Neem Oil" },
+      { "text": "Pick raspberries and strawberries as they ripen.", "handout": "Raspberries" }
+    ] },
+    { "month": 8, "name": "August", "summary": "Harvest and plan for fall.", "tasks": [
+      { "text": "Stop fertilizing trees and shrubs so new growth can harden before winter.", "handout": "Fertilizers & NPK" },
+      { "text": "Sow a fall crop of lettuce and greens.", "handout": "Lettuces" },
+      { "text": "Harvest tomatoes and cucumbers often to keep them producing.", "handout": "Tomatoes" },
+      { "text": "Plan where spring bulbs will go this fall.", "handout": "Spring Bulbs" }
+    ] },
+    { "month": 9, "name": "September", "summary": "One of the best times to plant.", "tasks": [
+      { "text": "Plant trees, shrubs and perennials while the soil is still warm.", "handout": "Tree Planting" },
+      { "text": "Plant and divide peonies.", "handout": "Peonies" },
+      { "text": "Cover tender crops on frosty nights to stretch the season.", "handout": "Cloches – Extending the Growing Season" },
+      { "text": "Bring geraniums indoors before the first hard frost.", "handout": "Geranium – Overwintering" }
+    ] },
+    { "month": 10, "name": "October", "summary": "Put the garden to bed.", "tasks": [
+      { "text": "Plant garlic for next summer's harvest.", "handout": "Garlic" },
+      { "text": "Plant tulips, daffodils and other spring bulbs before the ground freezes.", "handout": "Planting Fall Bulbs" },
+      { "text": "Water trees and evergreens deeply before freeze-up.", "handout": "Fall Watering" },
+      { "text": "Protect roses for winter.", "handout": "Rose Overwintering" },
+      { "text": "Add fallen leaves to the compost pile.", "handout": "Composting" }
+    ] },
+    { "month": 11, "name": "November", "summary": "Protect and rest.", "tasks": [
+      { "text": "Wrap young tree trunks against sunscald and rodents.", "handout": "Deciduous Trees" },
+      { "text": "Mulch perennials once the ground has frozen.", "handout": "Dividing Perennials" },
+      { "text": "Clean, sharpen and store garden tools.", "handout": "Pruning" },
+      { "text": "Move houseplants away from cold drafts and heat vents.", "handout": "Houseplant Care" }
+    ] },
+    { "month": 12, "name": "December", "summary": "Green things indoors.", "tasks": [
+      { "text": "Choose pet-safe houseplants for holiday gifts.", "handout": "Houseplants – Non-Toxic" },
+      { "text": "Add houseplants that help freshen indoor air.", "handout": "Air-Purifying Houseplants" },
+      { "text": "Water evergreens during a winter thaw if the ground is dry.", "handout": "Fall Watering" },
+      { "text": "Start a list of vegetables to grow next year.", "handout": "Vegetables" }
+    ] }
+  ]
+}

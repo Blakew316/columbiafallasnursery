@@ -1,0 +1,1033 @@
+{
+  "home": {
+    "sourceFile": "index.html",
+    "sections": [
+      {
+        "heading": "Annual Fall Sale",
+        "kind": "announcement",
+        "paragraphs": [
+          "20–50% Off the Entire Nursery",
+          "September 1 through closing, roughly October 31"
+        ]
+      },
+      {
+        "heading": "The Flathead Valley's Choice for Garden and Landscaping Supplies",
+        "headingLevel": 2,
+        "kind": "hero",
+        "id": "top-banner",
+        "paragraphs": [],
+        "backgroundImage": null,
+        "note": "Hero (#top-banner) background image is set in external Elementor CSS (wp-content/uploads/elementor/css/post-13.css), which is not in the capture; URL unknown."
+      },
+      {
+        "heading": "Our Gift Shop and Facilities",
+        "headingLevel": 2,
+        "paragraphs": []
+      },
+      {
+        "heading": "Plant Nursery in NW Montana",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Columbia Nursery has everything for your garden and outdoor landscaping needs. We carry trees, shrubs, perennials, annuals, houseplants, custom baskets, bulk bark and rock, seeds, pottery, and other unique gardening accessories!"
+        ],
+        "links": [
+          {
+            "text": "trees, shrubs, perennials",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/65e8e74049b4f5f3d43b7e79_ColumbiaNursery-04955-p-1080-1024x683.jpg",
+            "alt": "",
+            "width": 800,
+            "height": 534,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/65e8e74049b4f5f3d43b7e79_ColumbiaNursery-04955-p-1080.jpg",
+            "largestWidth": 1080
+          }
+        ]
+      },
+      {
+        "heading": "Our Greenhouses",
+        "headingLevel": 2,
+        "paragraphs": [
+          "We have 16 greenhouses filled with flowers, vegetables and houseplants ready to be relocated to your home. Our greenhouse experts are always on site, ready to help answer any questions you may have. They are very knowledgeable and love to help you find the ideal plants for your landscaping or garden."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b36b2d8f4e0075f8ed0a_ColumbiaNursery-05010-p-1080-1024x683.jpg",
+            "alt": "",
+            "width": 800,
+            "height": 534,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b36b2d8f4e0075f8ed0a_ColumbiaNursery-05010-p-1080.jpg",
+            "largestWidth": 1080
+          }
+        ]
+      },
+      {
+        "heading": "Columbia Nursery & Landscape",
+        "headingLevel": 2,
+        "paragraphs": []
+      },
+      {
+        "heading": "We have served the Flathead Valley area for over 30 years",
+        "headingLevel": 2,
+        "paragraphs": [
+          "We have an extensive line of trees, shrubs, perennials, annuals, vegetables, houseplants, cut flowers, gardening products & a custom planter program to ensure that your garden and landscaping looks its best.",
+          "We also have experienced experts on staff that can help answer all of your gardening questions.",
+          "We are confident you will find everything you need at Columbia Nursery & Landscape and can’t wait to see you!"
+        ],
+        "links": [
+          {
+            "text": "trees, shrubs, perennials",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          },
+          {
+            "text": "custom planter program",
+            "href": "https://columbiafallsnursery.com/custom-baskets/"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b39c31419a72f1d580bb_ColumbiaNursery-04968-p-1080-683x1024.jpg",
+            "alt": "",
+            "width": 683,
+            "height": 1024,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b39c31419a72f1d580bb_ColumbiaNursery-04968-p-1080.jpg",
+            "largestWidth": 1080
+          }
+        ]
+      },
+      {
+        "heading": "Our Location",
+        "headingLevel": 2,
+        "paragraphs": [
+          "2544 9th St. W.",
+          "Columbia Falls, MT 59912",
+          "(406) 892 – 0339"
+        ],
+        "links": [
+          {
+            "text": "2544 9th St. W.",
+            "href": "https://www.google.com/maps?hl=en&mat=CTzmEVboRx3HElYBmzl_pTTJAgw66ISVXVCikdR_qT2WGRHGzjuvGVR0m-phw-5xo53ptq6tjHw3F7TX_vt1fmT-CQpb61-BbuypvNuEFT2tHM0u9q0T_tzIvJBkpv4_iw&authuser=0&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KTEOKw6dQWZTMYnxrzx7I87S&daddr=2544+9th+St+W,+Columbia+Falls,+MT+59912"
+          },
+          {
+            "text": "Columbia Falls, MT 59912",
+            "href": "https://www.google.com/maps?hl=en&mat=CTzmEVboRx3HElYBmzl_pTTJAgw66ISVXVCikdR_qT2WGRHGzjuvGVR0m-phw-5xo53ptq6tjHw3F7TX_vt1fmT-CQpb61-BbuypvNuEFT2tHM0u9q0T_tzIvJBkpv4_iw&authuser=0&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KTEOKw6dQWZTMYnxrzx7I87S&daddr=2544+9th+St+W,+Columbia+Falls,+MT+59912"
+          },
+          {
+            "text": "(406) 892 – 0339",
+            "href": "tel:(406)892-0339"
+          }
+        ],
+        "map": {
+          "embedSrc": "https://maps.google.com/maps?q=Columbia%20Nursery%20Kalispell&t=m&z=10&output=embed&iwloc=near",
+          "query": "Columbia Nursery Kalispell",
+          "title": "Columbia Nursery Kalispell"
+        }
+      },
+      {
+        "heading": "Contact Us",
+        "headingLevel": 2,
+        "paragraphs": [],
+        "form": {
+          "provider": "WPForms",
+          "formId": "254",
+          "fields": [
+            {
+              "label": "NAME",
+              "type": "text",
+              "name": "wpforms[fields][1]",
+              "required": true,
+              "placeholder": "Enter your name"
+            },
+            {
+              "label": "EMAIL ADDRESS",
+              "type": "email",
+              "name": "wpforms[fields][2]",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "label": "MESSAGE",
+              "type": "textarea",
+              "name": "wpforms[fields][3]",
+              "required": true,
+              "placeholder": "Enter your message"
+            }
+          ],
+          "submitText": "SUBMIT",
+          "sendingText": "Sending...",
+          "honeypotExcluded": "wpforms field 4 (hidden anti-spam field) omitted"
+        }
+      }
+    ]
+  },
+  "about": {
+    "sourceFile": "full-service-nursery-in-northwest-montana-columbia-nursery.html",
+    "sections": [
+      {
+        "heading": "About Columbia Nursery – A Full-Service Nursery in Northwest Montana",
+        "headingLevel": 2,
+        "paragraphs": []
+      },
+      {
+        "heading": "Rooted in the Flathead Valley",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Columbia Nursery has proudly served Columbia Falls and the greater Flathead Valley since 1993. Family-owned and operated, we are now in our third generation of growers, designers, and plant lovers, all working side by side to help our community grow — literally and figuratively."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Family-Picture-2-1024x576.png",
+            "alt": "",
+            "width": 800,
+            "height": 450,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Family-Picture-2-2048x1152.png",
+            "largestWidth": 2048
+          }
+        ]
+      },
+      {
+        "heading": "The Largest Full-Service Nursery in Northwest Montana",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Spanning 7 acres and housing 16 greenhouses, Columbia Nursery is the largest full-service nursery in Northwest Montana. Whether you’re a seasoned landscape contractor or a DIY gardener just getting started, we offer the products, expertise, and service to help your outdoor projects thrive."
+        ]
+      },
+      {
+        "heading": "What Makes Us a Full-Service Nursery",
+        "headingLevel": 2,
+        "paragraphs": [
+          "We do more than just sell plants — we grow them, design with them, and help you keep them thriving. When you stop by, you’ll find:"
+        ],
+        "list": [
+          "Trees, shrubs, perennials, and annuals that are tough enough for Northwest Montana",
+          "Five greenhouses bursting with colorful flowers, veggie starts, and houseplants",
+          "11 production greenhouses packed with cut flowers and custom basket stock",
+          "A custom planting program — bring your own pots or pick one of ours, and we’ll fill it to match your space and style",
+          "A seasonal cut flower garden with favorites like dahlias, cosmos, and lisianthus — perfect for florists, weddings, or DIY bouquets",
+          "A stroll-through display garden full of ideas for your own yard",
+          "A fully loaded landscape yard with bulk mulch, compost, soil, rock, irrigation parts, edging, and plant food"
+        ],
+        "paragraphsAfterList": [
+          "Whether you’re a hands-on gardener, a professional landscaper, or just starting out, we’re here to help you grow with confidence."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We do more than just sell plants — we grow them, design with them, and help you keep them thriving. When you stop by, you’ll find:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Trees, shrubs, perennials, and annuals that are tough enough for Northwest Montana",
+              "Five greenhouses bursting with colorful flowers, veggie starts, and houseplants",
+              "11 production greenhouses packed with cut flowers and custom basket stock",
+              "A custom planting program — bring your own pots or pick one of ours, and we’ll fill it to match your space and style",
+              "A seasonal cut flower garden with favorites like dahlias, cosmos, and lisianthus — perfect for florists, weddings, or DIY bouquets",
+              "A stroll-through display garden full of ideas for your own yard",
+              "A fully loaded landscape yard with bulk mulch, compost, soil, rock, irrigation parts, edging, and plant food"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Whether you’re a hands-on gardener, a professional landscaper, or just starting out, we’re here to help you grow with confidence."
+          }
+        ],
+        "links": [
+          {
+            "text": "Trees, shrubs, perennials",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          },
+          {
+            "text": "custom planting program",
+            "href": "https://columbiafallsnursery.com/custom-baskets/"
+          },
+          {
+            "text": "display garden",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          },
+          {
+            "text": "bulk mulch, compost, soil, rock",
+            "href": "https://columbiafallsnursery.com/bulk-yard/"
+          }
+        ]
+      },
+      {
+        "heading": null,
+        "kind": "gallery",
+        "paragraphs": [],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Watering-1.jpeg",
+            "alt": "Watering"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Selection-1.jpeg",
+            "alt": "Selection"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Potting-1.jpeg",
+            "alt": "Potting"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Plants-2-1.jpeg",
+            "alt": "Plants 2"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Plants-1-1.jpeg",
+            "alt": "Plants 1"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Planters-1.jpeg",
+            "alt": "Planters"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/House-Plants-1.jpeg",
+            "alt": "House Plants"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Flowers-3-1.jpeg",
+            "alt": "Flowers 3"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Drone-of-Yard-1.jpeg",
+            "alt": "Drone of Yard"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2026/05/Drone-Footprint-1.jpeg",
+            "alt": "Drone Footprint"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Perfect-Peonies-300x300.jpg",
+            "alt": "Perfect Peonies"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/mason-bee.jpg",
+            "alt": "mason bee"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Little-Lime-Hydrangea-1-300x300.jpg",
+            "alt": "Little Lime Hydrangea"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Houseplant-1.jpg",
+            "alt": "Houseplant"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Fruiting-Pineapple-1.jpg",
+            "alt": "Fruiting Pineapple"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Foxglove-2.jpg",
+            "alt": "Foxglove"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/evergreens2-1.jpg",
+            "alt": "evergreens2"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Evergreens1-2.jpg",
+            "alt": "Evergreens1"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Echinacea-1.jpg",
+            "alt": "Echinacea"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/display-garden-2.jpg",
+            "alt": "display garden"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Cut-Flowers-2-300x300.jpg",
+            "alt": "Cut Flowers"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Cut-Flowers-3-1.jpg",
+            "alt": "Cut Flowers 3"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/custom-basket1.jpg",
+            "alt": "custom basket1"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/custom-basket-1.jpg",
+            "alt": "custom basket"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Black-Eyed-Susan-vine-2.jpg",
+            "alt": "Black Eyed Susan vine"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Bee-Balm-2.jpg",
+            "alt": "Bee Balm"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Basket1-2.jpg",
+            "alt": "Basket1"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Basket-2.jpg",
+            "alt": "Basket"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Autumn-Frost-Hosta-2.jpg",
+            "alt": "Autumn Frost Hosta"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Astilbe-2.jpg",
+            "alt": "Astilbe"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/514725587_1503739254294723_7212828787221328210_n-2.jpg",
+            "alt": "514725587_1503739254294723_7212828787221328210_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/495496253_1462574638411185_7453910650454819671_n-2.jpg",
+            "alt": "495496253_1462574638411185_7453910650454819671_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/495326149_1458036465531669_3553198590627565758_n-2.jpg",
+            "alt": "495326149_1458036465531669_3553198590627565758_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/495294670_1458033435531972_4226595468835519126_n-2.jpg",
+            "alt": "495294670_1458033435531972_4226595468835519126_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/495085520_1457788432223139_1631532592974039354_n-2.jpg",
+            "alt": "495085520_1457788432223139_1631532592974039354_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/493886639_1451622199506429_8235534881253035451_n-2.jpg",
+            "alt": "493886639_1451622199506429_8235534881253035451_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/493870514_1451627409505908_870281906650853348_n-2.jpg",
+            "alt": "493870514_1451627409505908_870281906650853348_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/492000366_1449679416367374_2709571457444833104_n-2.jpg",
+            "alt": "492000366_1449679416367374_2709571457444833104_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/490920878_1443338320334817_2136938482176834822_n-2.jpg",
+            "alt": "490920878_1443338320334817_2136938482176834822_n"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/3rd-Generation2-1.jpg",
+            "alt": "3rd Generation2"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Little-Lime-Hydrangea-300x300.jpg",
+            "alt": "Little Lime Hydrangea"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Hydrangea.jpg",
+            "alt": "Hydrangea"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Houseplant.jpg",
+            "alt": "Houseplant"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Fruiting-Pineapple.jpg",
+            "alt": "Fruiting Pineapple"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/3rd-Generation-2.jpg",
+            "alt": "3rd Generation"
+          }
+        ]
+      },
+      {
+        "heading": "Beauty Behind the Scenes",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Eleven of our 16 greenhouses are production-focused — growing thousands of plants each year for our custom programs and cut flower garden. While these greenhouses are not open to the public, you will experience the fruits of their production when you peruse the remainder of our nursery grounds."
+        ]
+      },
+      {
+        "heading": "A Display Garden to Inspire",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Wander through our walk-through display garden to see mature examples of trees, shrubs, perennials, and mulches in action. Whether you are a landscape professional or a garden/landscape enthusiast, you will find inspiration for your next project."
+        ],
+        "links": [
+          {
+            "text": "display garden",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          },
+          {
+            "text": "perennials",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Display-Garden-r9mmi6ma7c4m44hyvk5fpgqteic92tqw0ca8tktxu0.jpg",
+            "alt": "Display Garden"
+          }
+        ]
+      },
+      {
+        "heading": "Growing With You Since 1993",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Over the past 30+ years, Columbia Nursery has grown to become the trusted name for gardeners across Northwest Montana. Whether you’re building your first garden bed or designing a full landscape, we’re honored to be part of your growing journey.",
+          "Come see why we’re the go-to garden center in Columbia Falls — where quality, service, and community grow together."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/61285481fddd40c4eb7bdd1a_Columbia-Nursery-Web-Images-05022-768x512.jpg",
+            "alt": "",
+            "width": 768,
+            "height": 512,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/61285481fddd40c4eb7bdd1a_Columbia-Nursery-Web-Images-05022-2048x1365.jpg",
+            "largestWidth": 2048
+          }
+        ]
+      },
+      {
+        "heading": "Local Roots, Community Focus",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Our deep roots in the Flathead Valley community shape everything we do. As a Montana nursery committed to sustainability and local partnerships, we’re proud to support schools, local events, and regional agriculture. Our knowledgeable team is always ready with expert advice, planting tips, and a friendly smile."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Staff-Photo-1024x705.jpg",
+            "alt": "",
+            "width": 800,
+            "height": 551,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/08/Staff-Photo.jpg",
+            "largestWidth": 1177
+          }
+        ]
+      }
+    ]
+  },
+  "shop": {
+    "sourceFile": "shop.html",
+    "sections": [
+      {
+        "heading": "Our Shop and Facilities",
+        "headingLevel": 2,
+        "paragraphs": []
+      },
+      {
+        "heading": "Garden Shop",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Step into our gift shop and breezeway where you’ll discover a treasure trove of essentials for your garden oasis. Whether you’re crafting an outdoor masterpiece or tending to a cherished landscaping project, we have it all!",
+          "From top-quality tools, premium seeds, and insightful books to exquisite pottery, durable weed mat, and top-notch irrigation supplies, we’ve curated a selection that caters to every green thumb’s needs.",
+          "Let us be your one-stop haven for garden enthusiasts!"
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b40a3194817467c32f8e_ColumbiaNursery-05020-p-1080-1024x683.jpg",
+            "alt": "",
+            "width": 800,
+            "height": 534,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/6373b40a3194817467c32f8e_ColumbiaNursery-05020-p-1080.jpg",
+            "largestWidth": 1080
+          }
+        ]
+      },
+      {
+        "heading": "Houseplants",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Experience our sprawling 30 x 60-foot greenhouse, a sanctuary teeming with an array of houseplants, ranging from vibrant orange blooms to majestic 9-foot trees. Explore our superb assortment of succulents, cacti, and unique botanical treasures.",
+          "We’ve got you covered for every aspect of indoor gardening, providing an extensive selection of pots and premium soil.",
+          "Let us be your guiding hand in transforming the interior of your home into a verdant haven of beauty!"
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/612854cd57e37031db29f513_Columbia-Nursery-Web-Images-04987-p-1080-1024x683.jpeg",
+            "alt": "",
+            "width": 800,
+            "height": 534,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/612854cd57e37031db29f513_Columbia-Nursery-Web-Images-04987-p-1080.jpeg",
+            "largestWidth": 1080
+          }
+        ]
+      },
+      {
+        "heading": "Explore Our Display Garden",
+        "headingLevel": 2,
+        "subheading": "Inspiration Grows Here",
+        "paragraphs": [
+          "Step into the heart of Columbia Nursery and discover our beautiful Display Garden—a living showcase of trees, shrubs, and perennials that thrive in the unique climate of Northwest Montana. Designed to inspire both the weekend gardener and the professional landscaper, this thoughtfully curated space highlights plants that bring color, texture, and year-round beauty to any outdoor setting.",
+          "Whether you’re dreaming up a new landscape or looking to enhance an existing one, our garden offers real-life examples of how to combine hardy, regionally appropriate plants into stunning arrangements. See how foliage and bloom can work together across the seasons, explore plant pairings for sun and shade, and gather ideas to bring your own outdoor space to life.",
+          "Visit often—our garden is ever-changing and always growing."
+        ],
+        "links": [
+          {
+            "text": "Display Garden",
+            "href": "https://columbiafallsnursery.com/display-garden-4/"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/perennials-1.png",
+            "alt": "",
+            "width": 546,
+            "height": 546
+          }
+        ]
+      },
+      {
+        "heading": "Annuals & Vegetables",
+        "headingLevel": 2,
+        "subheading": "A Burst of Color and Life Awaits",
+        "paragraphs": [
+          "At Columbia Nursery, our five annual greenhouses are bursting with life—each one filled with an ever-changing array of colorful annual flowers and thriving vegetable starts ready for your garden. Whether you’re planting containers, filling flower beds, or growing your own food, you’ll find the season’s best selections right here under one roof (or five!).",
+          "From cheerful petunias and geraniums to lush hanging baskets and healthy tomato starts, our greenhouses are carefully tended to ensure every plant is strong, vibrant, and ready to grow. We choose varieties that perform well in Northwest Montana’s unique climate, so you can plant with confidence and enjoy beautiful results.",
+          "Stroll through our greenhouses and let the colors spark your creativity. Whether you’re a seasoned gardener or just starting out, there’s something here for everyone."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Veggies-1024x1020.png",
+            "alt": "",
+            "width": 800,
+            "height": 797,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Veggies.png",
+            "largestWidth": 1306
+          }
+        ]
+      },
+      {
+        "heading": "Cut Flower Program",
+        "headingLevel": 2,
+        "subheading": "Locally Grown • Seasonally Stunning • Always Fresh",
+        "paragraphs": [
+          "Discover the beauty of fresh, locally grown blooms with our cut flower program at Columbia Nursery. From stunning dahlias and delicate lisianthus to cheerful cosmos, fragrant stock, and elegant Bells of Ireland, our fields are bursting with color and texture throughout the growing season.",
+          "Perfect for florists, weddings, special events, or simply brightening your home, our flowers are grown on-site in Northwest Montana for unmatched freshness and quality. We carefully select varieties known for their long vase life, vibrant hues, and exceptional form.",
+          "Looking for a more personal experience? Visit our Create-Your-Own Bouquet Booth—a fun and creative way to handpick your favorites and design a one-of-a-kind arrangement. Whether you’re a floral professional or a flower lover, there’s something magical about building a bouquet straight from the garden.",
+          "Available seasonally, our cut flower program offers the charm of garden-grown blooms with the convenience and quality you expect from Columbia Nursery."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Untitled-design-26.png",
+            "alt": "",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "heading": "Custom Baskets & Pots",
+        "headingLevel": 2,
+        "subheading": "Tailored Beauty for Your Porch, Patio, or Garden",
+        "paragraphs": [
+          "Bring your container—and your vision—to life with our Custom Baskets & Pots program at Columbia Nursery. Whether you supply your own favorite container or choose from our wide selection of unique hanging baskets, ceramic floor pots, and stylish planters, we’ll design something truly special just for you.",
+          "Our expert team will custom plant your container with healthy, vibrant flowers selected to thrive in your specific location—sun or shade—and chosen to reflect your preferred colors, style, and taste. From bold and bright to soft and elegant, your container garden will be uniquely yours.",
+          "Every year, we craft thousands of custom-planted baskets and pots for happy customers throughout Northwest Montana. Whether it’s a single showpiece or a full patio collection, we’ll help you create something beautiful that lasts all season long.",
+          "Drop off your container or stop in to get started—we’ll take care of the rest."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Custom-Basket.jpg",
+            "alt": "",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "heading": "Trees, Shrubs, Perennials",
+        "headingLevel": 2,
+        "subheading": "Hardy Plants for Montana Landscapes",
+        "paragraphs": [
+          "At Columbia Nursery, we specialize in trees, shrubs, and perennials that thrive in the unique climate of Northwest Montana. Our plant selections are carefully chosen for cold hardiness, drought tolerance, and beauty throughout the seasons. Whether you’re looking to create a shady backyard retreat, add structure and color to your landscape, or attract pollinators, you’ll find trusted favorites and exciting new varieties suited to Zones 3–5.",
+          "We proudly grow and stock a wide range of native and regionally adapted plants, from rugged evergreens and flowering shrubs to long-lived perennials that return year after year. Our knowledgeable staff is here to help you choose the right plants for your soil, sun exposure, and design goals—whether you’re a seasoned gardener or just getting started.",
+          "Let us help you build a resilient, beautiful landscape that reflects the natural beauty of the Flathead Valley and beyond"
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/perennials-1.png",
+            "alt": "",
+            "width": 546,
+            "height": 546
+          }
+        ]
+      },
+      {
+        "heading": "Landscape Supplies",
+        "headingLevel": 2,
+        "subheading": "Everything You Need to Build It Right",
+        "paragraphs": [
+          "At Columbia Nursery, we carry a full range of landscape supplies to support projects of every size—from backyard makeovers to large-scale installations. Whether you’re a seasoned professional or a weekend DIYer, you’ll find the tools and materials you need to get the job done right.",
+          "Our selection includes:"
+        ],
+        "list": [
+          "Landscape fabric & edging for clean lines and weed control",
+          "Irrigation supplies to keep your plants healthy and hydrated",
+          "Fertilizers & soil amendments to nourish your soil and boost growth",
+          "A wide variety of bulk products including rock, mulch, compost, and topsoil—available by the bucket or by the truckload"
+        ],
+        "paragraphsAfterList": [
+          "Our knowledgeable staff is here to help you choose the right materials for your site and goals. Whether you’re installing a new garden bed, refreshing a path, or improving soil health, Columbia Nursery is your one-stop source for reliable, high-quality landscape supplies."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "At Columbia Nursery, we carry a full range of landscape supplies to support projects of every size—from backyard makeovers to large-scale installations. Whether you’re a seasoned professional or a weekend DIYer, you’ll find the tools and materials you need to get the job done right."
+          },
+          {
+            "type": "p",
+            "text": "Our selection includes:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Landscape fabric & edging for clean lines and weed control",
+              "Irrigation supplies to keep your plants healthy and hydrated",
+              "Fertilizers & soil amendments to nourish your soil and boost growth",
+              "A wide variety of bulk products including rock, mulch, compost, and topsoil—available by the bucket or by the truckload"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Our knowledgeable staff is here to help you choose the right materials for your site and goals. Whether you’re installing a new garden bed, refreshing a path, or improving soil health, Columbia Nursery is your one-stop source for reliable, high-quality landscape supplies."
+          }
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Untitled-design-27-1024x1024.png",
+            "alt": "",
+            "width": 800,
+            "height": 800,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Untitled-design-27.png",
+            "largestWidth": 1536
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "sourceFile": "contact.html",
+    "sections": [
+      {
+        "heading": "Our Location",
+        "headingLevel": 2,
+        "paragraphs": [
+          "Open Monday-Saturday 9:00am – 5:30pm",
+          "(406) 892 – 0339",
+          "2544 9th St. W, Columbia Falls, MT 59912"
+        ],
+        "links": [
+          {
+            "text": "(406) 892 – 0339",
+            "href": "tel:(406)892-0339"
+          },
+          {
+            "text": "2544 9th St. W, Columbia Falls, MT 59912",
+            "href": "https://www.google.com/maps?hl=en&mat=CTzmEVboRx3HElYBmzl_pTTJAgw66ISVXVCikdR_qT2WGRHGzjuvGVR0m-phw-5xo53ptq6tjHw3F7TX_vt1fmT-CQpb61-BbuypvNuEFT2tHM0u9q0T_tzIvJBkpv4_iw&authuser=0&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KTEOKw6dQWZTMYnxrzx7I87S&daddr=2544+9th+St+W,+Columbia+Falls,+MT+59912"
+          }
+        ],
+        "map": {
+          "embedSrc": "https://maps.google.com/maps?q=2544%209th%20St%20W%2C%20Columbia%20Falls%2C%20MT%2059912%2C%20USA&t=m&z=10&output=embed&iwloc=near",
+          "query": "2544 9th St W, Columbia Falls, MT 59912, USA",
+          "title": "2544 9th St W, Columbia Falls, MT 59912, USA"
+        }
+      },
+      {
+        "heading": "Contact Us",
+        "headingLevel": 2,
+        "paragraphs": [],
+        "form": {
+          "provider": "WPForms",
+          "formId": "254",
+          "fields": [
+            {
+              "label": "NAME",
+              "type": "text",
+              "name": "wpforms[fields][1]",
+              "required": true,
+              "placeholder": "Enter your name"
+            },
+            {
+              "label": "EMAIL ADDRESS",
+              "type": "email",
+              "name": "wpforms[fields][2]",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "label": "MESSAGE",
+              "type": "textarea",
+              "name": "wpforms[fields][3]",
+              "required": true,
+              "placeholder": "Enter your message"
+            }
+          ],
+          "submitText": "SUBMIT",
+          "sendingText": "Sending...",
+          "honeypotExcluded": "wpforms field 4 (hidden anti-spam field) omitted"
+        }
+      },
+      {
+        "heading": "Columbia Nursery & Landscape",
+        "headingLevel": 2,
+        "paragraphs": []
+      },
+      {
+        "heading": "We've served the Flathead Valley area for over 30 years.",
+        "headingLevel": 2,
+        "paragraphs": [
+          "For over three decades, we’ve been honored to be your trusted partner in all things green and growing. At the heart of our mission lies an unwavering commitment to exceptional customer service. Our team is not only well-informed and eager to assist, but they find genuine joy in helping you achieve your gardening aspirations.",
+          "Step into our greenhouses, where each corner bursts with a kaleidoscope of vibrant hues every spring. With over a thousand meticulously curated baskets to peruse, we ensure you’ll find just what you’re looking for. And if that’s not enough, we’re delighted to craft custom creations tailored to your unique vision.",
+          "Allow us to continue being your beacon of blooming brilliance."
+        ],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/65e8e835ed1946e5ced55c5b_ColumbiaNursery-04990-p-1080-1024x683.jpg",
+            "alt": "",
+            "width": 800,
+            "height": 534,
+            "largest": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/65e8e835ed1946e5ced55c5b_ColumbiaNursery-04990-p-1080.jpg",
+            "largestWidth": 1080
+          }
+        ]
+      }
+    ]
+  },
+  "displayGarden": {
+    "sourceFile": "display-garden-4.html",
+    "sections": [
+      {
+        "heading": "Welcome to our Display Garden",
+        "headingLevel": 2,
+        "subheading": "Inspiration Grows Here",
+        "paragraphs": [
+          "Step into the heart of Columbia Nursery and discover our beautiful Display Garden—a living showcase of trees, shrubs, and perennials that thrive in the unique climate of Northwest Montana. Designed to inspire both the weekend gardener and the professional landscaper, this thoughtfully curated space highlights plants that bring color, texture, and year-round beauty to any outdoor setting.",
+          "Whether you’re dreaming up a new landscape or looking to enhance an existing one, our garden offers real-life examples of how to combine hardy, regionally appropriate plants into stunning arrangements. See how foliage and bloom can work together across the seasons, explore plant pairings for sun and shade, and gather ideas to bring your own outdoor space to life.",
+          "Visit often—our garden is ever-changing and always growing.",
+          "See our full list of display garden plants below. Download a PDF here."
+        ],
+        "links": [
+          {
+            "text": "display garden plants",
+            "href": "#plant-list"
+          },
+          {
+            "text": "Download a PDF here.",
+            "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/Display-Garden-PDF-Catalog1.pdf"
+          }
+        ]
+      },
+      {
+        "heading": null,
+        "kind": "gallery",
+        "paragraphs": [],
+        "images": [
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/yarrow-rbiok4puhdkpf5rs7liverv4olj715pxo2ck7vhn0w.png",
+            "alt": "yarrow"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Vanilla-Strawberry-Hydrangea-rbiok2u63pi4rxuiikpm9sc7htsglrigzt1l9bkfdc.png",
+            "alt": "Vanilla Strawberry Hydrangea"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Toba-Hawthorn-rbiok0yhq1fk4px8tjwd4stab21q6db0bjqmarn7ps.png",
+            "alt": "Toba Hawthorn"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Sunjoy-Gold-Pillar-Barberry-rbiojx74ypaeua2pfi9uutrfxik9bkw2z14odnsseo.png",
+            "alt": "Sunjoy Gold Pillar Barberry"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/superstar-rbiojy4z5jbp5w1ca0ohfbiwiwfmj9ztb5s5uxre8g.png",
+            "alt": "superstar"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Spilled-Wine-Weigela-rbiojshy0j3z889j6y8q0cy4yl7f93dfadv8z9zr9s.png",
+            "alt": "Spilled Wine Weigela"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Sungold-False-Cypress-rbiojvbgl17u725fqhglpu8iqqtiw6omartpf3vkr4.png",
+            "alt": "Sungold False Cypress"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/stella-doro-rbiojudme76jvg6svz1z5ch25cy5ohkvyn67xtwyxc.png",
+            "alt": "stella d'oro"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Skyland-Oriental-Spruce-rbiojkz8hutonckgeuzpgeug7i8hjijklcnd52awnk.png",
+            "alt": "Skyland Oriental Spruce"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Skyline-Honeylocust-rbiojlx2oouyyyj39dec0wlwsw3ur7naxhaumc9ihc.png",
+            "alt": "Skyline Honeylocust"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/serendipity-allium-rbiojk1eb0sebqltkcl2vx2zm4d4btfu97zvnscats.png",
+            "alt": "serendipity allium"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rugosa-Red-rbiojga1jon91ara6aykly158kvnh10wwpdxqohvio.png",
+            "alt": "Rugosa Red"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/rose-mallow-all-eyes-on-me-rbiojdgiz6je2gvdmrqowgqrgf9jtxppwbfhaum21c.png",
+            "alt": "rose mallow all eyes on me"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rose-Marvel-rbiojeed60koe2u0ha5bgyi81t4x1mtg8g2ys4knv4.png",
+            "alt": "Rose Marvel"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/russian-sage-rbiojh7vqiojcwpx0td76fsltyr0oq4n8u1f7yghcg.png",
+            "alt": "russian sage"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/raspberry-truffle-coneflower-rbioiss2str2z1peziswdlymdy3h4lfmhh2sqrgpu8.png",
+            "alt": "raspberry truffle coneflower"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/royal-candles-veronica-rbiojfc7culyposnbsjy1g9on70a9bx6kkqg9ej9ow.png",
+            "alt": "royal candles veronica"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Red-Cone-Norway-Spruce-rbioitpwznsdano1u17iy3q2zbyucajctlqa81fbo0.png",
+            "alt": "Red Cone Norway Spruce"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rainbows-End-Alberta-Spruce-rbioiru8lzpsnfqs50e9t475sk83wwbw5cfb9hi40g.png",
+            "alt": "Rainbows End Alberta Spruce"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rainbow-Sensation-Weigela-rbioipyk8bn807tifzl0o4o8lshdhi4fh34caxkwcw.png",
+            "alt": "Rainbow Sensation Weigela"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/PJM-Hybrid-Rhododendron-rbioil9da5gse60c7fjvtnuxmv4jf0lrsfuwwjrv80.png",
+            "alt": "PJM Hybrid Rhododendron"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/popstar-balloon-flower-rbioin51ntjd1dxlwgd4yndutmv9uet8gp5vv3p2vk.png",
+            "alt": "popstar balloon flower"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Princeton-Gold-Maple-rbioio2vunknczw8qyrrj55bf0qn23wysttdcdnopc.png",
+            "alt": "Princeton Gold Maple"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/purrsian-blue-catmint-rbioipyk8bn807tifzl0o4o8lshdhi4fh34caxkwcw.png",
+            "alt": "purrsian blue catmint"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Pink-Sparkler-Spirea-rbioihi0itbn3q5stdxdjot39bn2k86ufx8yzfxfww.png",
+            "alt": "Pink Sparkler Spirea"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Pawnee-Buttes-Sand-Cherry-rbioibuzdt3x62dzqbhm4q8bp0eva1kgf5c23s5sy8.png",
+            "alt": "Pawnee Buttes Sand Cherry"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Parkland-PIllar-Birch-rbioiax56z2mugfcvt2zk8gv3mji2cgq30okmi774g.png",
+            "alt": "Parkland PIllar Birch"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/orchid-frost-dead-nettle-rbioi83mmgyrvmjgc9v3ur6hbgxef95j2mq46obdn4.png",
+            "alt": "orchid frost dead nettle"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/My-Monet-Weigela-rbiohwtkcgjc0azu64zl0u0y6ugzuvwr12wafcs3ps.png",
+            "alt": "My Monet Weigela"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Northern-Gold-Forsythia-rbiohzn2wyn6z4vqpo7gqbbbz033hz7y1guqv6nx74.png",
+            "alt": "Northern Gold Forsythia"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/MOPS-Mugo-Pine-rbioha9fsfog9nwltv8jczpvxlk6q5f6xz8mwppjv4.png",
+            "alt": "MOPS Mugo Pine"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/munstead-lavender-rbiohvvq5mi1op17bmkygc9hlglmn6t0oy8sy2thw0.png",
+            "alt": "munstead lavender"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/montbrecia-lucifer-rbioh8drerlvmfzc4ufa806yqttgar7q9pxny5sc7k.png",
+            "alt": "montbrecia lucifer"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Lucky-Devil-Ninebark-rbiogtccdf1agol6knx943zl8nvkvlk0vnhw9qemz4.png",
+            "alt": "Lucky Devil Ninebark"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Miss-Kim-Lilac-rbioh0v1w3bl1ka9cr69o239zquil6dvkops3y3hlc.png",
+            "alt": "Miss Kim Lilac"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/misty-lace-goats-beard-rbioh4menfgqc04sqssry154dabzfyssx7bq11xwwg.png",
+            "alt": "misty lace goats beard"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/May-Night-rbiogy1jbl7q2qect7ydyksw7l8ey32okarbo47o40.png",
+            "alt": "May Night"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/lentin-rose-1-rbiogltmuqqzvsw3sko8k5vwhkwn60q66ma0fipscw.png",
+            "alt": "lentin rose"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Limoncello-Barberry-1-rbiogmrh1ksa7euqn32v4nnd2ys0dptwiqxhwsoe6o.png",
+            "alt": "Limoncello Barberry"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/kobold-liatris-rbiogg6lpqj9y54api8h57b4x9ofvu3s5ud3juy5e8.png",
+            "alt": "kobold liatris"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Japanese-Tree-Lilac-1-rbiogdd358fezb8e5z0lfq0r542c8qsl5gen412bww.png",
+            "alt": "Japanese Tree Lilac"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/ladys-mantle-1-rbiogjxyh2of8kyu3juzf6czat5wqmipicz1gyskpc.png",
+            "alt": "ladys mantle"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/jack-of-diamonds-brunerra-1-rbiogbherkcuc3b4gy7caqhtycbltcl4h73o5h549c.png",
+            "alt": "jack of diamonds brunerra"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Invincibelle-Mini-Smooth-1-rbiog7q2087p1ngl2wku0rfzksu4yk674ohq8daoy8.png",
+            "alt": "Invincibelle Mini Smooth"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/hot-papaya-coneflower-1-rbiofatpd0ynrasdf0cw3hqusbcah5jlc5nqfonh00.png",
+            "alt": "hot papaya coneflower"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/helene-rose-of-sharon-1-rbiof9vv66xdfotqkhy9izze6xgx9gfv0108yeov68.png",
+            "alt": "helene rose of sharon"
+          },
+          {
+            "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Galaxy-Snowberry-1-rbioes0xkc8xb3jogs8cpmhmwlwy77gylkm0u5fcgg.png",
+            "alt": "Galaxy Snowberry"
+          }
+        ]
+      },
+      {
+        "heading": null,
+        "kind": "plantListPointer",
+        "id": "plant-list",
+        "paragraphs": [],
+        "plantListHeadings": [
+          "Perennials",
+          "Perennial Grasses",
+          "Shrubs",
+          "Trees"
+        ],
+        "perennialsNote": "Perennial links below are listed by family instead of specific varieties. When searching for a specific perennial, scroll through the entire section on plant page.",
+        "note": "The plant link lists under these headings belong to the plant catalog (extracted separately); each item links to /display-garden-plants#<slug>."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+/* Editorial pages: The Nursery (shop) and Our Story (about). */
+
+/* Jump links under the page title */
+.jump { margin-top: 2rem; }
+.jump ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
+.jump .chip { background: color-mix(in srgb, var(--surface) 60%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+.jump .chip:hover { text-decoration: none; color: var(--ink); background: var(--surface); }
+
+.sale-note { display: flex; gap: 0.75rem; align-items: flex-start; max-width: 52rem; margin: 0 auto; }
+.sale-note .icon { color: var(--gold-ink); margin-top: 0.1em; }
+
+/* Department rows */
+.dept-rows { padding-block: clamp(2rem, 1rem + 3vw, 4rem); }
+.dept-row { padding-block: clamp(2.5rem, 1.5rem + 4vw, 5rem); scroll-margin-top: calc(var(--nav-h) + 1rem); }
+.dept-row__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(1.75rem, 1rem + 3vw, 4.5rem); align-items: center; }
+@media (min-width: 960px) {
+  .dept-row__grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); }
+  .dept-row__grid--flip > .dept-row__media { order: 2; }
+}
+.dept-row__sub { margin-top: 0.6rem; font-size: var(--text-lead); color: var(--ink-2); letter-spacing: -0.014em; }
+.dept-row__prose { margin-top: 1.5rem; color: var(--ink-2); }
+.dept-row__cta { margin-top: 1.5rem; }
+
+.ticks { display: grid; gap: 0.6rem; margin: 1rem 0 0; padding: 0 !important; list-style: none; }
+.ticks li { display: grid; grid-template-columns: 1.25rem 1fr; gap: 0.65rem; align-items: start; margin: 0 !important; color: var(--ink); }
+.ticks .icon { margin-top: 0.15em; color: var(--moss); }
+
+.closing-cta__inner { text-align: center; }
+.closing-cta__inner .lead { margin: 1rem auto 2rem; max-width: 34rem; }
+.closing-cta__inner .cluster { justify-content: center; }
+
+/* About */
+.about-hero-photo { border-radius: var(--r-lg); }
+@media (max-width: 700px) { .about-hero-photo { aspect-ratio: 4 / 3 !important; } }
+
+.facts__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 2rem; margin: 0; }
+.facts__item { padding-top: 1.25rem; border-top: 1px solid var(--line-strong); }
+.facts__item dt { font-family: var(--font-display); font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.5rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
+.facts__item dd { margin: 0.5rem 0 0; color: var(--ink-2); }
+
+.split { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(2rem, 1rem + 3vw, 4.5rem); }
+@media (min-width: 960px) {
+  .split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .split--media { align-items: center; }
+}
+.split__lead .lead { margin-top: 1.25rem; }
+.split__body > p + p,
+.split__body > p + ul { margin-top: 1rem; }
+.split__body > p { color: var(--ink-2); }
+
+.gallery__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem); margin: 0; padding: 0; list-style: none; }
+@media (min-width: 900px) {
+  .gallery__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .gallery__item--0 { grid-row: span 2; }
+  .gallery__item--0 .frame { height: 100%; aspect-ratio: auto !important; }
+}
+
+.duo { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(2.5rem, 1.5rem + 3vw, 4rem); }
+@media (min-width: 900px) { .duo { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.duo__title { margin: 1.5rem 0 0.75rem; font-size: var(--text-h3); }
+.duo__item > p { color: var(--ink-2); }
+.duo__item > p + p { margin-top: 0.85rem; }
+
+.about-p { margin-top: 1rem; color: var(--ink-2); }
+.about-sub { margin-top: 2rem; font-size: 1.25rem; }
+.about-actions { margin-top: 2rem; }

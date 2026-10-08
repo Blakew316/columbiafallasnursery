@@ -1,0 +1,69 @@
+/* Bulk Yard */
+
+.bulk-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1.5rem 2rem; margin: 0; padding: 0; list-style: none; }
+.bulk-facts li { display: grid; grid-template-columns: 1.6rem 1fr; gap: 0.85rem; align-items: start; }
+.bulk-facts .icon { width: 1.5rem; height: 1.5rem; color: var(--moss); }
+.bulk-facts span > span { display: block; margin-top: 0.2rem; font-size: 0.9375rem; }
+
+.price-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 2.5rem 3rem; }
+.price-group__title { padding-bottom: 0.75rem; border-bottom: 1px solid var(--line-strong); font-size: 1.25rem; }
+.products { margin: 0; padding: 0; list-style: none; }
+.product { display: grid; grid-template-columns: 3rem 1fr auto; gap: 1rem; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
+.product__swatch { width: 3rem; }
+.product__name { font-weight: 560; }
+.product__price { font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.product__price .muted { font-weight: 450; font-size: var(--text-sm); }
+
+/* Project calculator */
+.calc { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(2rem, 1rem + 3vw, 3.5rem); }
+@media (min-width: 1100px) {
+  .calc { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr) minmax(0, 0.9fr); align-items: start; }
+}
+.calc__intro .lead { margin: 1rem 0; }
+.calc__form { display: grid; gap: 1.1rem; }
+.calc__shape { margin: 0; padding: 0; border: 0; }
+.calc__shape legend { margin-bottom: 0.4rem; padding: 0; }
+.calc__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); gap: 1rem; }
+.calc__row[hidden] { display: none; }
+.calc__depth { display: grid; gap: 0.6rem; }
+.calc__presets { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+
+.segmented { display: inline-flex; flex-wrap: wrap; padding: 3px; border-radius: var(--r-pill); background: var(--bg-alt); gap: 2px; }
+.segmented label { position: relative; }
+.segmented input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.segmented span { display: block; padding: 0.45rem 0.95rem; border-radius: var(--r-pill); font-size: var(--text-sm); font-weight: 560; color: var(--ink-2); transition: background-color var(--dur-1) ease, color var(--dur-1) ease; }
+.segmented input:checked + span { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(20, 36, 31, 0.14); }
+.segmented input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.calc__result {
+  padding: clamp(1.5rem, 1rem + 2vw, 2.25rem);
+  border-radius: var(--r-lg);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+@media (min-width: 1100px) { .calc__result { position: sticky; top: calc(var(--nav-h) + 1.5rem); } }
+.calc__result .muted { color: color-mix(in srgb, var(--accent-ink) 72%, transparent); }
+.calc__label { font-weight: 560; opacity: 0.85; }
+.calc__big { margin-top: 0.25rem; font-family: var(--font-display); font-size: clamp(3rem, 2rem + 4vw, 4.5rem); font-weight: 700; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+.calc__unit { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.01em; }
+.calc__lines { display: grid; gap: 0; margin: 1.5rem 0 0; }
+.calc__lines > div { padding: 0.75rem 0; border-top: 1px solid color-mix(in srgb, var(--accent-ink) 18%, transparent); }
+.calc__lines dt { font-size: var(--text-sm); opacity: 0.75; }
+.calc__lines dd { margin: 0.15rem 0 0; font-weight: 650; font-variant-numeric: tabular-nums; }
+.calc__truck { margin-top: 1rem; padding: 0.75rem 1rem; border-radius: var(--r-sm); background: color-mix(in srgb, var(--accent-ink) 10%, transparent); }
+
+/* Converters */
+.tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1.25rem; }
+.tool { padding: 1.5rem; border-radius: var(--r-md); background: var(--surface); border: 1px solid var(--line); }
+.tool h3 { font-size: 1.125rem; }
+.tool__fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 110px), 1fr)); gap: 0.75rem; margin-top: 1rem; }
+.tool .input,
+.tool .select { min-height: 42px; padding: 0.5rem 0.75rem; }
+.tool .select { padding-right: 2.4rem; }
+.tool__out { margin-top: 1rem; padding-top: 0.85rem; border-top: 1px solid var(--line); font-weight: 650; font-variant-numeric: tabular-nums; }
+
+/* FAQ */
+.faq { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(2rem, 1rem + 3vw, 4rem); }
+@media (min-width: 960px) { .faq { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); align-items: start; } }
+.faq__intro .lead { margin: 1rem 0 1.5rem; }
+.faq__list { border-top: 1px solid var(--line); }

@@ -1,0 +1,543 @@
+{
+  "source": "display-garden-4.html",
+  "heading": "Welcome to our Display Garden",
+  "intro": [
+    "Inspiration Grows Here",
+    "Step into the heart of Columbia Nursery and discover our beautiful Display Garden—a living showcase of trees, shrubs, and perennials that thrive in the unique climate of Northwest Montana. Designed to inspire both the weekend gardener and the professional landscaper, this thoughtfully curated space highlights plants that bring color, texture, and year-round beauty to any outdoor setting.",
+    "Whether you’re dreaming up a new landscape or looking to enhance an existing one, our garden offers real-life examples of how to combine hardy, regionally appropriate plants into stunning arrangements. See how foliage and bloom can work together across the seasons, explore plant pairings for sun and shade, and gather ideas to bring your own outdoor space to life.",
+    "Visit often—our garden is ever-changing and always growing."
+  ],
+  "plantListLead": "See our full list of display garden plants below.",
+  "pdf": {
+    "label": "Download a PDF here.",
+    "href": "https://columbiafallsnursery.com/wp-content/uploads/2025/09/Display-Garden-PDF-Catalog1.pdf"
+  },
+  "notes": "Perennial links below are listed by family instead of specific varieties. When searching for a specific perennial, scroll through the entire section on plant page.",
+  "lists": {
+    "perennial": [
+      "Alchemilla",
+      "Allium",
+      "Artemisia",
+      "aruncus",
+      "Aster",
+      "Astilbe",
+      "Balloon Flower",
+      "Baptisia",
+      "Bergenia",
+      "Brunnera",
+      "Catmint",
+      "Columbine",
+      "Coralberry",
+      "Daisy",
+      "Dicentra",
+      "Echinacea",
+      "Hardy geranium",
+      "Helleborus",
+      "Heuchera",
+      "Hosta",
+      "Hibiscus",
+      "Lamium",
+      "Lavender",
+      "Liatris",
+      "Lily",
+      "Maltese Cross",
+      "Montbrecia",
+      "Penstemon",
+      "Rudbeckia",
+      "Russian Sage",
+      "Salvia",
+      "Snow in Summer",
+      "Stonecrop",
+      "Veronica",
+      "Vinca Minor",
+      "Yarrow"
+    ],
+    "grass": [
+      "Blackhawks Big Bluestem",
+      "Blue Paradise Grass",
+      "Blonde Ambition Grass",
+      "Blue Oat Grass",
+      "Elijah Blue Grass",
+      "Karl Foerster Feather Reed",
+      "Northern Lights Tuft Grass",
+      "Overdam Grass"
+    ],
+    "shrub": [
+      "Admiration Barberry",
+      "Amber Jubilee Ninebark",
+      "Berry White Panicle Hydrangea",
+      "Black Lace Elderberry",
+      "Blizzard Mock Orange",
+      "Blueberry Delight Juniper",
+      "Blue Star Juniper",
+      "Butterfly Bush Birthday Cake",
+      "Cabernet Barberry",
+      "Candy Coralberry",
+      "Carol Macki Daphne",
+      "Cherry On The Go Hydrangea",
+      "Common Snowball",
+      "Compact Burning Bush",
+      "Concorde Barberry",
+      "Dakota Sunspot Potentilla",
+      "Daub’s Frosted Juniper",
+      "Double Take Peach Quince",
+      "Dwarf Blue Arctic Willow Nana",
+      "Dwarf Globe Colorado Spruce",
+      "Dwarf Fothergilla",
+      "Eclipse Hydrangea",
+      "Fine Line Buckthorn",
+      "Flowerfull Hydrangea",
+      "Galaxy Snowberry",
+      "Ginger Snap Potentilla",
+      "Glow Girl Spirea",
+      "Gold Mound Spirea",
+      "Golden Carpet Juniper",
+      "Golden Devine Barberry",
+      "Green Velvet Boxwood",
+      "Grey Owl Juniper",
+      "Invincibelle Mini Smooth Hydrangea",
+      "Ivory Halo Dogwood",
+      "Jacobson Mugo Pine",
+      "Laced Up Elderberry",
+      "Lemon Meringue Potentilla",
+      "Lilac – Miss Kim",
+      "Limoncello Barberry",
+      "Little Gem Creeping Cotoneaster",
+      "Little Lime Panicle Hydrangea",
+      "Lotus Moon Pearl Bush",
+      "Low Mound Aronia",
+      "Lucky Devil Ninebark",
+      "Macopin Eastern White Pine",
+      "Matcha Ball Ash Leaf Spirea",
+      "Mohican Viburnum",
+      "MOPS Mugo Pine",
+      "My Monet Weigela",
+      "Neon Burst Dogwood",
+      "Northern Gold Forsythia",
+      "Northern Hi-Lights Azalea",
+      "Orange Rocket Barberry",
+      "Pawnee Buttes Sand Cherry",
+      "Pencil Point Juniper",
+      "Piccolo Dwarf Balsam Fir",
+      "Pinktini Lilac",
+      "P.J.M. Hybrid Rhododendron",
+      "Pink Paradise Potentilla",
+      "Pink Sparkler Spirea",
+      "Pop Star Hydrangea",
+      "Rugosa Rose – Red",
+      "Iceberg Alley Willow",
+      "Snowmound Spirea",
+      "Spilled Wine Weigela",
+      "Spot On Spirea",
+      "Sungold False Cypress",
+      "Sunjoy Gold Pillar Barberry",
+      "Tiger Eyes Staghorn Sumac",
+      "Vanilla Strawberry Hydrangea",
+      "Weigela Rainbow Sensation"
+    ],
+    "tree": [
+      "Angel Falls Weeping Pine",
+      "Apollo Sugar Maple",
+      "Autumn Purple Ash",
+      "Canada Chokecherry",
+      "Deborah Waxman Larch",
+      "Flame Thrower Red Bud",
+      "French Blue Hindu Pan Pine",
+      "Ginkgo Biloba Saratoga",
+      "Green Wall Spire Crab Apple",
+      "Ice Dragon Maple",
+      "Japanese Tree Lilac",
+      "Parkland Pillar Birch",
+      "Princeton Gold Maple",
+      "Rainbows End Alberta Spruce",
+      "Red Cone Norway Spruce",
+      "Red Oak",
+      "Skyland Oriental Spruce",
+      "Skyline Honeylocust",
+      "Tannenbaum Mugo Pine",
+      "Toba Hawthorn"
+    ]
+  },
+  "listSlugs": {
+    "perennial": [
+      "ladys-mantle",
+      "allium-serendipity",
+      "garden-ghost-wormwood",
+      "goats-beard",
+      "aster",
+      "astilbe-or-false-spirea",
+      "pop-star-blue-balloon-flower",
+      "pink-truffle-decadence",
+      "bergenia-cordifolia",
+      "jack-frost-brunnera",
+      "walkers-low-catmint",
+      "earlybird-columbine",
+      "candy-coralberry",
+      "snowcap-shasta-daisy",
+      "fern-leaf-bleeding-heart",
+      "raspberry-truffle",
+      "biokovo",
+      "helleborus-species",
+      "coral-bells",
+      "first-frost",
+      "helene-rose-of-sharon",
+      "spotted-dead-nettle-orchid-frost",
+      "munstead",
+      "liatris-kobold",
+      "stella-doro",
+      "maltese-cross",
+      "montbrecia-lucifer",
+      "rocky-mountain-beard-tongue",
+      "goldsturm-blackeye-susan",
+      "russian-sage",
+      "pink-dawn-salvia",
+      "snow-in-summer",
+      "superstar-stone-crop",
+      "first-love",
+      "bowles-periwinkle",
+      "yarrow"
+    ],
+    "grass": [
+      "blackhawks-big-bluestem-grass",
+      "blue-paradise-grass",
+      "blonde-ambition-grass",
+      "blue-oat-grass",
+      "elijah-blue-grass",
+      "karl-foerster-feather-reed-grass",
+      "northern-lights-tuft-grass",
+      "overdam-grass"
+    ],
+    "shrub": [
+      "admiration-barberry",
+      "amber-jubilee-ninebark",
+      "berry-white-panicle-hydrangea",
+      "black-lace-elderberry",
+      "blizzard-mock-orange",
+      "blueberry-delight-juniper",
+      "blue-star-juniper",
+      "birthday-cake-butterfly-bush",
+      "cabernet-barberry",
+      "candy-coralberry",
+      "carol-macki-daphne",
+      "cherry-go-round-hydrangea",
+      "common-snowball",
+      "compact-burning-bush",
+      "concorde-barberry",
+      "dakota-sunspot-potentilla",
+      "daubs-frosted-juniper",
+      null,
+      "dwarf-blue-arctic-willow-nana",
+      "dwarf-globe-colorado-spruce",
+      "dwarf-fothergilla",
+      "eclipse-hydrangea",
+      "fine-line-buckthorn",
+      "flower-full-hydrangea",
+      "galaxy-snowberry",
+      "ginger-snap-potentilla",
+      "glow-girl-spirea",
+      "gold-mound-spirea",
+      "golden-carpet-juniper",
+      "golden-devine-barberry",
+      "green-velvet-boxwood",
+      "grey-owl-juniper",
+      "invincibelle-mini-smooth-hydrangea",
+      "ivory-halo-dogwood",
+      "jacobson-mugo-pine",
+      "laced-up-elderberry",
+      "lemon-meringue-potentilla",
+      "miss-kim-lilac",
+      "limoncello-barberry",
+      "little-gem-creeping-cotoneaster",
+      "little-lime-panicle-hydrangea",
+      "lotus-moon-pearl-bush",
+      "low-mound-aronia",
+      "lucky-devil-ninebark",
+      "macopin-eastern-white-pine",
+      "matcha-ball-ash-leaf-spirea",
+      "mohican-viburnum",
+      "mops-mugo-pine",
+      "my-monet-weigela",
+      "neon-burst-dogwood",
+      "northern-gold-forsythia",
+      "northern-hi-lights-azalea",
+      "orange-rocket-barberry",
+      "pawnee-buttes-sandcherry",
+      "pencil-point-juniper",
+      "piccolo-dwarf-balsam-fir",
+      "pinktini-lilac",
+      "pjm-hybrid-rhododendron",
+      "pink-paradise-potentilla",
+      "pink-sparkler-spirea",
+      "pop-star-hydrangea",
+      "rugosa-rose-red",
+      "sage-leaf-willow",
+      "snowmound-spirea",
+      "spilled-wine-weigela",
+      "spot-on-spirea",
+      "sungold-false-cypress",
+      "sunjoy-gold-pillar-barberry",
+      "tiger-eyes-staghorn-sumac",
+      "vanilla-strawberry-hydrangea",
+      "rainbow-sensation-weigela"
+    ],
+    "tree": [
+      "angel-falls-weeping-pine",
+      "apollo-sugar-maple",
+      "autumn-purple-ash",
+      "canada-chokecherry",
+      "deborah-waxman-larch",
+      "flame-thrower-red-bud",
+      "french-blue-hindu-pan-pine",
+      "saratoga-ginkgo",
+      "green-wall-spire-crab-apple",
+      "ice-dragon-maple",
+      "japanese-tree-lilac",
+      "parkland-pillar-birch",
+      "princeton-gold-maple",
+      "rainbows-end-alberta-spruce",
+      "red-cone-norway-spruce",
+      "red-oak",
+      "skyland-oriental-spruce",
+      "skyline-honeylocust",
+      "tannenbaum-mugo-pine",
+      "toba-hawthorn"
+    ]
+  },
+  "carousel": [
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/yarrow-rbiok4puhdkpf5rs7liverv4olj715pxo2ck7vhn0w.png",
+      "alt": "yarrow",
+      "plantSlug": "yarrow"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Vanilla-Strawberry-Hydrangea-rbiok2u63pi4rxuiikpm9sc7htsglrigzt1l9bkfdc.png",
+      "alt": "Vanilla Strawberry Hydrangea",
+      "plantSlug": "vanilla-strawberry-hydrangea"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Toba-Hawthorn-rbiok0yhq1fk4px8tjwd4stab21q6db0bjqmarn7ps.png",
+      "alt": "Toba Hawthorn",
+      "plantSlug": "toba-hawthorn"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Sunjoy-Gold-Pillar-Barberry-rbiojx74ypaeua2pfi9uutrfxik9bkw2z14odnsseo.png",
+      "alt": "Sunjoy Gold Pillar Barberry",
+      "plantSlug": "sunjoy-gold-pillar-barberry"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/superstar-rbiojy4z5jbp5w1ca0ohfbiwiwfmj9ztb5s5uxre8g.png",
+      "alt": "superstar",
+      "plantSlug": "superstar-stone-crop"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Spilled-Wine-Weigela-rbiojshy0j3z889j6y8q0cy4yl7f93dfadv8z9zr9s.png",
+      "alt": "Spilled Wine Weigela",
+      "plantSlug": "spilled-wine-weigela"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Sungold-False-Cypress-rbiojvbgl17u725fqhglpu8iqqtiw6omartpf3vkr4.png",
+      "alt": "Sungold False Cypress",
+      "plantSlug": "sungold-false-cypress"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/stella-doro-rbiojudme76jvg6svz1z5ch25cy5ohkvyn67xtwyxc.png",
+      "alt": "stella d'oro",
+      "plantSlug": "stella-doro"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Skyland-Oriental-Spruce-rbiojkz8hutonckgeuzpgeug7i8hjijklcnd52awnk.png",
+      "alt": "Skyland Oriental Spruce",
+      "plantSlug": "skyland-oriental-spruce"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Skyline-Honeylocust-rbiojlx2oouyyyj39dec0wlwsw3ur7naxhaumc9ihc.png",
+      "alt": "Skyline Honeylocust",
+      "plantSlug": "skyline-honeylocust"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/serendipity-allium-rbiojk1eb0sebqltkcl2vx2zm4d4btfu97zvnscats.png",
+      "alt": "serendipity allium",
+      "plantSlug": "allium-serendipity"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rugosa-Red-rbiojga1jon91ara6aykly158kvnh10wwpdxqohvio.png",
+      "alt": "Rugosa Red",
+      "plantSlug": "rugosa-rose-red"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/rose-mallow-all-eyes-on-me-rbiojdgiz6je2gvdmrqowgqrgf9jtxppwbfhaum21c.png",
+      "alt": "rose mallow all eyes on me",
+      "plantSlug": "rose-mallow-all-eyes-on-me"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rose-Marvel-rbiojeed60koe2u0ha5bgyi81t4x1mtg8g2ys4knv4.png",
+      "alt": "Rose Marvel",
+      "plantSlug": "rose-marvel"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/russian-sage-rbiojh7vqiojcwpx0td76fsltyr0oq4n8u1f7yghcg.png",
+      "alt": "russian sage",
+      "plantSlug": "russian-sage"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/raspberry-truffle-coneflower-rbioiss2str2z1peziswdlymdy3h4lfmhh2sqrgpu8.png",
+      "alt": "raspberry truffle coneflower",
+      "plantSlug": "raspberry-truffle"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/royal-candles-veronica-rbiojfc7culyposnbsjy1g9on70a9bx6kkqg9ej9ow.png",
+      "alt": "royal candles veronica",
+      "plantSlug": "royal-candles"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Red-Cone-Norway-Spruce-rbioitpwznsdano1u17iy3q2zbyucajctlqa81fbo0.png",
+      "alt": "Red Cone Norway Spruce",
+      "plantSlug": "red-cone-norway-spruce"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rainbows-End-Alberta-Spruce-rbioiru8lzpsnfqs50e9t475sk83wwbw5cfb9hi40g.png",
+      "alt": "Rainbows End Alberta Spruce",
+      "plantSlug": "rainbows-end-alberta-spruce"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Rainbow-Sensation-Weigela-rbioipyk8bn807tifzl0o4o8lshdhi4fh34caxkwcw.png",
+      "alt": "Rainbow Sensation Weigela",
+      "plantSlug": "rainbow-sensation-weigela"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/PJM-Hybrid-Rhododendron-rbioil9da5gse60c7fjvtnuxmv4jf0lrsfuwwjrv80.png",
+      "alt": "PJM Hybrid Rhododendron",
+      "plantSlug": "pjm-hybrid-rhododendron"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/popstar-balloon-flower-rbioin51ntjd1dxlwgd4yndutmv9uet8gp5vv3p2vk.png",
+      "alt": "popstar balloon flower",
+      "plantSlug": "pop-star-blue-balloon-flower"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Princeton-Gold-Maple-rbioio2vunknczw8qyrrj55bf0qn23wysttdcdnopc.png",
+      "alt": "Princeton Gold Maple",
+      "plantSlug": "princeton-gold-maple"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/purrsian-blue-catmint-rbioipyk8bn807tifzl0o4o8lshdhi4fh34caxkwcw.png",
+      "alt": "purrsian blue catmint",
+      "plantSlug": "purrsian-blue-catmint"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Pink-Sparkler-Spirea-rbioihi0itbn3q5stdxdjot39bn2k86ufx8yzfxfww.png",
+      "alt": "Pink Sparkler Spirea",
+      "plantSlug": "pink-sparkler-spirea"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Pawnee-Buttes-Sand-Cherry-rbioibuzdt3x62dzqbhm4q8bp0eva1kgf5c23s5sy8.png",
+      "alt": "Pawnee Buttes Sand Cherry",
+      "plantSlug": "pawnee-buttes-sandcherry"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Parkland-PIllar-Birch-rbioiax56z2mugfcvt2zk8gv3mji2cgq30okmi774g.png",
+      "alt": "Parkland PIllar Birch",
+      "plantSlug": "parkland-pillar-birch"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/orchid-frost-dead-nettle-rbioi83mmgyrvmjgc9v3ur6hbgxef95j2mq46obdn4.png",
+      "alt": "orchid frost dead nettle",
+      "plantSlug": "spotted-dead-nettle-orchid-frost"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/My-Monet-Weigela-rbiohwtkcgjc0azu64zl0u0y6ugzuvwr12wafcs3ps.png",
+      "alt": "My Monet Weigela",
+      "plantSlug": "my-monet-weigela"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Northern-Gold-Forsythia-rbiohzn2wyn6z4vqpo7gqbbbz033hz7y1guqv6nx74.png",
+      "alt": "Northern Gold Forsythia",
+      "plantSlug": "northern-gold-forsythia"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/MOPS-Mugo-Pine-rbioha9fsfog9nwltv8jczpvxlk6q5f6xz8mwppjv4.png",
+      "alt": "MOPS Mugo Pine",
+      "plantSlug": "mops-mugo-pine"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/munstead-lavender-rbiohvvq5mi1op17bmkygc9hlglmn6t0oy8sy2thw0.png",
+      "alt": "munstead lavender",
+      "plantSlug": "munstead"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/montbrecia-lucifer-rbioh8drerlvmfzc4ufa806yqttgar7q9pxny5sc7k.png",
+      "alt": "montbrecia lucifer",
+      "plantSlug": "montbrecia-lucifer"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Lucky-Devil-Ninebark-rbiogtccdf1agol6knx943zl8nvkvlk0vnhw9qemz4.png",
+      "alt": "Lucky Devil Ninebark",
+      "plantSlug": "lucky-devil-ninebark"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Miss-Kim-Lilac-rbioh0v1w3bl1ka9cr69o239zquil6dvkops3y3hlc.png",
+      "alt": "Miss Kim Lilac",
+      "plantSlug": "miss-kim-lilac"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/misty-lace-goats-beard-rbioh4menfgqc04sqssry154dabzfyssx7bq11xwwg.png",
+      "alt": "misty lace goats beard",
+      "plantSlug": "misty-lace-goats-beard"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/May-Night-rbiogy1jbl7q2qect7ydyksw7l8ey32okarbo47o40.png",
+      "alt": "May Night",
+      "plantSlug": "may-night-salvia"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/lentin-rose-1-rbiogltmuqqzvsw3sko8k5vwhkwn60q66ma0fipscw.png",
+      "alt": "lentin rose",
+      "plantSlug": "helleborus-species"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Limoncello-Barberry-1-rbiogmrh1ksa7euqn32v4nnd2ys0dptwiqxhwsoe6o.png",
+      "alt": "Limoncello Barberry",
+      "plantSlug": "limoncello-barberry"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/kobold-liatris-rbiogg6lpqj9y54api8h57b4x9ofvu3s5ud3juy5e8.png",
+      "alt": "kobold liatris",
+      "plantSlug": "liatris-kobold"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Japanese-Tree-Lilac-1-rbiogdd358fezb8e5z0lfq0r542c8qsl5gen412bww.png",
+      "alt": "Japanese Tree Lilac",
+      "plantSlug": "japanese-tree-lilac"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/ladys-mantle-1-rbiogjxyh2of8kyu3juzf6czat5wqmipicz1gyskpc.png",
+      "alt": "ladys mantle",
+      "plantSlug": "ladys-mantle"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/jack-of-diamonds-brunerra-1-rbiogbherkcuc3b4gy7caqhtycbltcl4h73o5h549c.png",
+      "alt": "jack of diamonds brunerra",
+      "plantSlug": "jack-of-diamonds-brunnera"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Invincibelle-Mini-Smooth-1-rbiog7q2087p1ngl2wku0rfzksu4yk674ohq8daoy8.png",
+      "alt": "Invincibelle Mini Smooth",
+      "plantSlug": "invincibelle-mini-smooth-hydrangea"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/hot-papaya-coneflower-1-rbiofatpd0ynrasdf0cw3hqusbcah5jlc5nqfonh00.png",
+      "alt": "hot papaya coneflower",
+      "plantSlug": "hot-papaya-coneflower"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/helene-rose-of-sharon-1-rbiof9vv66xdfotqkhy9izze6xgx9gfv0108yeov68.png",
+      "alt": "helene rose of sharon",
+      "plantSlug": "helene-rose-of-sharon"
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/elementor/thumbs/Galaxy-Snowberry-1-rbioes0xkc8xb3jogs8cpmhmwlwy77gylkm0u5fcgg.png",
+      "alt": "Galaxy Snowberry",
+      "plantSlug": "galaxy-snowberry"
+    }
+  ]
+}

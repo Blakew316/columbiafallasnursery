@@ -1,0 +1,50 @@
+/* Garden Guides & Garden Calendar */
+
+.guides__tools { display: grid; gap: 1rem; margin-bottom: clamp(2rem, 1rem + 3vw, 3.5rem); }
+.guides__search { max-width: 36rem; }
+.guides__topics { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+
+.guide-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: clamp(2rem, 1rem + 2vw, 3rem) clamp(1.5rem, 1rem + 2vw, 3rem); align-items: start; }
+.guide-group__title { display: flex; align-items: center; gap: 0.6rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--line-strong); font-size: 1.25rem; }
+.guide-group__title .icon { color: var(--moss); }
+.guide-list { margin: 0; padding: 0; list-style: none; }
+.guide {
+  display: grid;
+  grid-template-columns: 1.25rem 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+a.guide:hover { text-decoration: none; color: var(--link); }
+.guide > .icon { color: var(--ink-3); }
+a.guide:hover > .icon { color: var(--link); }
+.guide__title { font-weight: 520; }
+.guide__type { color: var(--ink-3); font-size: var(--text-xs); font-weight: 600; }
+.guide--ask { color: var(--ink-2); }
+.guides__empty { padding: 2rem 0; text-align: center; }
+.guides__empty h2 { font-size: var(--text-h3); }
+.guides__empty p { margin-top: 0.75rem; }
+
+.cal-note { display: flex; gap: 0.75rem; align-items: flex-start; max-width: 52rem; margin-bottom: 2.5rem; }
+.cal-note .icon { color: var(--gold-ink); margin-top: 0.1em; }
+.cal { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 1.25rem; margin: 0; padding: 0; list-style: none; }
+.cal__month {
+  padding: 1.5rem;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  scroll-margin-top: calc(var(--nav-h) + 1rem);
+}
+.cal__month[aria-current='date'] { border-color: color-mix(in srgb, var(--larch) 55%, transparent); box-shadow: 0 0 0 3px var(--gold-wash); }
+.cal__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.cal__name { font-size: 1.5rem; }
+.cal__now { display: none; padding: 0.15rem 0.6rem; border-radius: var(--r-pill); background: var(--gold-wash); color: var(--gold-ink); font-size: var(--text-xs); font-weight: 650; }
+.cal__month[aria-current='date'] .cal__now { display: inline-block; }
+.cal__summary { margin-top: 0.25rem; color: var(--ink-2); }
+.cal__tasks { display: grid; gap: 0.75rem; margin: 1.1rem 0 0; padding: 0; list-style: none; }
+.cal__tasks li { display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; font-size: 0.9375rem; }
+.cal__tasks .icon { width: 1.05rem; height: 1.05rem; margin-top: 0.2em; color: var(--moss); }
+.cal__guide { font-size: var(--text-sm); }
+.cal__more { margin-top: 2.5rem; }

@@ -1,0 +1,628 @@
+{
+  "heading": "Bulk Yard",
+  "intro": [
+    "Looking for mulch, compost, soil, or rock? We carry a wide selection for both professional landscaping and home projects. Buy as little as a 5-gallon bucket or as much as a dump-truck load. Our bulk yard is open during business hours, with staff ready to help. Delivery is available. See our 2026 price list below.",
+    "If you need help calculating yardage for your project, use one of our handy volume calculators below."
+  ],
+  "introLinks": [
+    {
+      "text": "volume calculators",
+      "href": "https://columbiafallsnursery.com/bulk-yard#volume-calculators"
+    }
+  ],
+  "year": 2026,
+  "priceListHeading": "2026 Product Price List",
+  "tableColumns": [
+    "Product",
+    "2026 Price",
+    "Category",
+    "Image"
+  ],
+  "priceUnit": "cubic yard",
+  "priceUnitEvidence": [
+    "FAQ: \"Yes, our bulk products are sold by the yard, but you can buy as little as 1/4 yd.\"",
+    "FAQ: \"No, all of our bulk products are sold by the yard.\"",
+    "The price table itself has no unit (column header is just \"2026 Price\"); \"yard\" = cubic yard per the calculators and FAQ (\"How much does 1 yd. weigh?\")."
+  ],
+  "minimumPurchase": "1/4 yd",
+  "bucketPrice": {
+    "price": 5,
+    "text": "Just bring in your bucket & fill with desired product for $5.",
+    "bucket": "5-gallon"
+  },
+  "delivery": {
+    "available": true,
+    "day": "Friday",
+    "provider": "contracted 3rd party",
+    "baseFee": 135,
+    "baseRadiusMiles": 10,
+    "extraFee": 135,
+    "extraPerMiles": 10,
+    "truckCapacity": "12 cubic yards of rock or 14 cubic yards of bark",
+    "sourceText": "Yes, we contract with a 3rd party who delivers every Friday. There is a $135 charge to deliver anywhere within a 10 mile radius of our nursery. Every 10 miles extra (or increment thereof) incurs an additional $135 charge. Their delivery trucks can hold up to 12 cubic yards of rock or 14 cubic yards of bark."
+  },
+  "products": [
+    {
+      "name": "Glacier Gold Compost",
+      "price": 75,
+      "priceText": "$75.00",
+      "category": "Compost",
+      "imageLabel": "GG Compost",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/GG-Compost.jpg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Small Bark Nuggets",
+      "price": 65,
+      "priceText": "$65.00",
+      "category": "Mulch",
+      "imageLabel": "Small Bark",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Sm-Bark.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Soil Pep",
+      "price": 65,
+      "priceText": "$65.00",
+      "category": "Mulch",
+      "imageLabel": "Soil Pep",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Soil-Pep.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Fresh Fines",
+      "price": 60,
+      "priceText": "$60.00",
+      "category": "Mulch",
+      "imageLabel": "Fresh Fines",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Fresh-Fines.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Shredded Cedar",
+      "price": 60,
+      "priceText": "$60.00",
+      "category": "Mulch",
+      "imageLabel": "Shredded Cedar",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Shredded-Cedar.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Top Soil",
+      "price": 50,
+      "priceText": "$50.00",
+      "category": "Soil",
+      "imageLabel": "Top Soil",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Top-Soil.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Four Way Soil",
+      "price": 75,
+      "priceText": "$75.00",
+      "category": "Soil",
+      "imageLabel": "4-Way",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/4-Way.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Clean Sand",
+      "price": 40,
+      "priceText": "$40.00",
+      "category": "Sand",
+      "imageLabel": "Clean Sand",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Clean-Sand.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Mill Mud",
+      "price": 12,
+      "priceText": "$12.00",
+      "category": "Other",
+      "imageLabel": "Mill Mud",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Mill-Mud.jpg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Yellow Shale - 3/4\"",
+      "price": 90,
+      "priceText": "$90.00",
+      "category": "Rock",
+      "imageLabel": "Yellow Shale - Sm.",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Yellow-Shale-Sm.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Blue Shale - 1.5-2\"",
+      "price": 90,
+      "priceText": "$90.00",
+      "category": "Rock",
+      "imageLabel": "Blue Shale",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Blue-Shale.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Yellow Shale - 1.5\"",
+      "price": 90,
+      "priceText": "$90.00",
+      "category": "Rock",
+      "imageLabel": "Yellow Shale - Lg.",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Yellow-Shale-Lg-1.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Pea Gravel",
+      "price": 45,
+      "priceText": "$45.00",
+      "category": "Rock",
+      "imageLabel": "Pea Gravel",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Pea-Gravel.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "River Rock",
+      "price": 40,
+      "priceText": "$40.00",
+      "category": "Rock",
+      "imageLabel": "River Rock - Sm",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/River-Rock-Sm.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "River Rock - XL",
+      "price": 40,
+      "priceText": "$40.00",
+      "category": "Rock",
+      "imageLabel": "River Rock - Lg",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/River-Rock-XL.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Crush (Brown) - 3/4\"",
+      "price": 45,
+      "priceText": "$45.00",
+      "category": "Rock",
+      "imageLabel": "3/4\" Crushed",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Crush-2.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Clean Rock - 3/4\"",
+      "price": 60,
+      "priceText": "$60.00",
+      "category": "Rock",
+      "imageLabel": "Clean Rock - 3/4\"",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Clean-Sm.jpg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Clean Rock - 1.5\"",
+      "price": 60,
+      "priceText": "$60.00",
+      "category": "Rock",
+      "imageLabel": "Clean Rock - Lg",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Clean-Lg.jpg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    },
+    {
+      "name": "Black Basalt - 5/8\"",
+      "price": 140,
+      "priceText": "$140.00",
+      "category": "Rock",
+      "imageLabel": "Black Basalt",
+      "image": {
+        "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Black-Basalt.jpeg",
+        "alt": "",
+        "width": 108,
+        "height": 108
+      }
+    }
+  ],
+  "calculators": [
+    {
+      "title": "🌱 Cubic Feet Volume Calculator",
+      "inputs": [
+        "Length (inches):",
+        "Width (inches):",
+        "Height/Depth (inches):"
+      ],
+      "fields": [
+        {
+          "label": "Length (inches):",
+          "id": "length",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 48"
+        },
+        {
+          "label": "Width (inches):",
+          "id": "width",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 48"
+        },
+        {
+          "label": "Height/Depth (inches):",
+          "id": "height",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 12"
+        }
+      ],
+      "button": "Calculate Volume",
+      "formula": "cubicFeet = (length × width × height) ÷ 1728   (all inputs in inches)",
+      "rounding": "cubicFeet.toFixed(2)",
+      "output": "You will need approximately ${cubicFeet.toFixed(2)} cubic feet of soil.",
+      "error": "Please enter all dimensions.",
+      "function": "calculateBedVolume",
+      "code": "function calculateBedVolume() {\n  const length = parseFloat(document.getElementById(\"length\").value);\n  const width = parseFloat(document.getElementById(\"width\").value);\n  const height = parseFloat(document.getElementById(\"height\").value);\n  let result;\n\n  if (isNaN(length) || isNaN(width) || isNaN(height)) {\n    result = \"Please enter all dimensions.\";\n  } else {\n    const cubicInches = length * width * height;\n    const cubicFeet = cubicInches / 1728;\n    result = `You will need approximately ${cubicFeet.toFixed(2)} cubic feet of soil.`;\n  }\n\n  document.getElementById(\"bedResult\").textContent = result;\n}",
+      "sectionHeading": "Volume Calculator - Bulk Products"
+    },
+    {
+      "title": "📦 Cubic Feet ➜ Cubic Yards Converter",
+      "inputs": [
+        "Enter volume in cubic feet:"
+      ],
+      "fields": [
+        {
+          "label": "Enter volume in cubic feet:",
+          "id": "cuFtInput",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 54"
+        }
+      ],
+      "button": "Convert",
+      "formula": "cubicYards = cubicFeet ÷ 27",
+      "rounding": "cubicYards.toFixed(2); the echoed cubicFeet input is not rounded",
+      "output": "${cubicFeet} cubic feet = ${cubicYards.toFixed(2)} cubic yards",
+      "error": "Please enter a valid number.",
+      "function": "convertCuFtToCuYds",
+      "code": "function convertCuFtToCuYds() {\n  const cubicFeet = parseFloat(document.getElementById(\"cuFtInput\").value);\n  let result;\n  \n  if (isNaN(cubicFeet)) {\n    result = \"Please enter a valid number.\";\n  } else {\n    const cubicYards = cubicFeet / 27;\n    result = `${cubicFeet} cubic feet = ${cubicYards.toFixed(2)} cubic yards`;\n  }\n\n  document.getElementById(\"cuYdResult\").textContent = result;\n}",
+      "sectionHeading": "Volume Calculator - Bulk Products"
+    },
+    {
+      "title": "🧱 Cubic Yard Calculator",
+      "inputs": [
+        "Length (feet):",
+        "Width (feet):",
+        "Depth (inches):"
+      ],
+      "fields": [
+        {
+          "label": "Length (feet):",
+          "id": "lengthFeet",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 10"
+        },
+        {
+          "label": "Width (feet):",
+          "id": "widthFeet",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 6"
+        },
+        {
+          "label": "Depth (inches):",
+          "id": "depthInches",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 4"
+        }
+      ],
+      "button": "Calculate",
+      "formula": "cubicYards = (lengthFeet × widthFeet × (depthInches ÷ 12)) ÷ 27",
+      "rounding": "cubicYards.toFixed(2)",
+      "output": "You will need approximately ${cubicYards.toFixed(2)} cubic yards of material.",
+      "error": "Please enter all dimensions.",
+      "function": "calculateCubicYards",
+      "code": "function calculateCubicYards() {\n  const length = parseFloat(document.getElementById(\"lengthFeet\").value);\n  const width = parseFloat(document.getElementById(\"widthFeet\").value);\n  const depth = parseFloat(document.getElementById(\"depthInches\").value);\n\n  let result;\n  if (isNaN(length) || isNaN(width) || isNaN(depth)) {\n    result = \"Please enter all dimensions.\";\n  } else {\n    // Convert to cubic feet: L x W x (D in inches ÷ 12)\n    const cubicFeet = length * width * (depth / 12);\n    // Convert to cubic yards: cu ft ÷ 27\n    const cubicYards = cubicFeet / 27;\n    result = `You will need approximately ${cubicYards.toFixed(2)} cubic yards of material.`;\n  }\n\n  document.getElementById(\"yardResult\").textContent = result;\n}",
+      "sectionHeading": "Volume Calculator - Bulk Products"
+    },
+    {
+      "title": "🧮 Gallons to Cubic Feet Converter",
+      "inputs": [
+        "Enter Volume:"
+      ],
+      "fields": [
+        {
+          "label": "Enter Volume:",
+          "id": "inputValue",
+          "type": "number",
+          "step": "0.01",
+          "placeholder": "Enter value"
+        }
+      ],
+      "options": [
+        {
+          "value": "gallonsToCubicFeet",
+          "label": "Gallons ➜ Cubic Feet"
+        },
+        {
+          "value": "cubicFeetToGallons",
+          "label": "Cubic Feet ➜ Gallons"
+        }
+      ],
+      "button": "Convert",
+      "formula": "gallonsToCubicFeet: cubicFeet = gallons × 0.133681; cubicFeetToGallons: gallons = cubicFeet × 7.48052",
+      "rounding": "toFixed(2)",
+      "output": "<value> cubic feet  |  <value> gallons",
+      "error": "Please enter a valid number.",
+      "function": "convertVolume",
+      "code": "function convertVolume() {\n  const value = parseFloat(document.getElementById(\"inputValue\").value);\n  const type = document.getElementById(\"conversionType\").value;\n  let result;\n\n  if (isNaN(value)) {\n    result = \"Please enter a valid number.\";\n  } else {\n    if (type === \"gallonsToCubicFeet\") {\n      result = (value * 0.133681).toFixed(2) + \" cubic feet\";\n    } else {\n      result = (value * 7.48052).toFixed(2) + \" gallons\";\n    }\n  }\n\n  document.getElementById(\"result\").textContent = result;\n}",
+      "sectionHeading": "Volume Calculator - Bulk Products"
+    }
+  ],
+  "bagCalculator": {
+    "title": "Bagged Products Coverage Calculator",
+    "sectionHeading": "Bagged Products - Volume Calculators",
+    "inputs": [
+      "Cubic Feet In Bag",
+      "Depth (inches)"
+    ],
+    "fields": [
+      {
+        "label": "Cubic Feet In Bag",
+        "id": "cf_in",
+        "type": "number",
+        "step": "0.01",
+        "min": "0.01",
+        "value": "2"
+      },
+      {
+        "label": "Depth (inches)",
+        "id": "depth_in",
+        "type": "number",
+        "step": "0.01",
+        "min": "0.01",
+        "value": "2"
+      }
+    ],
+    "formulaText": "Formula: Square Feet = (12 × Cubic Feet) ÷ Depth (inches)",
+    "formula": "squareFeet = (12 × cubicFeet) ÷ depthInches",
+    "rounding": "((12 * cf) / d).toFixed(2); shows '—' unless both inputs > 0",
+    "output": "Coverage: <squareFeet> sq ft at <depth> inches depth",
+    "initialOutput": "Coverage: 12.00 sq ft at 2 inches depth",
+    "code": "(function(){ const cf = cf_in.valueAsNumber || 0; const d = depth_in.valueAsNumber || 0; const ok = cf > 0 && d > 0; const val = ok ? ((12 * cf) / d).toFixed(2) : '—'; sf.value = val; note.textContent = ok ? ` at ${d} inches depth` : ''; })()",
+    "trigger": "live (form oninput); no button"
+  },
+  "bagCalculators": [
+    {
+      "title": "Bagged Products Coverage Calculator",
+      "sectionHeading": "Bagged Products - Volume Calculators",
+      "inputs": [
+        "Cubic Feet In Bag",
+        "Depth (inches)"
+      ],
+      "fields": [
+        {
+          "label": "Cubic Feet In Bag",
+          "id": "cf_in",
+          "type": "number",
+          "step": "0.01",
+          "min": "0.01",
+          "value": "2"
+        },
+        {
+          "label": "Depth (inches)",
+          "id": "depth_in",
+          "type": "number",
+          "step": "0.01",
+          "min": "0.01",
+          "value": "2"
+        }
+      ],
+      "formulaText": "Formula: Square Feet = (12 × Cubic Feet) ÷ Depth (inches)",
+      "formula": "squareFeet = (12 × cubicFeet) ÷ depthInches",
+      "rounding": "((12 * cf) / d).toFixed(2); shows '—' unless both inputs > 0",
+      "output": "Coverage: <squareFeet> sq ft at <depth> inches depth",
+      "initialOutput": "Coverage: 12.00 sq ft at 2 inches depth",
+      "code": "(function(){ const cf = cf_in.valueAsNumber || 0; const d = depth_in.valueAsNumber || 0; const ok = cf > 0 && d > 0; const val = ok ? ((12 * cf) / d).toFixed(2) : '—'; sf.value = val; note.textContent = ok ? ` at ${d} inches depth` : ''; })()",
+      "trigger": "live (form oninput); no button"
+    },
+    {
+      "title": "🧮 Bags Required Calculator",
+      "inputs": [
+        "Area Length (feet):",
+        "Area Width (feet):",
+        "Depth (inches):",
+        "Cubic Feet per Bag:"
+      ],
+      "fields": [
+        {
+          "label": "Area Length (feet):",
+          "id": "areaLength",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 10"
+        },
+        {
+          "label": "Area Width (feet):",
+          "id": "areaWidth",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 6"
+        },
+        {
+          "label": "Depth (inches):",
+          "id": "depthInches",
+          "type": "number",
+          "step": "0.1",
+          "placeholder": "e.g., 4"
+        },
+        {
+          "label": "Cubic Feet per Bag:",
+          "id": "bagVolume",
+          "type": "number",
+          "step": "0.01",
+          "placeholder": "e.g., 2"
+        }
+      ],
+      "button": "Calculate",
+      "formula": "bags = ceil((areaLengthFeet × areaWidthFeet × (depthInches ÷ 12)) ÷ cubicFeetPerBag)",
+      "rounding": "Math.ceil (always rounds up to whole bags)",
+      "output": "You will need approximately ${bagsNeeded} bags.",
+      "error": "Please enter valid numbers for all fields.",
+      "function": "calculateBags",
+      "code": "function calculateBags() {\n  const length = parseFloat(document.getElementById(\"areaLength\").value);\n  const width = parseFloat(document.getElementById(\"areaWidth\").value);\n  const depth = parseFloat(document.getElementById(\"depthInches\").value);\n  const bagVolume = parseFloat(document.getElementById(\"bagVolume\").value);\n  \n  let result;\n  if (isNaN(length) || isNaN(width) || isNaN(depth) || isNaN(bagVolume) || bagVolume <= 0) {\n    result = \"Please enter valid numbers for all fields.\";\n  } else {\n    const cubicFeet = length * width * (depth / 12);\n    const bagsNeeded = Math.ceil(cubicFeet / bagVolume);\n    result = `You will need approximately ${bagsNeeded} bags.`;\n  }\n\n  document.getElementById(\"bagsResult\").textContent = result;\n}",
+      "sectionHeading": "Bagged Products - Volume Calculators"
+    }
+  ],
+  "faqHeading": "FAQ’s",
+  "faq": [
+    {
+      "question": "Do you deliver?",
+      "answer": [
+        "Yes, we contract with a 3rd party who delivers every Friday. There is a $135 charge to deliver anywhere within a 10 mile radius of our nursery. Every 10 miles extra (or increment thereof) incurs an additional $135 charge. Their delivery trucks can hold up to 12 cubic yards of rock or 14 cubic yards of bark."
+      ]
+    },
+    {
+      "question": "Can I get multiple products delivered in a load?",
+      "answer": [
+        "Technically yes, just keep in mind there is no way to compartmentalize your individual products when they are dumped off the truck. If they are products you are planning on mixing anyway then it might not be an issue."
+      ]
+    },
+    {
+      "question": "How much product can I fit in my truck?",
+      "answer": [
+        "Personal trucks will typically hold the following:",
+        "1500 – 1/4 yd Rock or 1 yd Bark",
+        "2500 – 1/2 yd Rock or 1.5 yd Bark",
+        "3500 – 1 yd Rock or 2 yd Bark"
+      ]
+    },
+    {
+      "question": "How much does 1 yd. weigh?",
+      "answer": [
+        "Rock – 2200-2500 lbs.",
+        "Bark – 600-800 lbs.",
+        "Soil – 1800-2200 lbs. depending on product & moisture content."
+      ]
+    },
+    {
+      "question": "How much product will I need for my project?",
+      "answer": [
+        "Every project varies. Use one of our handy calculators above to determine how many cubic yards of product you will need."
+      ]
+    },
+    {
+      "question": "Can I buy less than a yard?",
+      "answer": [
+        "Yes, our bulk products are sold by the yard, but you can buy as little as 1/4 yd. We also sell smaller quantities by the 5-gallon bucket. Just bring in your bucket & fill with desired product for $5."
+      ]
+    },
+    {
+      "question": "My truck has a canopy/topper. Can you load bulk product into my truck bed?",
+      "answer": [
+        "No, please remove your topper before coming to the bulk yard or make arrangements for delivery."
+      ]
+    },
+    {
+      "question": "Do you sell your products by weight?",
+      "answer": [
+        "No, all of our bulk products are sold by the yard. When calculating your project needs, simply input your variables above and calculate total cubic yards required."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/07/Bulk-Yard-Sign-2.png",
+      "alt": "",
+      "width": 800,
+      "height": 799,
+      "label": "Bulk Yard sign (page lead image)",
+      "originalWidth": 1024,
+      "originalHeight": 1023
+    },
+    {
+      "src": "https://columbiafallsnursery.com/wp-content/uploads/2025/10/Bagged-Product-Calculator.png",
+      "alt": "",
+      "width": 800,
+      "height": 471,
+      "label": "Bagged product calculator illustration (sits beside the FAQ)",
+      "originalWidth": 900
+    }
+  ],
+  "notes": [
+    "priceUnit derived from the FAQ text (not stated in the price table).",
+    "All 19 product swatch <img> alts are empty in the source; imageLabel is the figcaption text.",
+    "Swatch captions (imageLabel) differ from product names in 11 of 19 rows, e.g. River Rock - XL is captioned River Rock - Lg, and Clean Rock - 1.5 inch is captioned Clean Rock - Lg. Full list: Glacier Gold Compost -> GG Compost | Small Bark Nuggets -> Small Bark | Four Way Soil -> 4-Way | Yellow Shale - 3/4\" -> Yellow Shale - Sm. | Blue Shale - 1.5-2\" -> Blue Shale | Yellow Shale - 1.5\" -> Yellow Shale - Lg. | River Rock -> River Rock - Sm | River Rock - XL -> River Rock - Lg | Crush (Brown) - 3/4\" -> 3/4\" Crushed | Clean Rock - 1.5\" -> Clean Rock - Lg | Black Basalt - 5/8\" -> Black Basalt",
+    "Duplicate element id(s) on the page: depthInches. The Bags Required Calculator's \"Depth (inches)\" input shares id \"depthInches\" with the Cubic Yard Calculator, so getElementById reads the Cubic Yard Calculator's depth field instead (live-site bug).",
+    "The Bagged Products Coverage Calculator HTML widget is truncated in the source (ends inside an unterminated <noscript><p class=\"muted ...). In a JS-enabled browser everything after it (Bags Required Calculator, Bagged-Product-Calculator.png, FAQ, footer) is swallowed as noscript text and NOT displayed on the live site, though it is present in the HTML.",
+    "Volume calculators are anchored at #volume-calculators (intro links to https://columbiafallsnursery.com/bulk-yard#volume-calculators).",
+    "Product name for Black Basalt has a trailing space in source (trimmed)."
+  ]
+}
