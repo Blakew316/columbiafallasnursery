@@ -5,7 +5,7 @@
 import { html } from '../lib/html.mjs';
 import { pageHeader, businessJsonLd } from '../layout.mjs';
 import { mapEmbed, more, photo } from '../components.mjs';
-import { PHOTOS, pexelsUrl } from '../photos.mjs';
+import { PHOTOS } from '../photos.mjs';
 import { business, hours } from '../config.mjs';
 
 const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -21,7 +21,7 @@ const visit = {
   bodyClass: 'contact',
   jsonLd: businessJsonLd(),
   render: () => html`${pageHeader({ title: 'Visit.', lead: `${business.address.street}, Columbia Falls, Montana.` })}
-<div class="container visit__photo">${photo({ ...PHOTOS.drone, fallback: pexelsUrl(PHOTOS.montanaPeaks.pexels, 2400) }, { ratio: '21 / 9', eager: true })}</div>
+<div class="container visit__photo">${photo(PHOTOS.glacierReflection, { ratio: '21 / 9', eager: true })}</div>
 <section class="container visit" aria-label="Hours and location">
   <div class="visit__info">
     <h2 class="visit__h">Hours</h2>

@@ -16,9 +16,11 @@ export const pexelsUrl = (id, w) => `https://images.pexels.com/photos/${id}/pexe
 
 export const PHOTOS = {
   // Saint Mary Lake and Wild Goose Island, Glacier National Park (Adriaan Greyling).
-  glacierLake: { pexels: 18654646, alt: 'Saint Mary Lake and the peaks of Glacier National Park', fallback: photos.drone },
+  glacierLake: { pexels: 18654646, alt: 'Saint Mary Lake and the peaks of Glacier National Park', fallback: photos.evergreens },
   // Grinnell Point above Swiftcurrent Lake, Glacier National Park (Colon Freld).
-  montanaPeaks: { pexels: 9017829, alt: 'Mountains, lake and forest in Glacier National Park, Montana', fallback: photos.droneFootprint },
+  montanaPeaks: { pexels: 9017829, alt: 'Mountains, lake and forest in Glacier National Park, Montana', fallback: photos.evergreens2 },
+  // A mountain lake under dramatic clouds, Glacier National Park (Mark Burnett).
+  glacierReflection: { pexels: 1095817, alt: 'A mountain lake under dramatic clouds in Glacier National Park', fallback: photos.evergreens2 },
   // Fog over a pine forest (Adrian Newell).
   pineForest: { pexels: 10195042, alt: 'Pine forest in morning fog', fallback: photos.evergreens },
   // Petunias and hanging baskets under glass (Oleg Nagovski).
@@ -46,7 +48,6 @@ export const PHOTOS = {
   displayGarden: { src: photos.displayGarden, alt: 'The display garden at Columbia Nursery' },
   basket: { src: photos.basket, alt: 'A custom basket planted at Columbia Nursery' },
   basket2: { src: photos.basket2, alt: 'A custom basket planted at Columbia Nursery' },
-  drone: { src: photos.drone, alt: 'Columbia Nursery from above' },
   nurseryFlowers: { src: photos.flowers, alt: 'Flowers in the Columbia Nursery greenhouses' },
   gallery: [
     ['watering', 'Watering in the greenhouse'],
@@ -57,7 +58,7 @@ export const PHOTOS = {
     ['planters', 'Planters'],
     ['flowers', 'Flowers in the greenhouse'],
     ['houseplants', 'Houseplants'],
-    ['droneFootprint', 'The nursery from above'],
+    ['thirdGen', 'The third generation at Columbia Nursery'],
   ].map(([key, alt]) => ({ src: photos[key], alt })),
   logo: photos.logo,
 };
