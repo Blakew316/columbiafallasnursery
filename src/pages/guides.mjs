@@ -21,6 +21,7 @@ function handoutsPage(data) {
     bodyClass: 'guides',
     scripts: ['guides'],
     render: () => html`${pageHeader({ title: 'Garden guides.', lead: 'Free growing guides from our team.' })}
+<div class="container guides__photo">${photo(PHOTOS.potting, { ratio: '21 / 9', eager: true })}</div>
 <section class="container guides" aria-label="Guides">
   <form class="search guides__search" role="search" onsubmit="return false">
     ${icon('search')}

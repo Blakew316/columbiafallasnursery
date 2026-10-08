@@ -79,7 +79,9 @@ const page = {
       ${groups.map(
         (g) => html`<section aria-label="${g.c}">
         <h3 class="price-group__title">${g.c}</h3>
-        <ul class="price-list" role="list">${g.items.map((p) => html`<li><span>${p.name}</span><span>${price(p)}</span></li>`)}</ul>
+        <ul class="price-list" role="list">${g.items.map(
+          (p) => html`<li>${photo(p.image?.src ? { src: p.image.src, alt: '' } : null, { ratio: '1 / 1', className: 'photo--sm swatch', sizes: '48px' })}<span class="price-list__name">${p.name}</span><span class="price-list__price">${price(p)}</span></li>`,
+        )}</ul>
       </section>`,
       )}
     </div>

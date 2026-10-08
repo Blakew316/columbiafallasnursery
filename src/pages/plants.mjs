@@ -29,7 +29,7 @@ function card(p) {
   if (light.has('part-sun')) light.add('part-shade');
   return html`<li class="plant-card" data-search="${search}" data-category="${p.category}" data-light="${[...light].join(' ')}">
   <a href="/plants/${p.slug}/">
-    ${plantPhoto(p, { ratio: '1 / 1', className: 'photo--md', sizes: '(min-width: 900px) 25vw, 50vw' })}
+    ${plantPhoto(p, { ratio: '1 / 1', className: 'photo--md', sizes: '230px' })}
     <span class="plant-card__name">${p.name}</span>
     ${p.botanical && html`<span class="plant-card__latin latin">${p.botanical}</span>`}
   </a>
@@ -91,6 +91,9 @@ function detailPage(p, all, bySlug) {
   const same = all.filter((x) => x.slug !== p.slug && !related.includes(x) && x.category === p.category);
   const more4 = [...related, ...same.filter((x) => x.family === p.family), ...same.filter((x) => x.family !== p.family)].slice(0, 4);
   const first = (p.description?.[0] || '').split(/(?<=\.)\s/)[0];
+  // Source photos are about 217px, so show up to three side by side at
+  // close to their real size instead of one stretched, blurry image.
+  const shots = [...new Set([p.image?.src, ...(p.gallery || [])].filter(Boolean))].slice(0, 3);
   return {
     path: `/plants/${p.slug}/`,
     title: p.name,
@@ -101,12 +104,17 @@ function detailPage(p, all, bySlug) {
     <li><a href="/plants/">Plants</a></li>
     <li><a href="/plants/?category=${p.category}">${cat.label}</a></li>
   </ol></nav>
+  <header class="plant__head">
+    <h1 id="plant-title" class="plant__name">${p.name}</h1>
+    ${p.botanical && html`<p class="plant__latin latin">${p.botanical}</p>`}
+  </header>
+  ${shots.length > 0 &&
+  html`<ul class="plant__photos" role="list">${shots.map(
+    (src, i) => html`<li>${photo({ src, alt: i === 0 ? p.name : `${p.name}, photo ${i + 1}` }, { ratio: '1 / 1', className: 'photo--md', eager: i === 0, sizes: '260px' })}</li>`,
+  )}</ul>`}
   <div class="plant__grid">
-    ${plantPhoto(p, { ratio: '1 / 1', eager: true, sizes: '(min-width: 900px) 50vw, 100vw' })}
-    <div class="plant__info">
-      <h1 id="plant-title" class="plant__name">${p.name}</h1>
-      ${p.botanical && html`<p class="plant__latin latin">${p.botanical}</p>`}
-      <div class="plant__desc">${(p.description || []).map((d) => html`<p>${d}</p>`)}</div>
+    <div class="plant__desc">${(p.description || []).map((d) => html`<p>${d}</p>`)}</div>
+    <div>
       ${specs(p)}
       <p class="plant__call">Growing in our display garden. <a href="tel:${business.phone.tel}">Call ${business.phone.display}</a> for availability.</p>
     </div>

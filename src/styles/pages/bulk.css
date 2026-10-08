@@ -4,8 +4,9 @@
 .price-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 3rem 4rem; }
 .price-group__title { padding-bottom: 0.9rem; border-bottom: 1px solid var(--line); font-size: 1.25rem; }
 .price-list { margin: 0; padding: 0; list-style: none; }
-.price-list li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.85rem 0; border-bottom: 1px solid var(--line-soft); }
-.price-list li span:last-child { font-weight: 600; font-variant-numeric: tabular-nums; }
+.price-list li { display: grid; grid-template-columns: 48px 1fr auto; align-items: center; gap: 1rem; padding: 0.7rem 0; border-bottom: 1px solid var(--line-soft); }
+.swatch { width: 48px; border-radius: 10px; }
+.price-list__price { font-weight: 600; font-variant-numeric: tabular-nums; }
 
 .calc { display: grid; grid-template-columns: minmax(0, 1fr); gap: 3rem; align-items: center; }
 @media (min-width: 900px) { .calc { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); } }

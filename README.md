@@ -13,10 +13,10 @@ The website for [Columbia Nursery & Landscape](https://columbiafallsnursery.com)
 | Plant Finder | `/plants/` | Search all 153 display-garden plants, filter by type and light. Filters are kept in the URL, e.g. `/plants/?category=shrub&light=full-shade` |
 | Plant pages | `/plants/<name>/` | One page per plant: specs, description, related plants |
 | Custom Baskets | `/custom-baskets/` | How it works, drop-off and care PDFs, 17 designs with a sun or shade filter, and a basket request form ("Choose this design" fills it in) |
-| Bulk Yard | `/bulk-yard/` | 2026 price list, yardage and cost calculator, Friday delivery request form (prefilled from the calculator), delivery FAQ |
+| Bulk Yard | `/bulk-yard/` | 2026 price list with a photo of each product, yardage and cost calculator, Friday delivery request form (prefilled from the calculator), delivery FAQ |
 | Garden Guides | `/educational-handouts/` | All 63 handouts, searchable by name and topic |
 | Garden Calendar | `/garden-calendar/` | Month-by-month jobs for the Flathead Valley, each linked to a handout |
-| Visit | `/contact/` | Hours, Google Map, directions, contact form |
+| Visit | `/contact/` | Aerial photo of the nursery, hours, Google Map, directions, contact form |
 
 Old WordPress URLs are redirected (see `REDIRECTS` in `src/build.mjs`).
 

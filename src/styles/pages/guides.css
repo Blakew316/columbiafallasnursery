@@ -1,5 +1,8 @@
 /* Garden Guides and Calendar */
 
+.guides__photo { margin-bottom: clamp(3rem, 2rem + 3vw, 5rem); }
+@media (max-width: 700px) { .guides__photo .photo { aspect-ratio: 4 / 3 !important; } }
+
 .guides { padding-bottom: var(--section-y); }
 .guides__search { max-width: 30rem; margin: 0 auto; }
 .guides__cal { margin: 1.5rem 0 3.5rem; text-align: center; }
