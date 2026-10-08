@@ -1,0 +1,21 @@
+{
+  "note": "Only real reviews, copied word for word with the reviewer's permission. Add quotes as { \"text\": \"...\", \"name\": \"First name L.\", \"source\": \"Google\" }. Update ratings when they change.",
+  "ratings": [
+    {
+      "value": "4.6",
+      "stars": 4.6,
+      "label": "On Yelp, from 11 reviews",
+      "href": "https://www.yelp.com/biz/columbia-nursery-and-landscape-columbia-falls"
+    },
+    {
+      "value": "2×",
+      "label": "Nextdoor Neighborhood Favorite, 2023 and 2024",
+      "href": "https://nextdoor.com/pages/columbia-nursery-landscape-columbia-falls-mt/"
+    }
+  ],
+  "google": {
+    "reviews": "https://search.google.com/local/reviews?placeid=ChIJMQ4rDp1BZlMRifGvPHsjztI",
+    "write": "https://search.google.com/local/writereview?placeid=ChIJMQ4rDp1BZlMRifGvPHsjztI"
+  },
+  "quotes": []
+}

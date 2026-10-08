@@ -18,3 +18,8 @@
 .calc__cost { min-height: 1.6em; margin-top: 1rem; font-size: 1.25rem; color: var(--ink-2); }
 
 .faq__title { margin-bottom: 2rem; }
+
+.calc__deliver { margin-top: 1.5rem; }
+.delivery__head { margin-bottom: 2.5rem; text-align: center; }
+.delivery__head .lead { margin-top: 1rem; }
+.delivery__estimate { min-height: 1.5em; margin-top: 1.5rem; text-align: center; font-size: 1.125rem; font-weight: 600; }

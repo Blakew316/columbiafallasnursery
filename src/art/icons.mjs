@@ -40,6 +40,7 @@ const ICONS = {
   minus: '<path d="M5 12h14"/>',
   'arrow-up-right': '<path d="M7 17 17 7M9 7h8v8"/>',
   ruler: '<path d="M3.5 15.5 15.5 3.5l5 5-12 12-5-5Z"/><path d="m7.5 11.5 2 2M10 9l1.5 1.5M12.5 6.5l2 2"/>',
+  star: '<path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3l1.1-6.37-4.63-4.5 6.4-.93Z" fill="currentColor" stroke="none"/>',
   thermometer: '<path d="M10 14.2V5a2 2 0 1 1 4 0v9.2a4 4 0 1 1-4 0Z"/><path d="M12 9v7"/>',
 };
 

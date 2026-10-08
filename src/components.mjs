@@ -58,3 +58,23 @@ export function visitDetails() {
 export function mapEmbed() {
   return html`<div class="map"><iframe src="${business.mapEmbedUrl}" title="Map to Columbia Nursery & Landscape" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>`;
 }
+
+/** Today's "MM-DD" in the nursery's time zone (used at build time). */
+export function todayMD(timeZone = 'America/Denver') {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat('en-US', { timeZone, month: '2-digit', day: '2-digit' }).formatToParts(new Date()).map((x) => [x.type, x.value]),
+  );
+  return `${parts.month}-${parts.day}`;
+}
+
+/** True when "MM-DD" falls in the inclusive window (wraps over New Year). */
+export function inWindow(md, start, end) {
+  return start <= end ? md >= start && md <= end : md >= start || md <= end;
+}
+
+/** Five stars, filled to `value` out of 5. */
+export function stars(value) {
+  const pct = Math.max(0, Math.min(100, (value / 5) * 100));
+  const row = Array.from({ length: 5 }, () => icon('star'));
+  return html`<span class="stars" role="img" aria-label="${value} out of 5 stars"><span class="stars__base">${row}</span><span class="stars__fill" style="width:${pct.toFixed(1)}%">${row}</span></span>`;
+}

@@ -35,6 +35,8 @@ export const PHOTOS = {
   pots: { pexels: 3952031, alt: 'Plants in terracotta pots', fallback: photos.planters },
   // Potting soil going into pots.
   potting: { pexels: 4750383, alt: 'Filling pots with soil', fallback: photos.potting },
+  // Golden larches in an autumn valley (Francesco Sommacal).
+  autumn: { pexels: 19829085, alt: 'Golden larches in an autumn mountain valley', fallback: photos.evergreens2 },
   // Landscape stone.
   stone: { pexels: 214045, alt: 'Landscape stone', fallback: photos.bulkSign },
 
@@ -45,6 +47,7 @@ export const PHOTOS = {
   basket: { src: photos.basket, alt: 'A custom basket planted at Columbia Nursery' },
   basket2: { src: photos.basket2, alt: 'A custom basket planted at Columbia Nursery' },
   drone: { src: photos.drone, alt: 'Columbia Nursery from above' },
+  nurseryFlowers: { src: photos.flowers, alt: 'Flowers in the Columbia Nursery greenhouses' },
   gallery: [
     ['watering', 'Watering in the greenhouse'],
     ['selection', 'Plants ready for the season'],

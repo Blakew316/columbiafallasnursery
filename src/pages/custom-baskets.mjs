@@ -5,7 +5,7 @@
 import { html, raw } from '../lib/html.mjs';
 import { mediaUrl } from '../lib/media.mjs';
 import { pageHeader } from '../layout.mjs';
-import { photo } from '../components.mjs';
+import { photo, more } from '../components.mjs';
 import { PHOTOS } from '../photos.mjs';
 import { icon } from '../art/icons.mjs';
 
@@ -18,7 +18,59 @@ const STEPS = [
 
 const SUN = new Set(['full-sun', 'part-sun']);
 
-export default {
+const LIGHTS = ['Full sun', 'Part sun', 'Part shade', 'Full shade', 'A mix'];
+
+/** Custom basket request (Netlify Forms). */
+function orderForm(designs) {
+  return html`<section class="section" id="order" aria-labelledby="order-title">
+  <div class="container container--narrow">
+    <div class="order__head">
+      <h2 id="order-title">Start your order.</h2>
+      <p class="lead">Tell us what you would like and we will call to confirm your drop-off.</p>
+    </div>
+    <form class="order" name="custom-basket" method="POST" action="/custom-baskets/thanks/" data-netlify="true" netlify-honeypot="company" data-order>
+      <input type="hidden" name="form-name" value="custom-basket" />
+      <p class="visually-hidden"><label>Leave empty <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <div class="order__grid">
+        <div class="field"><label for="o-name">Name</label><input class="input" id="o-name" name="name" autocomplete="name" required /></div>
+        <div class="field"><label for="o-phone">Phone</label><input class="input" id="o-phone" name="phone" type="tel" autocomplete="tel" required /></div>
+        <div class="field order__full"><label for="o-email">Email</label><input class="input" id="o-email" name="email" type="email" autocomplete="email" required /></div>
+        <div class="field"><label for="o-count">Number of containers</label><input class="input" id="o-count" name="containers" type="number" inputmode="numeric" min="1" step="1" value="1" required /></div>
+        <div class="field"><label for="o-source">Containers</label>
+          <select class="select" id="o-source" name="container_source" required>
+            <option>I will bring my own</option>
+            <option>I would like to choose from yours</option>
+          </select>
+        </div>
+        <div class="field"><label for="o-light">Light where they will hang</label>
+          <select class="select" id="o-light" name="light" required>${LIGHTS.map((l) => html`<option>${l}</option>`)}</select>
+        </div>
+        <div class="field"><label for="o-design">Design</label>
+          <select class="select" id="o-design" name="design" data-order-design>
+            <option>Your choice</option>
+            ${designs.map((d) => html`<option>${d.name}</option>`)}
+          </select>
+        </div>
+        <div class="field order__full"><label for="o-colors">Colors you love</label><input class="input" id="o-colors" name="colors" placeholder="Pinks and whites, nothing orange" /></div>
+        <div class="field"><label for="o-date">Preferred drop-off date</label><input class="input" id="o-date" name="drop_off_date" type="date" /></div>
+        <div class="field order__full"><label for="o-notes">Anything else</label><textarea class="textarea" id="o-notes" name="notes" rows="4"></textarea></div>
+      </div>
+      <p class="order__submit"><button class="btn" type="submit">Send request</button></p>
+    </form>
+  </div>
+</section>`;
+}
+
+const thanks = {
+  path: '/custom-baskets/thanks/',
+  title: 'Basket request sent',
+  description: 'Your custom basket request was sent.',
+  noindex: true,
+  render: () => html`${pageHeader({ title: 'Request received.', lead: 'We will call you to confirm your drop-off.' })}
+<p class="container center-link">${more('/custom-baskets/', 'Back to custom baskets')}</p>`,
+};
+
+const page = {
   path: '/custom-baskets/',
   title: 'Custom Baskets',
   description: 'Bring your containers or choose ours. We plant them and grow them in our greenhouses until they bloom. Thousands planted each spring in the Flathead Valley.',
@@ -31,6 +83,7 @@ export default {
     const dropOff = pdf('Basket Drop Off');
     const care = pdf('Basket Care');
     return html`${pageHeader({ title: 'Custom baskets.', lead: 'Your containers, planted by our growers. Thousands every spring.' })}
+<p class="container order-jump">${more('#order', 'Start your order')}</p>
 <section class="section section--tight" aria-labelledby="how">
   <div class="container split">
     ${photo(PHOTOS.basket, { ratio: '4 / 5', eager: true, sizes: '(min-width: 900px) 55vw, 100vw' })}
@@ -74,12 +127,15 @@ export default {
   <img class="lightbox__img" alt="" data-img />
   <div class="lightbox__bar">
     <button type="button" data-prev aria-label="Previous">${icon('chevron-left')}</button>
-    <p data-caption aria-live="polite"></p>
+    <div class="lightbox__meta"><p data-caption aria-live="polite"></p><a class="more" href="#order" data-choose>Choose this design</a></div>
     <button type="button" data-next aria-label="Next">${icon('chevron-right')}</button>
   </div>
 </dialog>
 <script type="application/json" data-look-data>${raw(
       JSON.stringify(designs.map((d) => ({ name: d.name, light: d.light, src: mediaUrl(d.image?.src) }))).replace(/</g, '\\u003c'),
-    )}</script>`;
+    )}</script>
+${orderForm(designs)}`;
   },
 };
+
+export default [page, thanks];

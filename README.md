@@ -6,14 +6,14 @@ The website for [Columbia Nursery & Landscape](https://columbiafallsnursery.com)
 
 | Page | URL | Notes |
 | --- | --- | --- |
-| Home | `/` | Glacier National Park hero, what we grow, plant search, custom baskets, bulk prices, visit with Google Map |
+| Home | `/` | Glacier National Park hero, In the nursery now (seasonal), what we grow, plant search, custom baskets, reviews, bulk prices, visit with Google Map |
 | Our Story | `/about/` | Family history, facts, full-service list, photo gallery |
 | The Nursery | `/shop/` | All 8 departments with anchors (`#garden-shop`, `#houseplants`, `#annuals-vegetables`, …) |
 | Display Garden | `/display-garden/` | Garden intro, downloadable plant list, every plant by group |
 | Plant Finder | `/plants/` | Search all 153 display-garden plants, filter by type and light. Filters are kept in the URL, e.g. `/plants/?category=shrub&light=full-shade` |
 | Plant pages | `/plants/<name>/` | One page per plant: specs, description, related plants |
-| Custom Baskets | `/custom-baskets/` | How it works, drop-off and care PDFs, 17 designs with a sun or shade filter |
-| Bulk Yard | `/bulk-yard/` | 2026 price list, yardage and cost calculator, delivery FAQ |
+| Custom Baskets | `/custom-baskets/` | How it works, drop-off and care PDFs, 17 designs with a sun or shade filter, and a basket request form ("Choose this design" fills it in) |
+| Bulk Yard | `/bulk-yard/` | 2026 price list, yardage and cost calculator, Friday delivery request form (prefilled from the calculator), delivery FAQ |
 | Garden Guides | `/educational-handouts/` | All 63 handouts, searchable by name and topic |
 | Garden Calendar | `/garden-calendar/` | Month-by-month jobs for the Flathead Valley, each linked to a handout |
 | Visit | `/contact/` | Hours, Google Map, directions, contact form |
@@ -26,6 +26,8 @@ The redesign also fixes two bugs on the old site: the bulk-yard calculators were
 
 - **Hours, phone, address, sale dates, navigation:** `src/config.mjs`. The Fall Sale line shows automatically between the dates in `announcements`.
 - **Prices, plants, baskets, handouts, page copy:** the JSON files in `src/data/`.
+- **In the nursery now (home page):** `src/data/now.json`. Three cards per season, each with dates, a title, one line, a link and a photo.
+- **Reviews (home page):** `src/data/reviews.json`. Ratings link to Yelp and Nextdoor. Add real customer quotes (word for word, with permission) to `quotes` and they appear automatically.
 - **Garden calendar tasks:** `src/data/calendar.json`. Each `handout` value must match a title in `handouts.json`.
 
 Then run `npm run build`. When the repo is connected to Netlify, pushing does the build for you.
@@ -45,7 +47,7 @@ npm run media        # download the old site's photos and PDFs into static/media
 The nursery's own photos, logo and PDFs still load from the old WordPress server.
 
 1. **Download the media.** Run `npm run media` while the old site is still online, then commit `static/media/`. After that, every build serves local copies.
-2. **Turn on form notifications.** The contact form uses Netlify Forms. In the Netlify dashboard, go to *Forms → contact → Notifications* and add the email address that should receive messages.
+2. **Turn on form notifications.** Three forms use Netlify Forms: `contact`, `custom-basket` and `bulk-delivery`. In the Netlify dashboard, open *Forms*, choose each one, and add the email address that should receive it under *Notifications*.
 3. **Add analytics, if wanted.** The old site used Google tag `GT-M3SP3PGG`. This site ships with no tracking.
 
 ## How it's built

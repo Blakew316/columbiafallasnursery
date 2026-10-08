@@ -53,4 +53,26 @@
   });
   dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
   dialog.addEventListener('close', function () { if (opener) opener.focus(); });
+
+  // "Choose this design" fills in the order form and takes you there.
+  var choose = dialog.querySelector('[data-choose]');
+  var designSelect = document.querySelector('[data-order-design]');
+  var lightSelect = document.getElementById('o-light');
+  if (choose && designSelect) {
+    choose.addEventListener('click', function (e) {
+      e.preventDefault();
+      var d = designs[current];
+      designSelect.value = d.name;
+      if (lightSelect) {
+        Array.prototype.forEach.call(lightSelect.options, function (o) {
+          if (o.value.toLowerCase() === String(d.light).toLowerCase()) lightSelect.value = o.value;
+        });
+      }
+      opener = null;
+      dialog.close();
+      var order = document.getElementById('order');
+      order.scrollIntoView();
+      designSelect.focus({ preventScroll: true });
+    });
+  }
 })();

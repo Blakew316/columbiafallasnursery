@@ -4,7 +4,7 @@
 import { html } from '../lib/html.mjs';
 import { announcements, business } from '../config.mjs';
 import { PHOTOS } from '../photos.mjs';
-import { photo, button, more, visitDetails, mapEmbed } from '../components.mjs';
+import { photo, button, more, visitDetails, mapEmbed, todayMD, inWindow, stars } from '../components.mjs';
 import { businessJsonLd } from '../layout.mjs';
 import { icon } from '../art/icons.mjs';
 
@@ -36,6 +36,59 @@ function statement() {
   <div class="container">
     <p class="statement__text">Seven acres. Sixteen greenhouses. Three generations of growers in the Flathead Valley.</p>
     <p class="statement__link">${more('/about/', 'Our story')}</p>
+  </div>
+</section>`;
+}
+
+/** Seasonal cards from src/data/now.json; site.js re-checks the date in the browser. */
+function now(data) {
+  const items = data?.items || [];
+  if (!items.length) return '';
+  const md = todayMD();
+  return html`<section class="section section--tight now" aria-labelledby="now-title">
+  <div class="container">
+    <h2 id="now-title" class="now__title">In the nursery now.</h2>
+    <ul class="now__list" role="list">
+      ${items.map((it) => {
+        const p = it.image ? { src: it.image, alt: it.title } : PHOTOS[it.photo];
+        return html`<li data-start="${it.start}" data-end="${it.end}"${inWindow(md, it.start, it.end) ? '' : html` hidden`}>
+        <a class="now-card" href="${it.href}">
+          ${photo(p, { ratio: '4 / 3', className: 'photo--md', sizes: '(min-width: 900px) 33vw, 100vw' })}
+          <span class="now-card__title">${it.title}</span>
+          <span class="now-card__text">${it.text}</span>
+        </a>
+      </li>`;
+      })}
+    </ul>
+  </div>
+</section>`;
+}
+
+/** Ratings we can source, plus real quotes once the owners add them. */
+function reviews(data) {
+  if (!data) return '';
+  const quotes = data.quotes || [];
+  return html`<section class="section section--alt reviews" aria-labelledby="reviews-title">
+  <div class="container">
+    <h2 id="reviews-title" class="reviews__title">Loved in the valley.</h2>
+    <ul class="reviews__ratings" role="list">
+      ${(data.ratings || []).map(
+        (r) => html`<li><a class="rating" href="${r.href}" target="_blank" rel="noopener">
+        <span class="rating__value">${r.value}</span>
+        ${r.stars ? stars(r.stars) : ''}
+        <span class="rating__label">${r.label}</span>
+      </a></li>`,
+      )}
+    </ul>
+    ${quotes.length > 0 &&
+    html`<ul class="quotes" role="list">${quotes.map(
+      (q) => html`<li><blockquote class="quote"><p>${q.text}</p><footer>${q.name}${q.source ? `, ${q.source}` : ''}</footer></blockquote></li>`,
+    )}</ul>`}
+    ${data.google &&
+    html`<p class="reviews__links">
+      <a class="more" href="${data.google.reviews}" target="_blank" rel="noopener">Read our Google reviews</a>
+      <a class="more" href="${data.google.write}" target="_blank" rel="noopener">Leave a review</a>
+    </p>`}
   </div>
 </section>`;
 }
@@ -130,6 +183,6 @@ export default {
   bodyClass: 'home',
   jsonLd: businessJsonLd(),
   render(ctx) {
-    return html`${hero()}${statement()}${tiles()}${finder(ctx.data.plants?.plants?.length || 153)}${baskets()}${band()}${bulk(ctx.data.bulk)}${visit()}`;
+    return html`${hero()}${statement()}${now(ctx.data.now)}${tiles()}${finder(ctx.data.plants?.plants?.length || 153)}${baskets()}${band()}${reviews(ctx.data.reviews)}${bulk(ctx.data.bulk)}${visit()}`;
   },
 };

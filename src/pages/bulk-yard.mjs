@@ -3,12 +3,59 @@
  */
 import { html, raw } from '../lib/html.mjs';
 import { pageHeader } from '../layout.mjs';
-import { photo } from '../components.mjs';
+import { photo, more } from '../components.mjs';
 import { PHOTOS } from '../photos.mjs';
 
 const ORDER = ['Mulch', 'Compost', 'Soil', 'Sand', 'Rock', 'Other'];
 
-export default {
+/** Friday delivery request (Netlify Forms), prefilled from the calculator. */
+function deliveryForm(groups, d) {
+  const base = d?.baseFee ?? 135;
+  const radius = d?.baseRadiusMiles ?? 10;
+  return html`<section class="section" id="delivery" aria-labelledby="delivery-title">
+  <div class="container container--narrow">
+    <div class="delivery__head">
+      <h2 id="delivery-title">Friday delivery.</h2>
+      <p class="lead">$${base} within ${radius} miles of the nursery, plus $${d?.extraFee ?? 135} for each extra ${d?.extraPerMiles ?? 10} miles. Up to 12 yards of rock or 14 of bark per load.</p>
+    </div>
+    <form class="delivery" name="bulk-delivery" method="POST" action="/bulk-yard/thanks/" data-netlify="true" netlify-honeypot="company" data-delivery>
+      <input type="hidden" name="form-name" value="bulk-delivery" />
+      <p class="visually-hidden"><label>Leave empty <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+      <div class="order__grid">
+        <div class="field"><label for="d-product">Product</label>
+          <select class="select" id="d-product" name="product" required data-del-product>
+            <option value="">Choose a product</option>
+            ${groups.map((g) => html`<optgroup label="${g.c}">${g.items.map((p) => html`<option value="${p.name}" data-price="${p.price}">${p.name}</option>`)}</optgroup>`)}
+          </select>
+        </div>
+        <div class="field"><label for="d-yards">Yards</label><input class="input" id="d-yards" name="yards" type="number" inputmode="decimal" min="0.25" step="0.25" required data-del-yards /></div>
+        <div class="field order__full"><label for="d-address">Delivery address</label><input class="input" id="d-address" name="address" autocomplete="street-address" required /></div>
+        <div class="field"><label for="d-town">Town</label><input class="input" id="d-town" name="town" autocomplete="address-level2" required /></div>
+        <div class="field"><label for="d-friday">Friday</label>
+          <select class="select" id="d-friday" name="friday" required data-fridays><option>Next available Friday</option></select>
+        </div>
+        <div class="field order__full"><label for="d-placement">Where should we leave it?</label><input class="input" id="d-placement" name="placement" placeholder="Driveway, left side" /></div>
+        <div class="field"><label for="d-name">Name</label><input class="input" id="d-name" name="name" autocomplete="name" required /></div>
+        <div class="field"><label for="d-phone">Phone</label><input class="input" id="d-phone" name="phone" type="tel" autocomplete="tel" required /></div>
+        <div class="field order__full"><label for="d-email">Email</label><input class="input" id="d-email" name="email" type="email" autocomplete="email" /></div>
+      </div>
+      <p class="delivery__estimate" aria-live="polite" data-del-estimate></p>
+      <p class="order__submit"><button class="btn" type="submit">Request delivery</button></p>
+    </form>
+  </div>
+</section>`;
+}
+
+const thanks = {
+  path: '/bulk-yard/thanks/',
+  title: 'Delivery requested',
+  description: 'Your delivery request was sent.',
+  noindex: true,
+  render: () => html`${pageHeader({ title: 'Delivery requested.', lead: 'We will call to confirm your Friday and your total.' })}
+<p class="container center-link">${more('/bulk-yard/', 'Back to the bulk yard')}</p>`,
+};
+
+const page = {
   path: '/bulk-yard/',
   title: 'Bulk Yard',
   description: '2026 prices per cubic yard for mulch, compost, topsoil, sand and rock in Columbia Falls, MT. From a $5 bucket to a truckload, with Friday delivery.',
@@ -59,11 +106,14 @@ export default {
     <div class="calc__out" aria-live="polite">
       <p class="calc__big"><span data-yards>0</span><span class="calc__unit"> yards</span></p>
       <p class="calc__cost" data-cost></p>
+      <p class="calc__deliver">${more('#delivery', 'Have it delivered')}</p>
     </div>
   </div>
 </section>
 
-<section class="section" id="faq" aria-labelledby="faq-title">
+${deliveryForm(groups, b.delivery)}
+
+<section class="section section--alt" id="faq" aria-labelledby="faq-title">
   <div class="container container--narrow">
     <h2 id="faq-title" class="faq__title">Questions.</h2>
     ${(b.faq || []).map(
@@ -76,3 +126,5 @@ export default {
 </section>`;
   },
 };
+
+export default [page, thanks];
