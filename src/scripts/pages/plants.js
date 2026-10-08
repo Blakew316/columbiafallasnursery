@@ -1,156 +1,62 @@
-/*
- * Plant Finder: filters the server-rendered cards in place and mirrors the
- * state in the URL (?q, category, light, zone, feature) so searches can be
- * shared and the back button works.
- */
+/* Plant finder: search, type and light, mirrored in the URL. */
 (function () {
   'use strict';
-  var form = document.querySelector('[data-finder-form]');
-  var grid = document.querySelector('[data-finder-grid]');
+  var form = document.querySelector('[data-finder]');
+  var grid = document.querySelector('[data-grid]');
   if (!form || !grid) return;
-
   var cards = Array.prototype.slice.call(grid.children);
-  var input = form.querySelector('[data-finder-q]');
-  var count = form.querySelector('[data-finder-count]');
-  var sort = form.querySelector('[data-finder-sort]');
-  var empty = document.querySelector('[data-finder-empty]');
-  var clears = document.querySelectorAll('[data-finder-clear]');
-  var activeCount = form.querySelector('[data-active-count]');
-  var filters = form.querySelector('[data-filters]');
-  var groups = {};
-  form.querySelectorAll('[data-filter]').forEach(function (fs) {
-    groups[fs.getAttribute('data-filter')] = fs;
-  });
-  var original = cards.slice();
+  var q = form.querySelector('[data-q]');
+  var seg = form.querySelector('[data-category]');
+  var light = form.querySelector('[data-light]');
+  var count = document.querySelector('[data-count]');
+  var empty = document.querySelector('[data-empty]');
 
-  function selected(name) {
-    var fs = groups[name];
-    if (!fs) return [];
-    return Array.prototype.slice
-      .call(fs.querySelectorAll('[aria-pressed="true"]'))
-      .map(function (b) { return b.getAttribute('data-value'); });
+  function category() {
+    var on = seg.querySelector('[aria-pressed="true"]');
+    return on ? on.getAttribute('data-value') : '';
+  }
+  function setCategory(v) {
+    seg.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-value') === v)); });
   }
 
-  function setSelected(name, values) {
-    var fs = groups[name];
-    if (!fs) return;
-    fs.querySelectorAll('[data-value]').forEach(function (b) {
-      b.setAttribute('aria-pressed', String(values.indexOf(b.getAttribute('data-value')) !== -1));
-    });
-  }
-
-  function words(s) {
-    return s.toLowerCase().trim().split(/\s+/).filter(Boolean);
-  }
-
-  function apply(pushUrl) {
-    var q = words(input.value);
-    var cat = selected('category');
-    var light = selected('light');
-    var zone = selected('zone')[0];
-    var feat = selected('feature');
+  function apply(write) {
+    var words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    var c = category();
+    var l = light.value;
     var shown = 0;
     cards.forEach(function (card) {
       var hay = card.getAttribute('data-search');
-      var ok = q.every(function (w) { return hay.indexOf(w) !== -1; });
-      if (ok && cat.length) ok = cat.indexOf(card.getAttribute('data-category')) !== -1;
-      if (ok && light.length) {
-        var l = card.getAttribute('data-light').split(' ');
-        ok = light.some(function (x) { return l.indexOf(x) !== -1; });
-      }
-      if (ok && zone) {
-        var z = card.getAttribute('data-zone');
-        ok = z !== '' && parseInt(z, 10) <= parseInt(zone, 10);
-      }
-      if (ok && feat.length) {
-        var f = card.getAttribute('data-features').split(' ');
-        ok = feat.every(function (x) { return f.indexOf(x) !== -1; });
-      }
+      var ok = words.every(function (w) { return hay.indexOf(w) !== -1; }) &&
+        (!c || card.getAttribute('data-category') === c) &&
+        (!l || card.getAttribute('data-light').split(' ').indexOf(l) !== -1);
       card.hidden = !ok;
       if (ok) shown++;
     });
     count.textContent = shown === 1 ? '1 plant' : shown + ' plants';
     empty.hidden = shown !== 0;
-    var nActive = cat.length + light.length + (zone ? 1 : 0) + feat.length;
-    var any = nActive + q.length > 0;
-    clears.forEach(function (b) { if (b.closest('form')) b.hidden = !any; });
-    activeCount.hidden = !nActive;
-    activeCount.textContent = nActive ? String(nActive) : '';
-    if (pushUrl) writeUrl({ q: input.value.trim(), category: cat, light: light, zone: zone ? [zone] : [], feature: feat });
-  }
-
-  function writeUrl(state) {
-    var params = new URLSearchParams();
-    if (state.q) params.set('q', state.q);
-    ['category', 'light', 'zone', 'feature'].forEach(function (k) {
-      if (state[k].length) params.set(k, state[k].join(','));
-    });
-    if (sort.value !== 'name') params.set('sort', sort.value);
-    var url = location.pathname + (params.toString() ? '?' + params.toString() : '');
-    history.replaceState(null, '', url);
-  }
-
-  function readUrl() {
-    var params = new URLSearchParams(location.search);
-    input.value = params.get('q') || '';
-    ['category', 'light', 'zone', 'feature'].forEach(function (k) {
-      setSelected(k, (params.get(k) || '').split(',').filter(Boolean));
-    });
-    var s = params.get('sort');
-    if (s && sort.querySelector('option[value="' + s + '"]')) sort.value = s;
-  }
-
-  function reorder() {
-    var mode = sort.value;
-    var list = original.slice();
-    if (mode !== 'name') {
-      list.sort(function (a, b) {
-        var ha = parseFloat(a.getAttribute('data-height'));
-        var hb = parseFloat(b.getAttribute('data-height'));
-        if (isNaN(ha)) return 1;
-        if (isNaN(hb)) return -1;
-        return mode === 'height-asc' ? ha - hb : hb - ha;
-      });
+    if (write) {
+      var p = new URLSearchParams();
+      if (q.value.trim()) p.set('q', q.value.trim());
+      if (c) p.set('category', c);
+      if (l) p.set('light', l);
+      history.replaceState(null, '', location.pathname + (p.toString() ? '?' + p : ''));
     }
-    var frag = document.createDocumentFragment();
-    list.forEach(function (c) { frag.appendChild(c); });
-    grid.appendChild(frag);
   }
 
-  form.addEventListener('click', function (e) {
-    var chip = e.target.closest('.chip[data-value]');
-    if (!chip) return;
-    var fs = chip.closest('[data-filter]');
-    var on = chip.getAttribute('aria-pressed') !== 'true';
-    if (fs.hasAttribute('data-single')) {
-      fs.querySelectorAll('[data-value]').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
-    }
-    chip.setAttribute('aria-pressed', String(on));
+  var params = new URLSearchParams(location.search);
+  q.value = params.get('q') || '';
+  setCategory(params.get('category') || '');
+  var lv = params.get('light');
+  if (lv === 'part-sun') lv = 'part-shade';
+  if (lv && light.querySelector('option[value="' + lv + '"]')) light.value = lv;
+
+  seg.addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    setCategory(b.getAttribute('data-value'));
     apply(true);
   });
-
-  var t;
-  input.addEventListener('input', function () {
-    clearTimeout(t);
-    t = setTimeout(function () { apply(true); }, 120);
-  });
-  input.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') { e.preventDefault(); input.blur(); }
-  });
-  sort.addEventListener('change', function () { reorder(); apply(true); });
-  clears.forEach(function (b) {
-    b.addEventListener('click', function () {
-      input.value = '';
-      Object.keys(groups).forEach(function (k) { setSelected(k, []); });
-      apply(true);
-      input.focus();
-    });
-  });
-
-  // Collapse the filter panel on small screens unless filters are in use.
-  var small = window.matchMedia('(max-width: 760px)');
-  readUrl();
-  if (small.matches && filters && !location.search.match(/category|light|zone|feature/)) filters.open = false;
-  reorder();
+  q.addEventListener('input', function () { apply(true); });
+  light.addEventListener('change', function () { apply(true); });
   apply(false);
 })();

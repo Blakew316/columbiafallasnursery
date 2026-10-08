@@ -15,9 +15,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { documentHtml } from './layout.mjs';
 import { SITE_URL, business } from './config.mjs';
-import { faviconSvg } from './art/logo.mjs';
 import { mediaStatus } from './lib/media.mjs';
-import { takeSpotDefs } from './art/spots.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.join(ROOT, 'src');
@@ -28,7 +26,7 @@ const ONLY = process.env.ONLY ? process.env.ONLY.split(',').map((s) => s.trim())
 const started = performance.now();
 
 /** Stylesheets in cascade order; page sheets are appended alphabetically. */
-const CSS_ORDER = ['tokens.css', 'base.css', 'panorama.css', 'layout.css', 'components.css', 'home.css'];
+const CSS_ORDER = ['tokens.css', 'base.css', 'layout.css', 'components.css', 'home.css'];
 
 const hash = (text) => createHash('sha256').update(text).digest('hex').slice(0, 10);
 
@@ -95,6 +93,22 @@ function outFile(pagePath) {
   return path.join(pagePath.slice(1), 'index.html');
 }
 
+/**
+ * House style: no em dashes anywhere. Clause dashes become commas, number
+ * ranges and minus signs become hyphens, word ranges become "to".
+ */
+function noDashes(text) {
+  return text
+    .replace(/\s*\u2014\s*/g, ', ')
+    .replace(/(\d)\s*\u2013\s*(\d)/g, '$1-$2')
+    .replace(/(^|[\s(])\u2013(\d)/g, '$1-$2')
+    .replace(/\s+\u2013\s+/g, ', ')
+    .replace(/([A-Za-z])\u2013([A-Za-z])/g, '$1 to $2')
+    .replace(/\u2013/g, '-')
+    .replace(/,\s*,/g, ',')
+    .replace(/,\s*([.!?])/g, '$1');
+}
+
 /** Old WordPress URLs → new pages (Netlify _redirects format). */
 const REDIRECTS = [
   ['/full-service-nursery-in-northwest-montana-columbia-nursery/', '/about/'],
@@ -124,7 +138,6 @@ async function main() {
     const full = path.join(staticDir, f);
     if (statSync(full).isFile()) cpSync(full, path.join(OUT, 'assets', f));
   }
-  write('assets/favicon.svg', faviconSvg());
 
   const css = bundleCss();
   const js = bundleJs();
@@ -138,10 +151,8 @@ async function main() {
       if (!js.pages[name]) throw new Error(`Page ${page.path} wants missing script src/scripts/pages/${name}.js`);
       return js.pages[name];
     });
-    takeSpotDefs(); // discard anything rendered outside this page
     const main = page.render(ctx);
-    const defs = takeSpotDefs();
-    write(outFile(page.path), documentHtml({ ...page, scripts, defs }, main, { css, js: js.site }));
+    write(outFile(page.path), noDashes(documentHtml({ ...page, scripts }, main, { css, js: js.site })));
   }
 
   const listed = pages.filter((p) => p.sitemap !== false && !p.noindex && !p.path.endsWith('.html'));
@@ -161,12 +172,14 @@ async function main() {
         short_name: business.shortName,
         start_url: '/',
         display: 'browser',
-        background_color: '#f2f5f1',
-        theme_color: '#1e3a34',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
         icons: [
-          { src: '/assets/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: '/assets/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: '/assets/favicon.svg', sizes: 'any', type: 'image/svg+xml' },
+          {
+            src: 'https://columbiafallsnursery.com/wp-content/uploads/2025/07/cropped-601b007be6373b06b291cbd3_Columbia-Nursery-Landscape_IMG-1-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
         ],
       },
       null,

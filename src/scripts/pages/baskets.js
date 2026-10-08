@@ -1,67 +1,52 @@
-/* Custom Baskets: lookbook light filter and the design lightbox. */
+/* Custom Baskets: sun/shade filter and the design viewer. */
 (function () {
   'use strict';
-  var grid = document.querySelector('[data-lookbook]');
-  var bar = document.querySelector('[data-lookbook-filters]');
+  var list = document.querySelector('[data-look]');
+  var filter = document.querySelector('[data-look-filter]');
   var dialog = document.querySelector('[data-lightbox]');
-  var dataEl = document.querySelector('[data-lookbook-data]');
-  if (!grid) return;
+  if (!list) return;
   var designs = [];
-  try { designs = JSON.parse(dataEl.textContent); } catch (e) {}
+  try { designs = JSON.parse(document.querySelector('[data-look-data]').textContent); } catch (e) {}
 
-  if (bar) {
-    bar.addEventListener('click', function (e) {
-      var chip = e.target.closest('[data-light]');
-      if (!chip) return;
-      var light = chip.getAttribute('data-light');
-      bar.querySelectorAll('[data-light]').forEach(function (b) { b.setAttribute('aria-pressed', String(b === chip)); });
-      grid.querySelectorAll('.look').forEach(function (li) {
-        li.hidden = light !== 'all' && li.getAttribute('data-light') !== light;
-      });
+  if (filter) {
+    filter.addEventListener('click', function (e) {
+      var b = e.target.closest('button');
+      if (!b) return;
+      var v = b.getAttribute('data-value');
+      filter.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      list.querySelectorAll('li').forEach(function (li) { li.hidden = !!v && li.getAttribute('data-group') !== v; });
     });
   }
 
   if (!dialog || typeof dialog.showModal !== 'function') return;
-  var img = dialog.querySelector('[data-lightbox-img]');
-  var caption = dialog.querySelector('[data-lightbox-caption]');
+  var img = dialog.querySelector('[data-img]');
+  var caption = dialog.querySelector('[data-caption]');
   var current = 0;
   var opener = null;
-
-  function visibleIndexes() {
-    return Array.prototype.slice.call(grid.querySelectorAll('.look:not([hidden]) [data-index]'))
-      .map(function (b) { return parseInt(b.getAttribute('data-index'), 10); });
+  function visible() {
+    return Array.prototype.slice.call(list.querySelectorAll('li:not([hidden]) [data-index]')).map(function (b) { return +b.getAttribute('data-index'); });
   }
   function show(i) {
     current = i;
     var d = designs[i];
-    if (!d) return;
-    dialog.classList.remove('has-photo');
-    img.alt = d.name + ', ' + d.light.toLowerCase() + ' basket design';
-    img.onload = function () { dialog.classList.add('has-photo'); };
-    img.onerror = function () { dialog.classList.remove('has-photo'); };
-    if (d.src) img.src = d.src; else img.removeAttribute('src');
-    caption.innerHTML = '';
-    var strong = document.createElement('strong');
-    strong.textContent = d.name;
-    caption.appendChild(strong);
-    caption.appendChild(document.createTextNode(' ' + d.light));
+    img.src = d.src || '';
+    img.alt = d.name + ', ' + d.light;
+    caption.textContent = d.name + ', ' + d.light;
   }
   function step(dir) {
-    var list = visibleIndexes();
-    var pos = list.indexOf(current);
-    show(list[(pos + dir + list.length) % list.length]);
+    var v = visible();
+    show(v[(v.indexOf(current) + dir + v.length) % v.length]);
   }
-
-  grid.addEventListener('click', function (e) {
-    var btn = e.target.closest('[data-index]');
-    if (!btn) return;
-    opener = btn;
-    show(parseInt(btn.getAttribute('data-index'), 10));
+  list.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-index]');
+    if (!b) return;
+    opener = b;
+    show(+b.getAttribute('data-index'));
     dialog.showModal();
   });
-  dialog.querySelector('[data-lightbox-close]').addEventListener('click', function () { dialog.close(); });
-  dialog.querySelector('[data-lightbox-prev]').addEventListener('click', function () { step(-1); });
-  dialog.querySelector('[data-lightbox-next]').addEventListener('click', function () { step(1); });
+  dialog.querySelector('[data-close]').addEventListener('click', function () { dialog.close(); });
+  dialog.querySelector('[data-prev]').addEventListener('click', function () { step(-1); });
+  dialog.querySelector('[data-next]').addEventListener('click', function () { step(1); });
   dialog.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowLeft') step(-1);
     if (e.key === 'ArrowRight') step(1);

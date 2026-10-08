@@ -6,17 +6,17 @@ The website for [Columbia Nursery & Landscape](https://columbiafallsnursery.com)
 
 | Page | URL | Notes |
 | --- | --- | --- |
-| Home | `/` | Seasonal hero panorama, what we grow, plant finder teaser, custom baskets, this month in the garden, bulk prices, story, visit |
+| Home | `/` | Glacier National Park hero, what we grow, plant search, custom baskets, bulk prices, visit with Google Map |
 | Our Story | `/about/` | Family history, facts, full-service list, photo gallery |
 | The Nursery | `/shop/` | All 8 departments with anchors (`#garden-shop`, `#houseplants`, `#annuals-vegetables`, …) |
 | Display Garden | `/display-garden/` | Garden intro, downloadable plant list, every plant by group |
-| Plant Finder | `/plants/` | Search and filter all 153 display-garden plants by type, light, zone and features. Filters are kept in the URL, e.g. `/plants/?light=full-shade&feature=deer-resistant` |
+| Plant Finder | `/plants/` | Search all 153 display-garden plants, filter by type and light. Filters are kept in the URL, e.g. `/plants/?category=shrub&light=full-shade` |
 | Plant pages | `/plants/<name>/` | One page per plant: specs, description, related plants |
-| Custom Baskets | `/custom-baskets/` | How it works, drop-off and care PDFs, 17-design lookbook with light filter and lightbox |
-| Bulk Yard | `/bulk-yard/` | 2026 price list, project calculator (yards, cost, delivery, truck fit), the original converters, delivery FAQ |
+| Custom Baskets | `/custom-baskets/` | How it works, drop-off and care PDFs, 17 designs with a sun or shade filter |
+| Bulk Yard | `/bulk-yard/` | 2026 price list, yardage and cost calculator, delivery FAQ |
 | Garden Guides | `/educational-handouts/` | All 63 handouts, searchable by name and topic |
 | Garden Calendar | `/garden-calendar/` | Month-by-month jobs for the Flathead Valley, each linked to a handout |
-| Visit | `/contact/` | Hours with live open/closed status, map, directions, contact form |
+| Visit | `/contact/` | Hours, Google Map, directions, contact form |
 
 Old WordPress URLs are redirected (see `REDIRECTS` in `src/build.mjs`).
 
@@ -24,9 +24,7 @@ The redesign also fixes two bugs on the old site: the bulk-yard calculators were
 
 ## Everyday edits
 
-- **Hours, phone, address, sale dates, navigation:** `src/config.mjs`.
-  - The Fall Sale banner appears automatically between the dates in `announcements`.
-  - Add more date-ranged announcements the same way.
+- **Hours, phone, address, sale dates, navigation:** `src/config.mjs`. The Fall Sale line shows automatically between the dates in `announcements`.
 - **Prices, plants, baskets, handouts, page copy:** the JSON files in `src/data/`.
 - **Garden calendar tasks:** `src/data/calendar.json`. Each `handout` value must match a title in `handouts.json`.
 
@@ -40,28 +38,20 @@ npm run build        # build the site into public/
 npm run dev          # build and serve at http://localhost:8080
 npm run check        # build, then screenshot every main page and report errors, overflow and broken links
 npm run media        # download the old site's photos and PDFs into static/media/
-node scripts/icons.mjs   # regenerate favicons, app icons and the social share image
 ```
 
 ## Before switching the domain over (important)
 
-Photos and PDFs still load from the old WordPress server. Each image sits on top of a matching illustration, so if a photo cannot load, the illustration shows instead and nothing looks broken.
+The nursery's own photos, logo and PDFs still load from the old WordPress server.
 
 1. **Download the media.** Run `npm run media` while the old site is still online, then commit `static/media/`. After that, every build serves local copies.
 2. **Turn on form notifications.** The contact form uses Netlify Forms. In the Netlify dashboard, go to *Forms → contact → Notifications* and add the email address that should receive messages.
-3. **Confirm the winter hours.** The old site never published them. Outside the season set in `hours.offSeason` (currently Nov 1 – Mar 31, marked unconfirmed), the status pill says "Call for winter hours". Update this in `src/config.mjs`.
-4. **Add analytics, if wanted.** The old site used Google tag `GT-M3SP3PGG`. This site ships with no tracking.
+3. **Add analytics, if wanted.** The old site used Google tag `GT-M3SP3PGG`. This site ships with no tracking.
 
 ## How it's built
 
-- `src/pages/*.mjs` render each page's `<main>`. `src/layout.mjs` is the shared shell (head, header, ribbon, footer), and `src/components.mjs` holds shared pieces.
-- `src/art/` contains the generated artwork:
-  - the hero panorama
-  - the ridge bands
-  - the spot illustrations
-  - the icons and the logo
-
-  It is all SVG painted with CSS variables, so the larches turn gold in fall, the snow line drops in winter and the greenhouses glow in dark mode.
-- `src/styles/` holds the design tokens (`tokens.css`), base and layout styles, plus one file per page in `pages/`.
-- `src/scripts/site.js` runs on every page and handles the header, menu, open status, announcements, photo fallbacks, parallax and map. Page scripts live in `src/scripts/pages/`.
-- Typography: Apple's system fonts (SF Pro) where available, with Inter as the fallback everywhere else.
+- `src/pages/*.mjs` render each page. `src/layout.mjs` is the shared shell, and `src/components.mjs` holds the photo, link and map helpers.
+- `src/photos.mjs` lists every photo. Landscape and plant scenes are 4K Pexels photos (free for commercial use, https://www.pexels.com/license/) served at up to 3840px. Everything that shows the nursery itself (family, staff, baskets, the display garden, plant profiles) is the nursery's own photography. If a stock photo ever fails to load, the nursery's own photo takes its place.
+- `src/styles/` holds the tokens, base and layout styles, and one file per page.
+- Type is Apple's system font (SF Pro), with Inter as the fallback. Nothing animates.
+- House style: no em dashes. The build turns any that slip into the copy into commas or hyphens.
