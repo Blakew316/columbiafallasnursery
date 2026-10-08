@@ -1,20 +1,101 @@
 {
   "note": "Cards for the 'In the nursery now' section on the home page. Each card shows between start and end (MM-DD, inclusive, wrapping over New Year). photo is a name from src/photos.mjs, or use image with a full URL instead.",
   "items": [
-    { "start": "03-01", "end": "06-15", "title": "Hanging baskets", "text": "More than a thousand, in every color.", "href": "/custom-baskets/", "photo": "greenhouse" },
-    { "start": "03-01", "end": "06-15", "title": "Annuals and vegetable starts", "text": "Five greenhouses, ready to plant.", "href": "/shop/#annuals-vegetables", "photo": "nurseryFlowers" },
-    { "start": "03-01", "end": "06-15", "title": "Custom basket orders", "text": "Bring your containers. We plant them for you.", "href": "/custom-baskets/#order", "photo": "basket" },
-
-    { "start": "06-16", "end": "08-31", "title": "Cut flowers", "text": "Build your own bouquet, fresh from our fields.", "href": "/shop/#cut-flowers", "photo": "dahlia" },
-    { "start": "06-16", "end": "08-31", "title": "Perennials in bloom", "text": "Coneflowers, lavender and more.", "href": "/plants/?category=perennial", "photo": "coneflowers" },
-    { "start": "06-16", "end": "08-31", "title": "Summer projects", "text": "Mulch, soil and rock, delivered Fridays.", "href": "/bulk-yard/#delivery", "photo": "stone" },
-
-    { "start": "09-01", "end": "10-31", "title": "Fall Sale", "text": "20 to 50% off the entire nursery through October 31.", "href": "/shop/", "photo": "pots" },
-    { "start": "09-01", "end": "10-31", "title": "Plant trees now", "text": "Fall is one of the best times to plant.", "href": "/plants/?category=tree", "photo": "pineForest" },
-    { "start": "09-01", "end": "10-31", "title": "Fall color", "text": "See the display garden turn.", "href": "/display-garden/", "photo": "autumn" },
-
-    { "start": "11-01", "end": "02-29", "title": "Garden guides", "text": "Plan next season with our free guides.", "href": "/educational-handouts/", "photo": "potting" },
-    { "start": "11-01", "end": "02-29", "title": "Garden calendar", "text": "What to do each month in the valley.", "href": "/garden-calendar/", "photo": "montanaPeaks" },
-    { "start": "11-01", "end": "02-29", "title": "Plant finder", "text": "153 hardy plants to plan around.", "href": "/plants/", "photo": "coneflowers" }
+    {
+      "start": "03-01",
+      "end": "06-15",
+      "title": "Hanging baskets",
+      "text": "More than a thousand, in every color.",
+      "href": "/custom-baskets/",
+      "photo": "basket3"
+    },
+    {
+      "start": "03-01",
+      "end": "06-15",
+      "title": "Annuals and vegetable starts",
+      "text": "Five greenhouses, ready to plant.",
+      "href": "/shop/#annuals-vegetables",
+      "photo": "nurseryFlowers"
+    },
+    {
+      "start": "03-01",
+      "end": "06-15",
+      "title": "Custom basket orders",
+      "text": "Bring your containers. We plant them for you.",
+      "href": "/custom-baskets/#order",
+      "photo": "basket"
+    },
+    {
+      "start": "06-16",
+      "end": "08-31",
+      "title": "Cut flowers",
+      "text": "Build your own bouquet, fresh from our fields.",
+      "href": "/shop/#cut-flowers",
+      "photo": "dahlia"
+    },
+    {
+      "start": "06-16",
+      "end": "08-31",
+      "title": "Perennials in bloom",
+      "text": "Coneflowers, lavender and more.",
+      "href": "/plants/?category=perennial",
+      "photo": "coneflowers"
+    },
+    {
+      "start": "06-16",
+      "end": "08-31",
+      "title": "Summer projects",
+      "text": "Mulch, soil and rock, delivered Fridays.",
+      "href": "/bulk-yard/#delivery",
+      "photo": "stone"
+    },
+    {
+      "start": "09-01",
+      "end": "10-31",
+      "title": "Fall Sale",
+      "text": "20 to 50% off the entire nursery through October 31.",
+      "href": "/shop/",
+      "photo": "pots"
+    },
+    {
+      "start": "09-01",
+      "end": "10-31",
+      "title": "Plant trees now",
+      "text": "Fall is one of the best times to plant.",
+      "href": "/plants/?category=tree",
+      "photo": "pineForest"
+    },
+    {
+      "start": "09-01",
+      "end": "10-31",
+      "title": "Fall color",
+      "text": "See the display garden turn.",
+      "href": "/display-garden/",
+      "photo": "autumn"
+    },
+    {
+      "start": "11-01",
+      "end": "02-29",
+      "title": "Garden guides",
+      "text": "Plan next season with our free guides.",
+      "href": "/educational-handouts/",
+      "photo": "potting"
+    },
+    {
+      "start": "11-01",
+      "end": "02-29",
+      "title": "Garden calendar",
+      "text": "What to do each month in the valley.",
+      "href": "/garden-calendar/",
+      "photo": "montanaPeaks"
+    },
+    {
+      "start": "11-01",
+      "end": "02-29",
+      "title": "Plant finder",
+      "text": "153 hardy plants to plan around.",
+      "href": "/plants/",
+      "photo": "coneflowers"
+    }
   ]
 }

@@ -25,6 +25,8 @@ export const PHOTOS = {
   pineForest: { pexels: 10195042, alt: 'Pine forest in morning fog', fallback: photos.evergreens },
   // Petunias and hanging baskets under glass (Oleg Nagovski).
   greenhouse: { pexels: 12315415, alt: 'Petunias and hanging baskets in a sunlit greenhouse', fallback: photos.flowers },
+  // Blooming potted plants and flowers.
+  pottedFlowers: { pexels: 5208120, alt: 'Blooming potted plants and flowers', fallback: photos.flowers },
   // Echinacea in a summer garden.
   coneflowers: { pexels: 20884056, alt: 'Pink coneflowers in a summer garden', fallback: photos.displayGarden },
   // Lavender in bloom.
@@ -48,6 +50,7 @@ export const PHOTOS = {
   displayGarden: { src: photos.displayGarden, alt: 'The display garden at Columbia Nursery' },
   basket: { src: photos.basket, alt: 'A custom basket planted at Columbia Nursery' },
   basket2: { src: photos.basket2, alt: 'A custom basket planted at Columbia Nursery' },
+  basket3: { src: photos.basket3, alt: 'A hanging basket grown at Columbia Nursery' },
   nurseryFlowers: { src: photos.flowers, alt: 'Flowers in the Columbia Nursery greenhouses' },
   gallery: [
     ['watering', 'Watering in the greenhouse'],

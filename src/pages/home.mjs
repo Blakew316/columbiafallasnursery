@@ -10,7 +10,7 @@ import { icon } from '../art/icons.mjs';
 
 const TILES = [
   { title: 'Trees & Shrubs', href: '/shop/#trees-shrubs-perennials', p: PHOTOS.pineForest },
-  { title: 'Annuals', href: '/shop/#annuals-vegetables', p: PHOTOS.greenhouse },
+  { title: 'Annuals', href: '/shop/#annuals-vegetables', p: PHOTOS.pottedFlowers },
   { title: 'Perennials', href: '/plants/?category=perennial', p: PHOTOS.coneflowers },
   { title: 'Houseplants', href: '/shop/#houseplants', p: PHOTOS.monstera },
   { title: 'Cut Flowers', href: '/shop/#cut-flowers', p: PHOTOS.dahlia },
@@ -20,13 +20,20 @@ const TILES = [
 function hero() {
   const sale = announcements[0];
   return html`<section class="hero" aria-labelledby="hero-title">
-  ${photo(PHOTOS.glacierLake, { ratio: 'auto', className: 'photo--flat hero__photo', eager: true })}
+  ${photo(PHOTOS.greenhouse, { ratio: 'auto', className: 'photo--flat hero__photo', eager: true })}
   <div class="hero__scrim" aria-hidden="true"></div>
   <div class="hero__content container">
-    ${sale && html`<p class="hero__note" data-start="${sale.start}" data-end="${sale.end}" hidden><a href="${sale.href}">${sale.title}. ${sale.text}</a></p>`}
-    <h1 id="hero-title" class="hero__title">Grown for Montana.</h1>
-    <p class="hero__sub">Columbia Falls, since ${business.founded}.</p>
-    ${button('/contact/', 'Plan your visit', { light: true })}
+    <div class="hero__top">
+      <h1 id="hero-title" class="hero__title">Grown for Montana.</h1>
+      <p class="hero__sub">Columbia Falls, since ${business.founded}.</p>
+      ${button('/contact/', 'Plan your visit', { light: true })}
+    </div>
+    ${sale &&
+    html`<a class="hero__sale" href="${sale.href}" data-start="${sale.start}" data-end="${sale.end}"${inWindow(todayMD(), sale.start, sale.end) ? '' : html` hidden`}>
+      <span class="hero__sale-title">${sale.title}</span>
+      <span class="hero__sale-deal">${sale.deal}</span>
+      <span class="hero__sale-until">${sale.until}</span>
+    </a>`}
   </div>
 </section>`;
 }

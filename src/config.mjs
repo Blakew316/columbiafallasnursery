@@ -36,7 +36,16 @@ export const hours = {
 
 /** Shown on Home and The Nursery between start and end ("MM-DD", inclusive). */
 export const announcements = [
-  { id: 'fall-sale', start: '09-01', end: '10-31', title: 'Fall Sale', text: '20 to 50% off the entire nursery through October 31.', href: '/shop/' },
+  {
+    id: 'fall-sale',
+    start: '09-01',
+    end: '10-31',
+    title: 'Fall Sale',
+    deal: '20 to 50% off the entire nursery.',
+    until: 'Through October 31.',
+    text: '20 to 50% off the entire nursery through October 31.',
+    href: '/shop/',
+  },
 ];
 
 /** Primary navigation, in display order. */

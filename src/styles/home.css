@@ -1,13 +1,30 @@
 /* Home */
 
-.hero { position: relative; min-height: min(92vh, 980px); min-height: min(92svh, 980px); display: flex; align-items: flex-end; overflow: hidden; background: #1c3326; color: #fff; }
+.hero { position: relative; display: flex; min-height: min(92vh, 980px); min-height: min(92svh, 980px); overflow: hidden; background: #1c3326; color: #fff; }
 .hero__photo { position: absolute; inset: 0; aspect-ratio: auto; background: #1c3326; }
-.hero__scrim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.55) 100%); }
-.hero__content { position: relative; padding-bottom: clamp(3rem, 2rem + 5vw, 6.5rem); }
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.12) 38%, rgba(0, 0, 0, 0.08) 55%, rgba(0, 0, 0, 0.6) 100%);
+}
+.hero__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-top: clamp(1.75rem, 1rem + 3vw, 3.5rem);
+  padding-bottom: clamp(2.5rem, 1.5rem + 4vw, 5rem);
+}
 .hero__title { color: #fff; font-size: var(--text-hero); line-height: 0.95; letter-spacing: -0.045em; }
-.hero__sub { margin: 1rem 0 2rem; font-size: var(--text-lead); color: rgba(255, 255, 255, 0.88); }
-.hero__note { margin-bottom: 1.25rem; font-size: 0.9375rem; font-weight: 500; }
-.hero__note a { color: #fff; }
+.hero__sub { margin: 1rem 0 1.75rem; font-size: var(--text-lead); color: rgba(255, 255, 255, 0.9); }
+
+.hero__sale { display: grid; gap: 0.35rem; max-width: 40rem; color: #fff; }
+.hero__sale:hover { text-decoration: none; color: #fff; }
+.hero__sale:hover .hero__sale-deal { text-decoration: underline; text-underline-offset: 0.15em; text-decoration-thickness: 2px; }
+.hero__sale-title { font-family: var(--font-display); font-size: clamp(3rem, 1.6rem + 5.5vw, 6rem); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em; color: #f3c766; }
+.hero__sale-deal { font-family: var(--font-display); font-size: clamp(1.5rem, 1rem + 1.8vw, 2.5rem); font-weight: 650; line-height: 1.15; letter-spacing: -0.025em; }
+.hero__sale-until { margin-top: 0.25rem; font-size: clamp(1.0625rem, 0.95rem + 0.4vw, 1.25rem); color: rgba(255, 255, 255, 0.88); }
 
 .statement { text-align: center; }
 .statement__text { max-width: 22ch; margin-inline: auto; font-family: var(--font-display); font-size: var(--text-h2); font-weight: 700; line-height: 1.06; letter-spacing: -0.035em; text-wrap: balance; }
