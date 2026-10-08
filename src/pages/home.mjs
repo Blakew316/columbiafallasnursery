@@ -10,11 +10,11 @@ import { icon } from '../art/icons.mjs';
 
 const TILES = [
   { title: 'Trees & Shrubs', href: '/shop/#trees-shrubs-perennials', p: PHOTOS.pineForest },
-  { title: 'Annuals', href: '/shop/#annuals-vegetables', p: PHOTOS.pottedFlowers },
-  { title: 'Perennials', href: '/plants/?category=perennial', p: PHOTOS.coneflowers },
-  { title: 'Houseplants', href: '/shop/#houseplants', p: PHOTOS.monstera },
-  { title: 'Cut Flowers', href: '/shop/#cut-flowers', p: PHOTOS.dahlia },
-  { title: 'Bulk Yard', href: '/bulk-yard/', p: PHOTOS.stone },
+  { title: 'Annuals', href: '/shop/#annuals-vegetables', p: PHOTOS.trayOfFlowers },
+  { title: 'Perennials', href: '/plants/?category=perennial', p: PHOTOS.pottedGarden },
+  { title: 'Houseplants', href: '/shop/#houseplants', p: PHOTOS.plantShop },
+  { title: 'Cut Flowers', href: '/shop/#cut-flowers', p: PHOTOS.flowerBuckets },
+  { title: 'Bulk Yard', href: '/bulk-yard/', p: PHOTOS.woodChips },
 ];
 
 function hero() {

@@ -25,24 +25,38 @@ export const PHOTOS = {
   pineForest: { pexels: 10195042, alt: 'Pine forest in morning fog', fallback: photos.evergreens },
   // Petunias and hanging baskets under glass (Oleg Nagovski).
   greenhouse: { pexels: 12315415, alt: 'Petunias and hanging baskets in a sunlit greenhouse', fallback: photos.flowers },
-  // Blooming potted plants and flowers.
-  pottedFlowers: { pexels: 5208120, alt: 'Blooming potted plants and flowers', fallback: photos.flowers },
   // Echinacea in a summer garden.
   coneflowers: { pexels: 20884056, alt: 'Pink coneflowers in a summer garden', fallback: photos.displayGarden },
   // Lavender in bloom.
   lavender: { pexels: 1201538, alt: 'Lavender in full bloom', fallback: photos.displayGarden },
   // A dahlia in bloom.
   dahlia: { pexels: 6710305, alt: 'A dahlia in full bloom', fallback: photos.cutFlowers },
-  // Monstera by a window.
-  monstera: { pexels: 7663273, alt: 'Monstera beside a bright window', fallback: photos.houseplants },
-  // Plants in terracotta pots.
-  pots: { pexels: 3952031, alt: 'Plants in terracotta pots', fallback: photos.planters },
-  // Potting soil going into pots.
-  potting: { pexels: 4750383, alt: 'Filling pots with soil', fallback: photos.potting },
   // Golden larches in an autumn valley (Francesco Sommacal).
   autumn: { pexels: 19829085, alt: 'Golden larches in an autumn mountain valley', fallback: photos.evergreens2 },
   // Landscape stone.
   stone: { pexels: 214045, alt: 'Landscape stone', fallback: photos.bulkSign },
+
+  // Nursery work: growing, potting, watering and planting.
+  // Planting a young tree (Collines Omondi).
+  plantingTree: { pexels: 18468252, alt: 'Planting a young tree', fallback: photos.evergreens },
+  // Carrying a flat of flowering annuals through the greenhouse.
+  trayOfFlowers: { pexels: 6510856, alt: 'Carrying a tray of flowering plants in a greenhouse', fallback: photos.flowers },
+  // Watering in a sunlit greenhouse (Karola G).
+  wateringGreenhouse: { pexels: 4750272, alt: 'Watering plants in a sunlit greenhouse', fallback: photos.watering },
+  // Seedlings coming up in pots (Greta Hoffman).
+  seedlings: { pexels: 7728883, alt: 'Seedlings growing in pots', fallback: photos.potting },
+  // Potted perennials set out in the garden (TIVASEE).
+  pottedGarden: { pexels: 10939348, alt: 'Potted plants set out in the garden', fallback: photos.plants1 },
+  // Fresh-cut flowers in buckets (Josh Hild).
+  flowerBuckets: { pexels: 18091890, alt: 'Fresh-cut flowers in buckets', fallback: photos.cutFlowers },
+  // Shelves of potted greenery in a plant shop.
+  plantShop: { pexels: 4947376, alt: 'Shelves of potted houseplants', fallback: photos.houseplants },
+  // Clay pots on shop shelves.
+  clayPotsShop: { pexels: 14723067, alt: 'Clay pots on shop shelves', fallback: photos.planters },
+  // Garden tools on a wooden table.
+  gardenTools: { pexels: 5934017, alt: 'Garden tools on a wooden table', fallback: photos.planters },
+  // Wood chip mulch (Mike Bird).
+  woodChips: { pexels: 4167967, alt: 'Wood chip mulch', fallback: photos.bulkSign },
 
   // The nursery's own photography.
   family: { src: photos.family.replace('-1024x576', '-2048x1152'), alt: 'The family behind Columbia Nursery & Landscape', fallback: photos.family },

@@ -21,7 +21,7 @@ function handoutsPage(data) {
     bodyClass: 'guides',
     scripts: ['guides'],
     render: () => html`${pageHeader({ title: 'Garden guides.', lead: 'Free growing guides from our team.' })}
-<div class="container guides__photo">${photo(PHOTOS.potting, { ratio: '21 / 9', eager: true })}</div>
+<div class="container guides__photo">${photo(PHOTOS.seedlings, { ratio: '21 / 9', eager: true })}</div>
 <section class="container guides" aria-label="Guides">
   <form class="search guides__search" role="search" onsubmit="return false">
     ${icon('search')}
@@ -56,7 +56,7 @@ function calendarPage(cal, handouts) {
     bodyClass: 'calendar',
     scripts: ['guides'],
     render: () => html`${pageHeader({ title: 'Garden calendar.', lead: 'What to do each month in the Flathead Valley.' })}
-<div class="container">${photo(PHOTOS.lavender, { ratio: '21 / 9', eager: true })}</div>
+<div class="container">${photo(PHOTOS.wateringGreenhouse, { ratio: '21 / 9', eager: true })}</div>
 <section class="section container" aria-label="Months">
   <ol class="cal" role="list" data-cal>
     ${(cal?.months || []).map(

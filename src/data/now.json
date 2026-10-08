@@ -55,7 +55,7 @@
       "title": "Fall Sale",
       "text": "20 to 50% off the entire nursery through October 31.",
       "href": "/shop/",
-      "photo": "pots"
+      "photo": "clayPotsShop"
     },
     {
       "start": "09-01",
@@ -63,7 +63,7 @@
       "title": "Plant trees now",
       "text": "Fall is one of the best times to plant.",
       "href": "/plants/?category=tree",
-      "photo": "pineForest"
+      "photo": "plantingTree"
     },
     {
       "start": "09-01",
@@ -79,7 +79,7 @@
       "title": "Garden guides",
       "text": "Plan next season with our free guides.",
       "href": "/educational-handouts/",
-      "photo": "potting"
+      "photo": "seedlings"
     },
     {
       "start": "11-01",
@@ -87,7 +87,7 @@
       "title": "Garden calendar",
       "text": "What to do each month in the valley.",
       "href": "/garden-calendar/",
-      "photo": "montanaPeaks"
+      "photo": "wateringGreenhouse"
     },
     {
       "start": "11-01",

@@ -9,14 +9,14 @@ import { PHOTOS, pexelsUrl } from '../photos.mjs';
 import { announcements } from '../config.mjs';
 
 const ROWS = [
-  { id: 'trees-shrubs-perennials', title: 'Trees, shrubs & perennials', text: 'Hardy stock chosen for Zones 3 to 5, from rugged evergreens to perennials that return every year.', p: PHOTOS.pineForest, link: ['/plants/', 'Browse plants'] },
-  { id: 'annuals-vegetables', title: 'Annuals & vegetables', text: 'Five greenhouses of seasonal flowers, hanging baskets and vegetable starts.', p: PHOTOS.pottedFlowers },
-  { id: 'houseplants', title: 'Houseplants', text: 'A 30 by 60 foot greenhouse of houseplants, succulents and cacti, with pots and soil to match.', p: PHOTOS.monstera },
-  { id: 'cut-flowers', title: 'Cut flowers', text: 'Dahlias, lisianthus, cosmos and more, grown on site. Build your own bouquet in season.', p: PHOTOS.dahlia },
+  { id: 'trees-shrubs-perennials', title: 'Trees, shrubs & perennials', text: 'Hardy stock chosen for Zones 3 to 5, from rugged evergreens to perennials that return every year.', p: PHOTOS.plantingTree, link: ['/plants/', 'Browse plants'] },
+  { id: 'annuals-vegetables', title: 'Annuals & vegetables', text: 'Five greenhouses of seasonal flowers, hanging baskets and vegetable starts.', p: PHOTOS.trayOfFlowers },
+  { id: 'houseplants', title: 'Houseplants', text: 'A 30 by 60 foot greenhouse of houseplants, succulents and cacti, with pots and soil to match.', p: PHOTOS.plantShop },
+  { id: 'cut-flowers', title: 'Cut flowers', text: 'Dahlias, lisianthus, cosmos and more, grown on site. Build your own bouquet in season.', p: PHOTOS.flowerBuckets },
   { id: 'custom-baskets', title: 'Custom baskets & pots', text: 'Bring your container or choose one of ours. We plant it for your colors and your light.', p: PHOTOS.basket2, link: ['/custom-baskets/', 'See the designs'] },
   { id: 'display-garden', title: 'Display garden', text: 'Mature trees, shrubs and perennials planted together, so you can see how they grow here.', p: { ...PHOTOS.displayGarden, fallback: pexelsUrl(PHOTOS.lavender.pexels, 2400) }, link: ['/display-garden/', 'Visit the garden'] },
-  { id: 'garden-shop', title: 'Garden shop', text: 'Tools, seeds, books, pottery, weed mat and irrigation supplies.', p: PHOTOS.pots },
-  { id: 'landscape-supplies', title: 'Landscape supplies', text: 'Fabric, edging, fertilizer and bulk rock, mulch, compost and topsoil.', p: PHOTOS.stone, link: ['/bulk-yard/', 'Bulk yard prices'] },
+  { id: 'garden-shop', title: 'Garden shop', text: 'Tools, seeds, books, pottery, weed mat and irrigation supplies.', p: PHOTOS.gardenTools },
+  { id: 'landscape-supplies', title: 'Landscape supplies', text: 'Fabric, edging, fertilizer and bulk rock, mulch, compost and topsoil.', p: PHOTOS.woodChips, link: ['/bulk-yard/', 'Bulk yard prices'] },
 ];
 
 export default {
